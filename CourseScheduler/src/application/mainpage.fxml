@@ -13,41 +13,36 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #878E99;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #554e4d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
    <children>
-      <MenuBar fx:id="MenuBar" prefHeight="28.0" prefWidth="1080.0">
+      <MenuBar prefHeight="28.0" prefWidth="1080.0">
         <menus>
-          <Menu mnemonicParsing="false" text="File">
+          <Menu fx:id="menuFile" mnemonicParsing="false" onAction="#processMenuFile" text="File">
             <items>
               <MenuItem mnemonicParsing="false" text="User Info" />
                   <MenuItem mnemonicParsing="false" text="Export" />
                   <MenuItem mnemonicParsing="false" text="Exit" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Option">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Delete" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Help">
+          <Menu fx:id="menuHelp" mnemonicParsing="false" onAction="#processMenuHelp" text="Help">
             <items>
               <MenuItem mnemonicParsing="false" text="About" />
             </items>
           </Menu>
         </menus>
       </MenuBar>
-      <TextArea fx:id="textAreaDetailsMain" editable="false" layoutX="119.0" layoutY="514.0" prefHeight="185.0" prefWidth="551.0" wrapText="true" />
-      <MenuButton fx:id="menuButtonSemester" layoutX="675.0" layoutY="50.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" text="Semester">
+      <TextArea fx:id="textAreaDetailsMain" editable="false" layoutX="119.0" layoutY="514.0" prefHeight="185.0" prefWidth="551.0" style="-fx-background-radius: 10;" wrapText="true" />
+      <MenuButton fx:id="menuButtonSemester" layoutX="675.0" layoutY="50.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" style="-fx-background-radius: 10;" text="Semester" textFill="WHITE">
         <items>
           <MenuItem mnemonicParsing="false" text="Spring 2023" />
           <MenuItem mnemonicParsing="false" text="Fall 2023" />
         </items>
       </MenuButton>
-      <TextField fx:id="textFieldSemesterDisplay" editable="false" layoutX="806.0" layoutY="50.0" prefHeight="26.0" prefWidth="253.0" />
+      <TextField fx:id="textFieldSemesterDisplay" alignment="CENTER" editable="false" layoutX="806.0" layoutY="50.0" prefHeight="26.0" prefWidth="253.0" />
       <ListView fx:id="listView" layoutX="676.0" layoutY="123.0" onMouseClicked="#processClickOnListView" prefHeight="576.0" prefWidth="384.0" />
       <TextField fx:id="textFieldSearch" layoutX="806.0" layoutY="88.0" prefHeight="26.0" prefWidth="160.0" />
-      <Button fx:id="buttonSearch" layoutX="974.0" layoutY="88.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" style="-fx-background-radius: 20;" text="Search" />
-      <MenuButton fx:id="menuButtonSort" layoutX="675.0" layoutY="88.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" text="Sort By">
+      <Button fx:id="buttonSearch" layoutX="974.0" layoutY="88.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" style="-fx-background-radius: 20; -fx-background-color: #fc4364;" text="Search" textFill="WHITE" />
+      <MenuButton fx:id="menuButtonSort" layoutX="675.0" layoutY="88.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" style="-fx-background-radius: 10;" text="Sort By" textFill="WHITE">
         <items>
             <CheckMenuItem mnemonicParsing="false" text="Time" />
             <CheckMenuItem mnemonicParsing="false" text="Professor" />
@@ -60,8 +55,8 @@
       <TextField alignment="CENTER" editable="false" layoutX="420.0" layoutY="50.0" prefHeight="38.0" prefWidth="115.0" text="THURSDAY" />
       <TextField alignment="CENTER" editable="false" layoutX="535.0" layoutY="50.0" prefHeight="38.0" prefWidth="115.0" text="FRIDAY " />
       <Accordion layoutX="676.0" layoutY="200.0" />
-      <Button fx:id="buttonAdd" layoutX="22.0" layoutY="514.0" mnemonicParsing="false" onAction="#processButtonAdd" prefHeight="185.0" prefWidth="92.0" style="-fx-background-color: #80b380;" text="Add Course" />
-      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="22.0" layoutY="88.0" onMouseClicked="#processScrollPaneClicked" prefHeight="416.0" prefWidth="648.0">
+      <Button fx:id="buttonAdd" layoutX="22.0" layoutY="514.0" mnemonicParsing="false" onAction="#processButtonAdd" prefHeight="185.0" prefWidth="92.0" style="-fx-background-color: #fc4364;" text="Add Course" textFill="WHITE" />
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="22.0" layoutY="88.0" onMouseClicked="#processScrollPaneClicked" prefHeight="416.0" prefWidth="648.0" style="-fx-background-radius: 10;">
         <content>
           <AnchorPane fx:id="anchorPaneCalendar" minHeight="0.0" minWidth="0.0" prefHeight="1300.0" />
         </content>

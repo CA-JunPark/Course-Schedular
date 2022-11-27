@@ -1,34 +1,38 @@
 package application;
 
-import javafx.animation.ScaleTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.*;
 import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
-import javafx.scene.control.MenuBar;
-import javafx.scene.control.MenuButton;
+import javafx.scene.control.Menu;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.image.*;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.util.Duration;
-
+import javafx.stage.StageStyle;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
-
 public class Controller {
 
     @FXML
-    private MenuBar MenuBar;
+    private AnchorPane anchorPane;
+
+    @FXML
+    private Menu menuFile;
+
+    @FXML
+    private Menu menuHelp;
 
     @FXML
     private AnchorPane anchorPaneCalendar;
@@ -90,6 +94,13 @@ public class Controller {
             listView.getItems().add(C1[i]+": "+C2[i]);
         }
 
+        menuButtonSemester.getItems().get(0).setOnAction(e->{
+            textFieldSemesterDisplay.setText(menuButtonSemester.getItems().get(0).getText());
+        });
+        menuButtonSemester.getItems().get(1).setOnAction(e->{
+            textFieldSemesterDisplay.setText(menuButtonSemester.getItems().get(1).getText());
+        });
+
 
     }
     @FXML
@@ -114,6 +125,54 @@ public class Controller {
             isClicked = true;
         }
     }
+    @FXML
+    void processMenuFile(ActionEvent event) {
+        // USER INFO
+        menuFile.getItems().get(0).setOnAction(e->{
+
+        });
+        // EXPORT
+        menuFile.getItems().get(1).setOnAction(e->{
+            WritableImage image = anchorPaneCalendar.snapshot(null, null);
+            ImageView view = new ImageView(image);
+            Stage stage = new Stage();
+            AnchorPane root = new AnchorPane();
+            Scene scene = new Scene(root, image.getWidth(),image.getHeight());
+            stage.setScene(scene);
+            stage.show();
+            stage.setResizable(false);
+            root.getChildren().add(view);
+        });
+        // EXIT
+        menuFile.getItems().get(2).setOnAction(e->{
+            Stage stage = (Stage) anchorPane.getScene().getWindow();
+            stage.close();
+        });
+
+    }
+
+    @FXML
+    void processMenuHelp(ActionEvent event) {
+        // ABOUT
+        menuHelp.getItems().get(0).setOnAction(e->{
+            Stage stage = new Stage();
+            Parent root = null;
+            try {
+                root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("aboutPage.fxml")));
+            } catch (IOException ioException) {
+                ioException.printStackTrace();
+            }
+            assert root != null;
+            Scene scene = new Scene(root, 480, 320);
+            scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("application.css")).toExternalForm());
+            stage.setScene(scene);
+            stage.setTitle("About");
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.show();
+
+        });
+    }
+
 
 
 
@@ -167,9 +226,10 @@ public class Controller {
                 e.printStackTrace();
             }
             assert root != null;
-            Scene scene = new Scene(root, 540, 360);
+            Scene scene = new Scene(root, 540, 360, Color.TRANSPARENT);
             scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("application.css")).toExternalForm());
             stage = new Stage();
+            stage.initStyle(StageStyle.TRANSPARENT);
             stage.setScene(scene);
             stage.setResizable(false);
             stage.initModality(Modality.APPLICATION_MODAL);
