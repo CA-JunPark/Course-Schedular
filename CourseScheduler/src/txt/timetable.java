@@ -63,7 +63,7 @@ public class timetable {
                             String section = s.substring(0, 14).strip();
                             section = section.substring(5);
                             String time = s.substring(17, 37).strip();
-                            String date = s.substring(44, 49).strip();
+                            String date = s.substring(42, 47).strip();
                             String prof = s.substring(74).strip();
                             if (prof.contains("Fee")){
                                 int index = prof.indexOf("Fee");

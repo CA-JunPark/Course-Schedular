@@ -1,143 +1,143 @@
 sep=;
 #; CourseCode; CourseTitle; section; time; date; instructor; credit
-1;ANTH 101;Introduction Cultural Anthropology;A;12:00 PM - 1:15 PM;R;Claudia Launhardt;3.00
+1;ANTH 101;Introduction Cultural Anthropology;A;12:00 PM - 1:15 PM;TR;Claudia Launhardt;3.00
 2;ANTH 101;Introduction Cultural Anthropology;GX;12:00 AM - 12:01 AM;;Ruth Anaya;3.00
-3;ANTH 101;Introduction Cultural Anthropology;IR;1:00 PM - 4:00 PM;;Claudia Launhardt;3.00
-4;ANTH 210;Islamic Culture;A;6:15 PM - 9:00 PM;;Claudia Launhardt;3.00
-5;ANTH 395;Indigenous Peoples in Canada;A;4:30 PM - 5:45 PM;R;Claudia Launhardt;3.00
+3;ANTH 101;Introduction Cultural Anthropology;IR;1:00 PM - 4:00 PM;W;Claudia Launhardt;3.00
+4;ANTH 210;Islamic Culture;A;6:15 PM - 9:00 PM;T;Claudia Launhardt;3.00
+5;ANTH 395;Indigenous Peoples in Canada;A;4:30 PM - 5:45 PM;TR;Claudia Launhardt;3.00
 6;ANTH 452;Leadership in Multicultural Context;IS;12:00 AM - 12:01 AM;;Ruth Anaya;3.00
-7;ART 180;Integration Forum;A;6:15 PM - 9:00 PM;;Alysha Creighton;.00
-8;ART 181;Visual Foundations I;A;12:00 PM - 2:45 PM;;Erica Grimm;3.00
-9;ART 181;Visual Foundations I;B;3:00 PM - 5:45 PM;;Alysha Creighton;3.00
-10;ART 181;Visual Foundations I;C;6:15 PM - 9:00 PM;;Olivia Perry;3.00
-11;ART 182;Visual Foundations II;A;12:00 PM - 2:45 PM;;Russell Leng;3.00
-12;ART 182;Visual Foundations II;B;12:00 PM - 2:45 PM;;Russell Leng;3.00
-13;ART 230;Photography;A;12:00 PM - 2:45 PM;;Helma Sawatzky;3.00
-14;ART 238;History of Western Art II;A;3:00 PM - 4:15 PM;R;Cindie Chaise;3.00
+7;ART 180;Integration Forum;A;6:15 PM - 9:00 PM;R;Alysha Creighton;.00
+8;ART 181;Visual Foundations I;A;12:00 PM - 2:45 PM;M;Erica Grimm;3.00
+9;ART 181;Visual Foundations I;B;3:00 PM - 5:45 PM;M;Alysha Creighton;3.00
+10;ART 181;Visual Foundations I;C;6:15 PM - 9:00 PM;T;Olivia Perry;3.00
+11;ART 182;Visual Foundations II;A;12:00 PM - 2:45 PM;W;Russell Leng;3.00
+12;ART 182;Visual Foundations II;B;12:00 PM - 2:45 PM;F;Russell Leng;3.00
+13;ART 230;Photography;A;12:00 PM - 2:45 PM;F;Helma Sawatzky;3.00
+14;ART 238;History of Western Art II;A;3:00 PM - 4:15 PM;TR;Cindie Chaise;3.00
 15;ART 250;Fundamentals in Digital Design;A;8:00 AM - 10:45 AM;;John Wang;3.00
 16;ART 250;Fundamentals in Digital Design;B;8:00 AM - 10:45 AM;;John Wang;3.00
-17;ART 250;Fundamentals in Digital Design;C;3:00 PM - 5:45 PM;;John Wang;3.00
-18;ART 305;Art Field Placement;A;6:15 PM - 9:00 PM;;Russell Leng;1.00
-19;ART 306;Art Field Placement;A;6:15 PM - 9:00 PM;;Russell Leng;2.00
-20;ART 307;Art Field Placement;A;6:15 PM - 9:00 PM;;Russell Leng;3.00
-21;ART 310;Drawing;A;3:00 PM - 5:45 PM;;Erica Grimm;3.00
-22;ART 321;Abstract Painting;A;3:00 PM - 5:45 PM;;Russell Leng;3.00
-23;ART 328;Modern Art History;A;3:00 PM - 5:45 PM;;Brittany Burdick;3.00
-24;ART 332;Advanced Animation Projects;A;3:00 PM - 5:45 PM;;John Wang;3.00
-25;ART 363;Format & Layout Design;A;12:00 PM - 2:45 PM;;Joshua Hale;3.00
-26;ART 364;Interaction Design;A;3:00 PM - 5:45 PM;;Joshua Hale;3.00
-27;ART 370;Professional Practices;A;12:00 PM - 2:45 PM;;Helma Sawatzky;3.00
-28;ART 410;Drawing IV;A;3:00 PM - 5:45 PM;;Erica Grimm;3.00
-29;ART 412;Senior Studio II;A;3:00 PM - 5:45 PM;;Alysha Creighton;3.00
-30;ART 421;Advanced Painting;A;3:00 PM - 5:45 PM;;Russell Leng;3.00
-31;ART 495;Mentoring Tutorial (Honours Proj);A;6:15 PM - 9:00 PM;;Russell Leng;3.00
+17;ART 250;Fundamentals in Digital Design;C;3:00 PM - 5:45 PM;W;John Wang;3.00
+18;ART 305;Art Field Placement;A;6:15 PM - 9:00 PM;W;Russell Leng;1.00
+19;ART 306;Art Field Placement;A;6:15 PM - 9:00 PM;W;Russell Leng;2.00
+20;ART 307;Art Field Placement;A;6:15 PM - 9:00 PM;W;Russell Leng;3.00
+21;ART 310;Drawing;A;3:00 PM - 5:45 PM;T;Erica Grimm;3.00
+22;ART 321;Abstract Painting;A;3:00 PM - 5:45 PM;F;Russell Leng;3.00
+23;ART 328;Modern Art History;A;3:00 PM - 5:45 PM;M;Brittany Burdick;3.00
+24;ART 332;Advanced Animation Projects;A;3:00 PM - 5:45 PM;M;John Wang;3.00
+25;ART 363;Format & Layout Design;A;12:00 PM - 2:45 PM;T;Joshua Hale;3.00
+26;ART 364;Interaction Design;A;3:00 PM - 5:45 PM;R;Joshua Hale;3.00
+27;ART 370;Professional Practices;A;12:00 PM - 2:45 PM;W;Helma Sawatzky;3.00
+28;ART 410;Drawing IV;A;3:00 PM - 5:45 PM;T;Erica Grimm;3.00
+29;ART 412;Senior Studio II;A;3:00 PM - 5:45 PM;R;Alysha Creighton;3.00
+30;ART 421;Advanced Painting;A;3:00 PM - 5:45 PM;F;Russell Leng;3.00
+31;ART 495;Mentoring Tutorial (Honours Proj);A;6:15 PM - 9:00 PM;W;Russell Leng;3.00
 32;SAMC 111;Critical Issues in the Arts;A;9:30 AM - 10:45 AM;;Becky Martin;3.00
 33;SAMC 111;Discussion Group for SAMC 111;A   D1;12:00 PM - 12:50 PM;;Alysha Creighton;.00
 34;SAMC 111;Discussion Group for SAMC 111;A   D2;12:00 PM - 12:50 PM;;Becky Martin;.00
-35;SAMC 111;Discussion Group for SAMC 111;A   D3;1:30 PM - 2:20 PM;;Joel Tranquilla;.00
+35;SAMC 111;Discussion Group for SAMC 111;A   D3;1:30 PM - 2:20 PM;W;Joel Tranquilla;.00
 36;ASWN 001;Austria Exchange Program 12;A;12:00 AM - 12:01 AM;;Tba;12.00
 37;ASWN 002;Austria Exchange Program 15;A;12:00 AM - 12:01 AM;;Tba;15.00
-38;BIOL 104;Introduction to Biology II;A;1:30 PM - 2:45 PM;W;Laura Onyango;3.00
+38;BIOL 104;Introduction to Biology II;A;1:30 PM - 2:45 PM;MW;Laura Onyango;3.00
 39;BIOL 114;Principles of Biology II;A;9:30 AM - 10:45 AM;;Dennis Venema;3.00
-40;BIOL 197;Lab for BIOL 104;Lab A;12:00 PM - 2:45 PM;;Sarah Fandrich;.00
-41;BIOL 197;Lab for BIOL 104;Lab A;3:00 PM - 5:45 PM;;Sarah Fandrich;.00
+40;BIOL 197;Lab for BIOL 104;Lab A;12:00 PM - 2:45 PM;R;Sarah Fandrich;.00
+41;BIOL 197;Lab for BIOL 104;Lab A;3:00 PM - 5:45 PM;R;Sarah Fandrich;.00
 42;BIOL 199;Lab for BIOL 114;Lab A;8:00 AM - 10:45 AM;;Sarah Fandrich;1.00
-43;BIOL 199;Lab for BIOL 114;Lab A;12:00 PM - 2:45 PM;;Sarah Fandrich;1.00
-44;BIOL 199;Lab for BIOL 114;Lab A;3:00 PM - 5:45 PM;;Sarah Fandrich;1.00
-45;BIOL 199;Lab for BIOL 114;Lab A;12:00 PM - 2:45 PM;;Sarah Fandrich;1.00
-46;BIOL 214;Biology of Non-Vascular Plants I;A;8:00 AM - 9:15 AM;R;David Clements;3.00
-47;BIOL 214;Lab for BIOL 214;Lab A;3:00 PM - 5:45 PM;;Darcy Kehler;.00
-48;BIOL 226;Introduction to EvolutionaryTheory;A;12:00 PM - 1:15 PM;R;Dennis Venema;3.00
-49;BIOL 242;Human Anatomy & Physiology II;A;12:00 PM - 1:15 PM;W;Bill Luke;3.00
-50;BIOL 242;Human Anatomy & Physiology II;B;12:00 PM - 1:15 PM;R;Bill Luke;3.00
-51;BIOL 242;Lab for BIOL 242;Lab A;3:00 PM - 5:45 PM;;Janny Klein;.00
-52;BIOL 242;Lab for BIOL 242;Lab A;6:15 PM - 9:00 PM;;Janny Klein;.00
+43;BIOL 199;Lab for BIOL 114;Lab A;12:00 PM - 2:45 PM;T;Sarah Fandrich;1.00
+44;BIOL 199;Lab for BIOL 114;Lab A;3:00 PM - 5:45 PM;T;Sarah Fandrich;1.00
+45;BIOL 199;Lab for BIOL 114;Lab A;12:00 PM - 2:45 PM;W;Sarah Fandrich;1.00
+46;BIOL 214;Biology of Non-Vascular Plants I;A;8:00 AM - 9:15 AM;TR;David Clements;3.00
+47;BIOL 214;Lab for BIOL 214;Lab A;3:00 PM - 5:45 PM;M;Darcy Kehler;.00
+48;BIOL 226;Introduction to EvolutionaryTheory;A;12:00 PM - 1:15 PM;TR;Dennis Venema;3.00
+49;BIOL 242;Human Anatomy & Physiology II;A;12:00 PM - 1:15 PM;MW;Bill Luke;3.00
+50;BIOL 242;Human Anatomy & Physiology II;B;12:00 PM - 1:15 PM;TR;Bill Luke;3.00
+51;BIOL 242;Lab for BIOL 242;Lab A;3:00 PM - 5:45 PM;M;Janny Klein;.00
+52;BIOL 242;Lab for BIOL 242;Lab A;6:15 PM - 9:00 PM;M;Janny Klein;.00
 53;BIOL 242;Lab for BIOL 242;Lab A;8:00 AM - 10:45 AM;;Janny Klein;.00
-54;BIOL 242;Lab for BIOL 242;Lab A;12:00 PM - 2:45 PM;;Janny Klein;.00
-55;BIOL 242;Lab for BIOL 242;Lab A;3:00 PM - 5:45 PM;;Janny Klein;.00
-56;BIOL 242;Lab for BIOL 242;Lab A;6:15 PM - 9:00 PM;;Janny Klein;.00
-57;BIOL 242;Lab for BIOL 242;Lab A;12:00 PM - 2:45 PM;;Janny Klein;.00
+54;BIOL 242;Lab for BIOL 242;Lab A;12:00 PM - 2:45 PM;T;Janny Klein;.00
+55;BIOL 242;Lab for BIOL 242;Lab A;3:00 PM - 5:45 PM;T;Janny Klein;.00
+56;BIOL 242;Lab for BIOL 242;Lab A;6:15 PM - 9:00 PM;T;Janny Klein;.00
+57;BIOL 242;Lab for BIOL 242;Lab A;12:00 PM - 2:45 PM;W;Janny Klein;.00
 58;BIOL 281;General Ecology;A;9:30 AM - 10:45 AM;;Karen Steensma;3.00
-59;BIOL 281;Lab for BIOL 281;Lab A;3:00 PM - 5:45 PM;;Karen Steensma;.00
-60;BIOL 281;Lab for BIOL 281;Lab A;3:00 PM - 5:45 PM;;Karen Steensma;.00
+59;BIOL 281;Lab for BIOL 281;Lab A;3:00 PM - 5:45 PM;W;Karen Steensma;.00
+60;BIOL 281;Lab for BIOL 281;Lab A;3:00 PM - 5:45 PM;R;Karen Steensma;.00
 61;BIOL 290;Introduction to Biotechnology;A;9:30 AM - 10:45 AM;;Julia Mills;3.00
-62;BIOL 314;Adv Biology of Non-Vascular Plants;A;8:00 AM - 9:15 AM;R;David Clements;3.00
-63;BIOL 314;Lab for BIOL 314;Lab A;3:00 PM - 5:45 PM;;Darcy Kehler;.00
-64;BIOL 326;Evolutionary Theory;A;12:00 PM - 1:15 PM;R;Dennis Venema;3.00
-65;BIOL 334;Basic and Applied Microbiology;A;12:00 PM - 1:15 PM;W;Laura Onyango;3.00
-66;BIOL 334;Lab for BIOL 334;Lab A;3:00 PM - 5:45 PM;;Sarah Fandrich;.00
+62;BIOL 314;Adv Biology of Non-Vascular Plants;A;8:00 AM - 9:15 AM;TR;David Clements;3.00
+63;BIOL 314;Lab for BIOL 314;Lab A;3:00 PM - 5:45 PM;M;Darcy Kehler;.00
+64;BIOL 326;Evolutionary Theory;A;12:00 PM - 1:15 PM;TR;Dennis Venema;3.00
+65;BIOL 334;Basic and Applied Microbiology;A;12:00 PM - 1:15 PM;MW;Laura Onyango;3.00
+66;BIOL 334;Lab for BIOL 334;Lab A;3:00 PM - 5:45 PM;T;Sarah Fandrich;.00
 67;BIOL 372;Molecular Genetics;A;9:30 AM - 10:45 AM;;Karen Lo;3.00
-68;BIOL 372;Lab for BIOL 372;Lab A;3:00 PM - 5:45 PM;;Karen Lo;.00
-69;BIOL 372;Lab for BIOL 372;Lab A;3:00 PM - 5:45 PM;;Karen Lo;.00
-70;BIOL 386;Biosynthesis;A;8:00 AM - 9:15 AM;W;Karen Lo;3.00
-71;BIOL 410;Senior Thesis;A;1:30 PM - 2:45 PM;;Karen Steensma;2.00
+68;BIOL 372;Lab for BIOL 372;Lab A;3:00 PM - 5:45 PM;W;Karen Lo;.00
+69;BIOL 372;Lab for BIOL 372;Lab A;3:00 PM - 5:45 PM;R;Karen Lo;.00
+70;BIOL 386;Biosynthesis;A;8:00 AM - 9:15 AM;MW;Karen Lo;3.00
+71;BIOL 410;Senior Thesis;A;1:30 PM - 2:45 PM;R;Karen Steensma;2.00
 72;BIOL 411;Senior Thesis;A;12:00 AM - 12:01 AM;;Karen Steensma;3.00
-73;BIOL 470;Introduction to Bioinformatics;A;12:00 PM - 2:45 PM;;Herbert Tsang;3.00
-74;BIOL 474;Genetics/Cell Biology of Neoplasia;A;3:00 PM - 4:15 PM;F;Dennis Venema;3.00
-75;BIOL 484;Conservation Biology;A;12:00 PM - 1:15 PM;R;Karen Steensma;3.00
-76;BIOL 484;Lab for BIOL 484;Lab A;3:00 PM - 5:45 PM;;Karen Steensma;.00
-77;BIOT 100;Biotechnology Practicum;A;12:00 PM - 4:15 PM;;Julia Mills;1.00
+73;BIOL 470;Introduction to Bioinformatics;A;12:00 PM - 2:45 PM;F;Herbert Tsang;3.00
+74;BIOL 474;Genetics/Cell Biology of Neoplasia;A;3:00 PM - 4:15 PM;MF;Dennis Venema;3.00
+75;BIOL 484;Conservation Biology;A;12:00 PM - 1:15 PM;TR;Karen Steensma;3.00
+76;BIOL 484;Lab for BIOL 484;Lab A;3:00 PM - 5:45 PM;T;Karen Steensma;.00
+77;BIOT 100;Biotechnology Practicum;A;12:00 PM - 4:15 PM;F;Julia Mills;1.00
 78;BIOT 200;Biotechnology Practica II;A;12:00 AM - 12:01 AM;;Tba;2.00
 79;BIOT 290;Introduction to Biotechnology;A;9:30 AM - 10:45 AM;;Julia Mills;3.00
 80;BIOT 300;Biotechnology Practica III;A;12:00 AM - 12:01 AM;;Tba;3.00
 81;BIOT 400;Biotechnology Practica IV;A;12:00 AM - 12:01 AM;;Tba;3.00
-82;BIOT 410;Senior Thesis;A;1:30 PM - 2:45 PM;;Karen Steensma;2.00
-83;BIOT 470;Introduction to Bioinformatics;A;12:00 PM - 2:45 PM;;Herbert Tsang;3.00
-84;BUSI 111;Intro to Business & Management;A;12:00 PM - 1:15 PM;R;Brent Groen;3.00
-85;BUSI 121;Financial Accounting;A;12:00 PM - 2:45 PM;;Tillie Parmar;3.00
-86;BUSI 121;Financial Accounting;B;12:00 PM - 2:45 PM;;Tillie Parmar;3.00
+82;BIOT 410;Senior Thesis;A;1:30 PM - 2:45 PM;R;Karen Steensma;2.00
+83;BIOT 470;Introduction to Bioinformatics;A;12:00 PM - 2:45 PM;F;Herbert Tsang;3.00
+84;BUSI 111;Intro to Business & Management;A;12:00 PM - 1:15 PM;TR;Brent Groen;3.00
+85;BUSI 121;Financial Accounting;A;12:00 PM - 2:45 PM;W;Tillie Parmar;3.00
+86;BUSI 121;Financial Accounting;B;12:00 PM - 2:45 PM;M;Tillie Parmar;3.00
 87;BUSI 176;Business Research & Decision Making;A;8:00 AM - 10:45 AM;;Bosu Seo;3.00
-88;BUSI 176;Business Research & Decision Making;B;12:00 PM - 2:45 PM;;Bosu Seo;3.00
-89;BUSI 222;Financial & Managerial Accounting;A;12:00 PM - 1:15 PM;W;Serena Wu;3.00
-90;BUSI 222;Financial & Managerial Accounting;B;3:00 PM - 4:15 PM;W;Serena Wu;3.00
-91;BUSI 231;Principles of Marketing;A;3:00 PM - 4:15 PM;W;Brian 't Hart;3.00
-92;BUSI 231;Principles of Marketing;B;4:30 PM - 5:45 PM;W;Brian 't Hart;3.00
-93;BUSI 245;Fdntns of Business Law in Canada;A;8:00 AM - 9:15 AM;R;Jessica Spraggs;3.00
+88;BUSI 176;Business Research & Decision Making;B;12:00 PM - 2:45 PM;M;Bosu Seo;3.00
+89;BUSI 222;Financial & Managerial Accounting;A;12:00 PM - 1:15 PM;MW;Serena Wu;3.00
+90;BUSI 222;Financial & Managerial Accounting;B;3:00 PM - 4:15 PM;MW;Serena Wu;3.00
+91;BUSI 231;Principles of Marketing;A;3:00 PM - 4:15 PM;MW;Brian 't Hart;3.00
+92;BUSI 231;Principles of Marketing;B;4:30 PM - 5:45 PM;MW;Brian 't Hart;3.00
+93;BUSI 245;Fdntns of Business Law in Canada;A;8:00 AM - 9:15 AM;TR;Jessica Spraggs;3.00
 94;BUSI 275;Business Statistics;B;9:30 AM - 10:45 AM;;Tracy Stobbe;3.00
-95;BUSI 280;Organizational Behaviour;A;12:00 PM - 1:15 PM;W;Jani McKay;3.00
-96;BUSI 280;Organizational Behaviour;B;1:30 PM - 2:45 PM;W;Jani McKay;3.00
-97;BUSI 280;Lab for BUSI 280;Lab A;3:00 PM - 4:15 PM;;Jani McKay;.00
-98;BUSI 280;Lab for BUSI 280;Lab A;3:00 PM - 4:15 PM;;Jani McKay;.00
-99;BUSI 280;Lab for BUSI 280;Lab A;4:30 PM - 5:45 PM;;Jani McKay;.00
-100;BUSI 280;Lab for BUSI 280;Lab B;3:00 PM - 4:15 PM;;Jani McKay;.00
-101;BUSI 280;Lab for BUSI 280;Lab B;3:00 PM - 4:15 PM;;Jani McKay;.00
-102;BUSI 280;Lab for BUSI 280;Lab B;4:30 PM - 5:45 PM;;Jani McKay;.00
-103;BUSI 301;Managerial Economics;A;12:00 PM - 1:15 PM;W;Tracy Stobbe;3.00
-104;BUSI 301;Managerial Economics;B;1:30 PM - 2:45 PM;W;Tracy Stobbe;3.00
+95;BUSI 280;Organizational Behaviour;A;12:00 PM - 1:15 PM;MW;Jani McKay;3.00
+96;BUSI 280;Organizational Behaviour;B;1:30 PM - 2:45 PM;MW;Jani McKay;3.00
+97;BUSI 280;Lab for BUSI 280;Lab A;3:00 PM - 4:15 PM;M;Jani McKay;.00
+98;BUSI 280;Lab for BUSI 280;Lab A;3:00 PM - 4:15 PM;W;Jani McKay;.00
+99;BUSI 280;Lab for BUSI 280;Lab A;4:30 PM - 5:45 PM;W;Jani McKay;.00
+100;BUSI 280;Lab for BUSI 280;Lab B;3:00 PM - 4:15 PM;M;Jani McKay;.00
+101;BUSI 280;Lab for BUSI 280;Lab B;3:00 PM - 4:15 PM;W;Jani McKay;.00
+102;BUSI 280;Lab for BUSI 280;Lab B;4:30 PM - 5:45 PM;W;Jani McKay;.00
+103;BUSI 301;Managerial Economics;A;12:00 PM - 1:15 PM;MW;Tracy Stobbe;3.00
+104;BUSI 301;Managerial Economics;B;1:30 PM - 2:45 PM;MW;Tracy Stobbe;3.00
 105;BUSI 311;Global Issues in Business;A;9:30 AM - 10:45 AM;;Brian Albright;3.00
-106;BUSI 311;Global Issues in Business;B;12:00 PM - 1:15 PM;R;Brian Albright;3.00
-107;BUSI 317;Investment Theory;A;12:00 PM - 2:45 PM;;Liping Zhang;3.00
-108;BUSI 322;Intermediate Accounting II;A;8:00 AM - 9:15 AM;R;Brent Groen;3.00
-109;BUSI 324;Management Accounting II;A;3:00 PM - 5:45 PM;;Kevin DeWolde;3.00
-110;BUSI 334;Sales Management;A;6:15 PM - 9:00 PM;;Tba;3.00
-111;BUSI 342;Management Finance;A;6:15 PM - 8:45 PM;;Ian Angell;3.00
-112;BUSI 346;Law for the Business Manager;A;12:00 PM - 1:15 PM;R;Jessica Spraggs;3.00
+106;BUSI 311;Global Issues in Business;B;12:00 PM - 1:15 PM;TR;Brian Albright;3.00
+107;BUSI 317;Investment Theory;A;12:00 PM - 2:45 PM;W;Liping Zhang;3.00
+108;BUSI 322;Intermediate Accounting II;A;8:00 AM - 9:15 AM;TR;Brent Groen;3.00
+109;BUSI 324;Management Accounting II;A;3:00 PM - 5:45 PM;R;Kevin DeWolde;3.00
+110;BUSI 334;Sales Management;A;6:15 PM - 9:00 PM;M;Tba;3.00
+111;BUSI 342;Management Finance;A;6:15 PM - 8:45 PM;W;Ian Angell;3.00
+112;BUSI 346;Law for the Business Manager;A;12:00 PM - 1:15 PM;TR;Jessica Spraggs;3.00
 113;BUSI 346;Law for the Business Manager;B;9:30 AM - 10:45 AM;;Jessica Spraggs;3.00
-114;BUSI 346;Law for the Business Manager;LC;1:00 PM - 4:00 PM;;Kevin Sawatsky;3.00
-115;BUSI 352;Managing the Human Resource;A;12:00 PM - 1:15 PM;W;Andrea Soberg;3.00
+114;BUSI 346;Law for the Business Manager;LC;1:00 PM - 4:00 PM;W;Kevin Sawatsky;3.00
+115;BUSI 352;Managing the Human Resource;A;12:00 PM - 1:15 PM;MW;Andrea Soberg;3.00
 116;BUSI 352;Managing the Human Resource;B;9:30 AM - 10:45 AM;;Andrea Soberg;3.00
 117;BUSI 363;Organizational Design & Development;A;8:00 AM - 10:45 AM;;Joan Deeks;3.00
-118;BUSI 363;Organizational Design & Development;B;12:00 PM - 2:45 PM;;Joan Deeks;3.00
+118;BUSI 363;Organizational Design & Development;B;12:00 PM - 2:45 PM;M;Joan Deeks;3.00
 119;BUSI 377;Operations Management;A;8:00 AM - 10:45 AM;;Mark McKay;3.00
-120;BUSI 381;Advanced Topics in Operations Mgmt.;A;12:00 PM - 2:45 PM;;Mark McKay;3.00
+120;BUSI 381;Advanced Topics in Operations Mgmt.;A;12:00 PM - 2:45 PM;F;Mark McKay;3.00
 121;BUSI 395;LLC Internship;LC;12:00 AM - 12:01 AM;;Ann Penner;3.00
 122;BUSI 396;LLC Internship;LC;12:00 AM - 12:01 AM;;Ann Penner;3.00
-123;BUSI 412;Interntn'l Economic Competitiveness;A;3:00 PM - 5:45 PM;;Sung Min Yoo;3.00
+123;BUSI 412;Interntn'l Economic Competitiveness;A;3:00 PM - 5:45 PM;W;Sung Min Yoo;3.00
 124;BUSI 421;Advanced Accounting;A;9:30 AM - 10:45 AM;;Serena Wu;3.00
 125;BUSI 426;External Auditing: Concepts/Methods;A;8:00 AM - 10:45 AM;;Tillie Parmar;3.00
-126;BUSI 428;Canadian Taxation;A;12:00 PM - 1:15 PM;W;Brent Groen;3.00
-127;BUSI 430;Marketing Research;A;3:00 PM - 5:45 PM;;Ronnie Gao;3.00
-128;BUSI 435;Marketing Management;A;6:15 PM - 9:00 PM;;James Tweedy;3.00
+126;BUSI 428;Canadian Taxation;A;12:00 PM - 1:15 PM;MW;Brent Groen;3.00
+127;BUSI 430;Marketing Research;A;3:00 PM - 5:45 PM;W;Ronnie Gao;3.00
+128;BUSI 435;Marketing Management;A;6:15 PM - 9:00 PM;T;James Tweedy;3.00
 129;BUSI 437;Advertising & Promotional Strategy;A;8:00 AM - 10:45 AM;;Brian 't Hart;3.00
-130;BUSI 441;Advanced Topics in Business Finance;A;3:00 PM - 5:45 PM;;Ian Angell;3.00
+130;BUSI 441;Advanced Topics in Business Finance;A;3:00 PM - 5:45 PM;W;Ian Angell;3.00
 131;BUSI 446;Commercial Legal Relations;A;8:00 AM - 10:45 AM;;Kevin Sawatsky;3.00
 132;BUSI 453;Managing & Devel the Human Resource;A;8:00 AM - 10:45 AM;;Joan Deeks;3.00
-133;BUSI 459;Professional Practice in HR;A;3:00 PM - 5:45 PM;;Andrea Soberg;3.00
-134;BUSI 481;Business Ethics;A;6:00 PM - 8:45 PM;;Tba;3.00
-135;BUSI 484;Strategic Management;A;3:00 PM - 5:45 PM;;Brent Groen;3.00
-136;BUSI 484;Strategic Management;B;6:15 PM - 9:00 PM;;Brent Groen;3.00
-137;BUSI 492;Integrative Group Project: Finance;A;3:00 PM - 5:45 PM;;Liping Zhang;3.00
-138;BUSI 493;Integrated Group Project: HRM;A;12:00 PM - 2:45 PM;;Jani McKay;3.00
+133;BUSI 459;Professional Practice in HR;A;3:00 PM - 5:45 PM;M;Andrea Soberg;3.00
+134;BUSI 481;Business Ethics;A;6:00 PM - 8:45 PM;W;Tba;3.00
+135;BUSI 484;Strategic Management;A;3:00 PM - 5:45 PM;M;Brent Groen;3.00
+136;BUSI 484;Strategic Management;B;6:15 PM - 9:00 PM;M;Brent Groen;3.00
+137;BUSI 492;Integrative Group Project: Finance;A;3:00 PM - 5:45 PM;T;Liping Zhang;3.00
+138;BUSI 493;Integrated Group Project: HRM;A;12:00 PM - 2:45 PM;F;Jani McKay;3.00
 139;PREP 100;Career Preparation;A;9:30 AM - 10:45 AM;;Amy Alexander;1.00
 140;CCCU 000;American Studies Program;A;12:00 AM - 12:01 AM;;Tba;9.00
 141;CCCU 002;China Studies Program;A;12:00 AM - 12:01 AM;;Tba;9.00
@@ -150,205 +150,205 @@ sep=;
 148;CCCU 010;Summer Institute of Journalism;A;12:00 AM - 12:01 AM;;Tba;9.00
 149;CCCU 011;Uganda Studies Program;A;12:00 AM - 12:01 AM;;Tba;9.00
 150;CHEM 101;Elementary Elements;A;9:30 AM - 10:45 AM;;Shane Durbach;3.00
-151;CHEM 104;General Chemistry II;A;3:00 PM - 4:15 PM;WF;Miriam Buschhaus;3.00
-152;CHEM 112;Principles of Chemistry II;A;8:00 AM - 9:15 AM;WF;Shane Durbach;3.00
+151;CHEM 104;General Chemistry II;A;3:00 PM - 4:15 PM;MWF;Miriam Buschhaus;3.00
+152;CHEM 112;Principles of Chemistry II;A;8:00 AM - 9:15 AM;MWF;Shane Durbach;3.00
 153;CHEM 199;Lab for CHEM 104 and 112;Lab A;8:00 AM - 10:45 AM;;Rose Hirowatari;1.00
 154;CHEM 199;Lab for CHEM 104 and 112;Lab A;8:00 AM - 10:45 AM;;Rose Hirowatari;1.00
-155;CHEM 199;Lab for CHEM 104 and 112;Lab A;6:15 PM - 9:00 PM;;Rose Hirowatari;1.00
-156;CHEM 199;Lab for CHEM 104 and 112;Lab A;6:15 PM - 9:00 PM;;Rose Hirowatari;1.00
+155;CHEM 199;Lab for CHEM 104 and 112;Lab A;6:15 PM - 9:00 PM;W;Rose Hirowatari;1.00
+156;CHEM 199;Lab for CHEM 104 and 112;Lab A;6:15 PM - 9:00 PM;W;Rose Hirowatari;1.00
 157;CHEM 199;Lab for CHEM 104 and 112;Lab A;8:00 AM - 10:45 AM;;Rose Hirowatari;1.00
-158;CHEM 222;Organic Chemistry II;A;8:00 AM - 9:15 AM;WF;Chad Friesen;3.00
-159;CHEM 222;Lab for CHEM 222;Lab A;1:30 PM - 5:30 PM;;Rose Hirowatari;.00
-160;CHEM 222;Lab for CHEM 222;Lab A;1:30 PM - 5:30 PM;;Rose Hirowatari;.00
-161;CHEM 222;Lab for CHEM 222;Lab A;12:00 PM - 4:00 PM;;Rose Hirowatari;.00
+158;CHEM 222;Organic Chemistry II;A;8:00 AM - 9:15 AM;MWF;Chad Friesen;3.00
+159;CHEM 222;Lab for CHEM 222;Lab A;1:30 PM - 5:30 PM;T;Rose Hirowatari;.00
+160;CHEM 222;Lab for CHEM 222;Lab A;1:30 PM - 5:30 PM;R;Rose Hirowatari;.00
+161;CHEM 222;Lab for CHEM 222;Lab A;12:00 PM - 4:00 PM;F;Rose Hirowatari;.00
 162;CHEM 230;Inorganic Chemistry;A;9:30 AM - 10:45 AM;;Miriam Buschhaus;3.00
-163;CHEM 341;Advanced Physical Chemistry I;A;12:00 PM - 1:15 PM;W;Arnold Sikkema;3.00
-164;CHEM 341;Lab for CHEM 341;Lab A;1:30 PM - 5:30 PM;;Miriam Buschhaus;.00
-165;CHEM 358;Modern Analytical Methods II;A;8:00 AM - 9:15 AM;R;Chad Friesen;3.00
-166;CHEM 358;Lab for CHEM 358;Lab A;1:30 PM - 5:45 PM;;Rose Hirowatari;.00
-167;CHEM 370;Environmental Chemistry;A;3:00 PM - 4:30 PM;W;Tba;3.00
-168;CHEM 386;Biosynthesis;A;8:00 AM - 9:15 AM;W;Tba;3.00
+163;CHEM 341;Advanced Physical Chemistry I;A;12:00 PM - 1:15 PM;MW;Arnold Sikkema;3.00
+164;CHEM 341;Lab for CHEM 341;Lab A;1:30 PM - 5:30 PM;T;Miriam Buschhaus;.00
+165;CHEM 358;Modern Analytical Methods II;A;8:00 AM - 9:15 AM;TR;Chad Friesen;3.00
+166;CHEM 358;Lab for CHEM 358;Lab A;1:30 PM - 5:45 PM;R;Rose Hirowatari;.00
+167;CHEM 370;Environmental Chemistry;A;3:00 PM - 4:30 PM;MW;Tba;3.00
+168;CHEM 386;Biosynthesis;A;8:00 AM - 9:15 AM;MW;Tba;3.00
 169;CHEM 410;Senior Thesis;A;12:00 AM - 12:01 AM;;Miriam Buschhaus;2.00
 170;CHEM 461;Chemical Concepts in Nanotechnology;A;9:30 AM - 10:45 AM;;Shane Durbach;3.00
-171;CHIN 101;Intro to Chinese Lang & Culture I;A;12:00 PM - 1:15 PM;R;Na Wu;3.00
-172;CHIN 102;Intro to Chinese Lang & Culture II;A;6:15 PM - 9:00 PM;;Na Wu;3.00
-173;CHIN 212;Decoding Chinese Mythologies II;A;1:30 PM - 4:15 PM;;Lilan Leung;3.00
-174;CHIN 312;The Analects of Confucius II;B;4:30 PM - 7:30 PM;;Na Wu;3.00
+171;CHIN 101;Intro to Chinese Lang & Culture I;A;12:00 PM - 1:15 PM;TR;Na Wu;3.00
+172;CHIN 102;Intro to Chinese Lang & Culture II;A;6:15 PM - 9:00 PM;W;Na Wu;3.00
+173;CHIN 212;Decoding Chinese Mythologies II;A;1:30 PM - 4:15 PM;F;Lilan Leung;3.00
+174;CHIN 312;The Analects of Confucius II;B;4:30 PM - 7:30 PM;T;Na Wu;3.00
 175;CHIN 411;Modern Chinese Texts I;I2;9:00 AM - 12:00 PM;;Shiju Liu;3.00
 176;CHIN 411;Modern Chinese Texts I;I3;9:00 AM - 12:00 PM;;Shiju Liu;3.00
 177;CHIN 411;Modern Chinese Texts I;IR;9:00 AM - 12:00 PM;;Shiju Liu;3.00
-178;CHIN 412;Modern Chinese Texts II;B;4:30 PM - 7:30 PM;;Na Wu;3.00
+178;CHIN 412;Modern Chinese Texts II;B;4:30 PM - 7:30 PM;R;Na Wu;3.00
 179;CMPT 140;Intro Computing Science & Program I;A;9:30 AM - 10:45 AM;;Herbert Tsang;3.00
 180;CMPT 166;Intr Computing Science & Program II;A;9:30 AM - 10:45 AM;;Andrew Park;3.00
-181;CMPT 211;Web Programming I;A;6:15 PM - 9:00 PM;;Ryan Mcbride;3.00
+181;CMPT 211;Web Programming I;A;6:15 PM - 9:00 PM;R;Ryan Mcbride;3.00
 182;CMPT 360;Comparative Programming Languages;A;9:30 AM - 10:20 AM;;Rick Sutcliffe;3.00
-183;CMPT 380;Artificial Intelligence;A;3:00 PM - 4:15 PM;R;Andrew Park;3.00
+183;CMPT 380;Artificial Intelligence;A;3:00 PM - 4:15 PM;TR;Andrew Park;3.00
 184;CMPT 410;Senior Thesis;A;12:00 AM - 12:01 AM;;Herbert Tsang;2.00
 185;CMPT 411;Senior Thesis;A;12:00 AM - 12:01 AM;;Herbert Tsang;3.00
-186;CMPT 470;Introduction to Bioinformatics;A;12:00 PM - 2:45 PM;;Herbert Tsang;3.00
+186;CMPT 470;Introduction to Bioinformatics;A;12:00 PM - 2:45 PM;F;Herbert Tsang;3.00
 187;COOP 110;Work Term 1;A;12:00 AM - 12:01 AM;;Tba;.00
 188;COOP 210;Work Term 2;A;12:00 AM - 12:01 AM;;Tba;.00
 189;COOP 310;Work Term 3;A;12:00 AM - 12:01 AM;;Tba;.00
 190;COOP 410;Work Term 4;A;12:00 AM - 12:01 AM;;Tba;.00
 191;COOP 420;Work Term 5;A;12:00 AM - 12:01 AM;;Tba;.00
 192;ECON 176;Business Research & Decision Making;A;8:00 AM - 10:45 AM;;Bosu Seo;3.00
-193;ECON 176;Business Research & Decision Making;B;12:00 PM - 2:45 PM;;Bosu Seo;3.00
+193;ECON 176;Business Research & Decision Making;B;12:00 PM - 2:45 PM;M;Bosu Seo;3.00
 194;ECON 201;Principles of Microeconomics;A;9:30 AM - 10:45 AM;;Liping Zhang;3.00
 195;ECON 202;Principles of Macro Economics;A;9:30 AM - 10:45 AM;;Tracy Stobbe;3.00
-196;ECON 202;Principles of Macro Economics;B;12:00 PM - 1:15 PM;R;Tracy Stobbe;3.00
+196;ECON 202;Principles of Macro Economics;B;12:00 PM - 1:15 PM;TR;Tracy Stobbe;3.00
 197;ECON 275;Business Statistics;B;9:30 AM - 10:45 AM;;Tracy Stobbe;3.00
-198;ECON 301;Managerial Economics;A;12:00 PM - 1:15 PM;W;Tracy Stobbe;3.00
-199;ECON 301;Managerial Economics;B;1:30 PM - 2:45 PM;W;Tracy Stobbe;3.00
+198;ECON 301;Managerial Economics;A;12:00 PM - 1:15 PM;MW;Tracy Stobbe;3.00
+199;ECON 301;Managerial Economics;B;1:30 PM - 2:45 PM;MW;Tracy Stobbe;3.00
 200;ECON 306;History of Economic Thought;A;8:00 AM - 10:45 AM;;Tracy Stobbe;3.00
 201;ECON 311;Global Issues in Business;A;9:30 AM - 10:45 AM;;Brian Albright;3.00
-202;ECON 311;Global Issues in Business;B;12:00 PM - 1:15 PM;R;Brian Albright;3.00
-203;ECON 317;Investment Theory;A;12:00 PM - 2:45 PM;;Liping Zhang;3.00
-204;ECON 412;Intl Economic Competitiveness;A;3:00 PM - 4:15 PM;;Sung Min Yoo;3.00
-205;EDUC 211;Psych Foundn of Teaching/Learning;A;4:30 PM - 7:30 PM;;Andrew Shutsa;3.00
-206;EDUC 211;Psych Foundn of Teaching/Learning;B;6:15 PM - 9:00 PM;;Andrew Shutsa;3.00
+202;ECON 311;Global Issues in Business;B;12:00 PM - 1:15 PM;TR;Brian Albright;3.00
+203;ECON 317;Investment Theory;A;12:00 PM - 2:45 PM;W;Liping Zhang;3.00
+204;ECON 412;Intl Economic Competitiveness;A;3:00 PM - 4:15 PM;W;Sung Min Yoo;3.00
+205;EDUC 211;Psych Foundn of Teaching/Learning;A;4:30 PM - 7:30 PM;T;Andrew Shutsa;3.00
+206;EDUC 211;Psych Foundn of Teaching/Learning;B;6:15 PM - 9:00 PM;W;Andrew Shutsa;3.00
 207;EDUC 222;Principles of Teaching & Learning;A;9:30 AM - 10:45 AM;;Lisa Olding;3.00
-208;EDUC 222;Principles of Teaching & Learning;P;3:00 PM - 4:15 PM;;Nina Lui;3.00
-209;EDUC 233;Foundations of Education;A;3:00 PM - 5:45 PM;;Andrew Shutsa;3.00
-210;EDUC 233;Foundations of Education;B;4:30 PM - 7:30 PM;;Tba;3.00
-211;EDUC 302;Initial Classroom Experience;A;8:00 AM - 9:15 AM;;Lisa Olding;1.00
-212;EDUC 303;Initial Classroom Experience;A;8:00 AM - 9:15 AM;;Lisa Olding;1.00
-213;EDUC 303;Initial Classroom Experience;B;8:00 AM - 9:15 AM;;Lisa Olding;1.00
+208;EDUC 222;Principles of Teaching & Learning;P;3:00 PM - 4:15 PM;F;Nina Lui;3.00
+209;EDUC 233;Foundations of Education;A;3:00 PM - 5:45 PM;M;Andrew Shutsa;3.00
+210;EDUC 233;Foundations of Education;B;4:30 PM - 7:30 PM;T;Tba;3.00
+211;EDUC 302;Initial Classroom Experience;A;8:00 AM - 9:15 AM;W;Lisa Olding;1.00
+212;EDUC 303;Initial Classroom Experience;A;8:00 AM - 9:15 AM;W;Lisa Olding;1.00
+213;EDUC 303;Initial Classroom Experience;B;8:00 AM - 9:15 AM;W;Lisa Olding;1.00
 214;EDUC 310;The Exceptional Child in Reg. Class;A;9:30 AM - 10:45 AM;;Moira Fricke;3.00
-215;EDUC 310;The Exceptional Child in Reg. Class;B;12:00 PM - 1:15 PM;R;Moira Fricke;3.00
-216;EDUC 321;Curriculum Planning for the Classrm;A;6:15 PM - 9:00 PM;;Nina Lui;3.00
-217;EDUC 345;Gender and Education;A;6:15 PM - 9:00 PM;;Tba;3.00
-218;EDUC 350;Teaching Physical Education;A;3:00 PM - 4:15 PM;W;David Erickson;3.00
+215;EDUC 310;The Exceptional Child in Reg. Class;B;12:00 PM - 1:15 PM;TR;Moira Fricke;3.00
+216;EDUC 321;Curriculum Planning for the Classrm;A;6:15 PM - 9:00 PM;T;Nina Lui;3.00
+217;EDUC 345;Gender and Education;A;6:15 PM - 9:00 PM;R;Tba;3.00
+218;EDUC 350;Teaching Physical Education;A;3:00 PM - 4:15 PM;MW;David Erickson;3.00
 219;EDUC 353;Environment. Ed:Curriculum&Pedagogy;A;8:00 AM - 10:45 AM;;Matthew;3.00
-220;EDUC 365;Social Issues in Education;A;12:00 PM - 1:15 PM;W;Lisa Olding;3.00
+220;EDUC 365;Social Issues in Education;A;12:00 PM - 1:15 PM;MW;Lisa Olding;3.00
 221;EDUC 401;Assessm't & Evaluation for Learning;A;9:30 AM - 10:45 AM;;Nina Lui;3.00
-222;EDUC 401;Assessm't & Evaluation for Learning;A;12:00 PM - 1:15 PM;;Nina Lui;3.00
+222;EDUC 401;Assessm't & Evaluation for Learning;A;12:00 PM - 1:15 PM;T;Nina Lui;3.00
 223;EDUC 401;Assessm't & Evaluation for Learning;P;9:30 AM - 10:45 AM;;Nina Lui;3.00
-224;EDUC 401;Assessm't & Evaluation for Learning;P;12:00 PM - 1:15 PM;;Nina Lui;3.00
-225;EDUC 402;Initial Classroom Experience;A;8:00 AM - 9:15 AM;;Lisa Olding;1.00
-226;EDUC 402;Initial Classroom Experience;P;8:00 AM - 2:45 PM;;Nina Lui;1.00
-227;EDUC 403;Initial Classroom Experience;A;8:00 AM - 9:15 AM;;Lisa Olding;1.00
-228;EDUC 411;Early Learning: Curriculum & Assess;A;6:15 PM - 9:00 PM;;Lisa Peterson;3.00
-229;EDUC 411;Early Learning: Curriculum & Assess;P;6:15 PM - 9:00 PM;;Lisa Peterson;3.00
+224;EDUC 401;Assessm't & Evaluation for Learning;P;12:00 PM - 1:15 PM;T;Nina Lui;3.00
+225;EDUC 402;Initial Classroom Experience;A;8:00 AM - 9:15 AM;W;Lisa Olding;1.00
+226;EDUC 402;Initial Classroom Experience;P;8:00 AM - 2:45 PM;F;Nina Lui;1.00
+227;EDUC 403;Initial Classroom Experience;A;8:00 AM - 9:15 AM;W;Lisa Olding;1.00
+228;EDUC 411;Early Learning: Curriculum & Assess;A;6:15 PM - 9:00 PM;M;Lisa Peterson;3.00
+229;EDUC 411;Early Learning: Curriculum & Assess;P;6:15 PM - 9:00 PM;M;Lisa Peterson;3.00
 230;EDUC 412;Strategies for the Except'l Child;A;9:30 AM - 10:45 AM;;Moira Fricke;3.00
-231;EDUC 412;Seminar;A   D1;8:00 AM - 9:15 AM;;Moira Fricke;1.00
+231;EDUC 412;Seminar;A   D1;8:00 AM - 9:15 AM;W;Moira Fricke;1.00
 232;EDUC 453;Extended Practicum;A;-;;Jackie Buitelaar;15.00
 233;EDUC 453;Extended Practicum;B;-;;Jackie Buitelaar;15.00
 234;EDUC 453;Extended Practicum;C;-;;Cynthia McCarthy;15.00
-235;EDUC 455;Curr & Pedagogy: K-7 Lang Arts;A;6:15 PM - 9:00 PM;;Lisa Peterson;3.00
-236;EDUC 455;Curr & Pedagogy: K-7 Lang Arts;P;6:15 PM - 9:00 PM;;Lisa Peterson;3.00
+235;EDUC 455;Curr & Pedagogy: K-7 Lang Arts;A;6:15 PM - 9:00 PM;W;Lisa Peterson;3.00
+236;EDUC 455;Curr & Pedagogy: K-7 Lang Arts;P;6:15 PM - 9:00 PM;W;Lisa Peterson;3.00
 237;EDUC 457;Curr & Pedagogy: K-7 Social Studies;A;-;;James Willms;2.00
-238;EDUC 457;Curr & Pedagogy: K-7 Social Studies;B;-;;Lesley Willms;2.00
+238;EDUC 457;Curr & Pedagogy: K-7 Social Studies;B;-;S;Lesley Willms;2.00
 239;EDUC 458;Curriculum & Pedagogy: K-7 Science;A;-;;Susan Dykshoorn;2.00
 240;EDUC 458;Curriculum & Pedagogy: K-7 Science;B;-;;Barbara Hofmann;2.00
-241;EDUC 465;Teach&Learn in Secondary School;A;6:15 PM - 9:00 PM;;Kevin Mirchandani;3.00
-242;EDUC 465;Teach&Learn in Secondary School;P;6:15 PM - 9:00 PM;;Kevin Mirchandani;3.00
+241;EDUC 465;Teach&Learn in Secondary School;A;6:15 PM - 9:00 PM;M;Kevin Mirchandani;3.00
+242;EDUC 465;Teach&Learn in Secondary School;P;6:15 PM - 9:00 PM;M;Kevin Mirchandani;3.00
 243;EDUC 475;Teach & Learn in Major Subject 8-12;A;-;;Cynthia McCarthy;3.00
-244;EDUC 495;Critical Issues Values & Class Mgmt;A;12:00 PM - 2:45 PM;;Yu-Ling Lee;3.00
-245;EDUC 495;Critical Issues Values & Class Mgmt;P;12:00 PM - 2:45 PM;;Yu-Ling Lee;3.00
-246;EDUC 496;Indigenous Perspectives in Educ.;A;12:00 PM - 2:45 PM;;Matthew;3.00
-247;EDUC 496;Indigenous Perspectives in Educ.;P;3:00 PM - 5:45 PM;;Matthew;3.00
-248;ENGL 101;Introduction to Writing;A;8:00 AM - 9:15 AM;R;Gordon Reisdorf;3.00
-249;ENGL 101;Introduction to Writing;B;3:00 PM - 4:15 PM;R;Gordon Reisdorf;3.00
+244;EDUC 495;Critical Issues Values & Class Mgmt;A;12:00 PM - 2:45 PM;W;Yu-Ling Lee;3.00
+245;EDUC 495;Critical Issues Values & Class Mgmt;P;12:00 PM - 2:45 PM;W;Yu-Ling Lee;3.00
+246;EDUC 496;Indigenous Perspectives in Educ.;A;12:00 PM - 2:45 PM;M;Matthew;3.00
+247;EDUC 496;Indigenous Perspectives in Educ.;P;3:00 PM - 5:45 PM;M;Matthew;3.00
+248;ENGL 101;Introduction to Writing;A;8:00 AM - 9:15 AM;TR;Gordon Reisdorf;3.00
+249;ENGL 101;Introduction to Writing;B;3:00 PM - 4:15 PM;TR;Gordon Reisdorf;3.00
 250;ENGL 101;Introduction to Writing;GX;12:00 AM - 12:01 AM;;Shine Hong;3.00
 251;ENGL 101;Introduction to Writing;I2;10:30 AM - 11:45 AM;;Nam;3.00
-252;ENGL 101;Introduction to Writing;I3;1:00 PM - 2:15 PM;WF;Nam;3.00
-253;ENGL 101;Introduction to Writing;I4;2:30 PM - 3:45 PM;WF;Jocelyn Maleniza;3.00
+252;ENGL 101;Introduction to Writing;I3;1:00 PM - 2:15 PM;MWF;Nam;3.00
+253;ENGL 101;Introduction to Writing;I4;2:30 PM - 3:45 PM;MWF;Jocelyn Maleniza;3.00
 254;ENGL 101;Introduction to Writing;IN;9:30 AM - 10:45 AM;;Christy Best;3.00
 255;ENGL 101;Introduction to Writing;IR;9:00 AM - 10:15 AM;;Nam;3.00
-256;ENGL 101;Introduction to Writing;UA;12:00 PM - 1:15 PM;W;Christy Best;3.00
-257;ENGL 102;Introduction to Literature;A;12:00 PM - 1:15 PM;R;Lydia Forssander-;3.00
-258;ENGL 103;Introduction to Fiction;A;12:00 PM - 1:15 PM;W;David Anonby;3.00
-259;ENGL 103;Introduction to Fiction;B;12:00 PM - 1:15 PM;R;Jamie Hall;3.00
-260;ENGL 103;Introduction to Fiction;C;12:00 PM - 2:45 PM;;David Anonby;3.00
+256;ENGL 101;Introduction to Writing;UA;12:00 PM - 1:15 PM;MW;Christy Best;3.00
+257;ENGL 102;Introduction to Literature;A;12:00 PM - 1:15 PM;TR;Lydia Forssander-;3.00
+258;ENGL 103;Introduction to Fiction;A;12:00 PM - 1:15 PM;MW;David Anonby;3.00
+259;ENGL 103;Introduction to Fiction;B;12:00 PM - 1:15 PM;TR;Jamie Hall;3.00
+260;ENGL 103;Introduction to Fiction;C;12:00 PM - 2:45 PM;F;David Anonby;3.00
 261;ENGL 103;Introduction to Fiction;F1;9:30 AM - 10:45 AM;;Jamie Hall;3.00
 262;ENGL 103;Introduction to Fiction;IS;12:00 AM - 12:01 AM;;Micah Towery;3.00
-263;ENGL 103;Introduction to Fiction;WP;6:00 PM - 8:45 PM;;David Anonby;3.00
+263;ENGL 103;Introduction to Fiction;WP;6:00 PM - 8:45 PM;M;David Anonby;3.00
 264;ENGL 104;Introduction to Poetry and Drama;A;9:30 AM - 10:45 AM;;Jennifer Doede;3.00
-265;ENGL 104;Introduction to Poetry and Drama;B;12:00 PM - 1:15 PM;W;Vic Cavalli;3.00
-266;ENGL 104;Introduction to Poetry and Drama;C;1:30 PM - 2:45 PM;W;David Anonby;3.00
-267;ENGL 104;Introduction to Poetry and Drama;D;3:00 PM - 4:15 PM;W;Vic Cavalli;3.00
+265;ENGL 104;Introduction to Poetry and Drama;B;12:00 PM - 1:15 PM;MW;Vic Cavalli;3.00
+266;ENGL 104;Introduction to Poetry and Drama;C;1:30 PM - 2:45 PM;MW;David Anonby;3.00
+267;ENGL 104;Introduction to Poetry and Drama;D;3:00 PM - 4:15 PM;MW;Vic Cavalli;3.00
 268;ENGL 104;Introduction to Poetry and Drama;E;9:30 AM - 10:45 AM;;Leah Cameron;3.00
-269;ENGL 104;Introduction to Poetry and Drama;F1;1:30 PM - 2:45 PM;R;Jamie Hall;3.00
-270;ENGL 104;Introduction to Poetry and Drama;G;3:00 PM - 4:15 PM;R;Laura Van Dyke;3.00
-271;ENGL 104;Introduction to Poetry and Drama;H;6:15 PM - 9:00 PM;;Vic Cavalli;3.00
+269;ENGL 104;Introduction to Poetry and Drama;F1;1:30 PM - 2:45 PM;TR;Jamie Hall;3.00
+270;ENGL 104;Introduction to Poetry and Drama;G;3:00 PM - 4:15 PM;TR;Laura Van Dyke;3.00
+271;ENGL 104;Introduction to Poetry and Drama;H;6:15 PM - 9:00 PM;T;Vic Cavalli;3.00
 272;ENGL 104;Introduction to Poetry and Drama;IS;12:00 AM - 12:01 AM;;Micah Towery;3.00
-273;ENGL 104;Introduction to Poetry and Drama;J;12:00 PM - 2:45 PM;;Jennifer Doede;3.00
+273;ENGL 104;Introduction to Poetry and Drama;J;12:00 PM - 2:45 PM;F;Jennifer Doede;3.00
 274;ENGL 106;Poetry & Drama in Catholic Context;CP;9:30 AM - 10:45 AM;;Vic Cavalli;3.00
-275;ENGL 207;Introduction to Creative Writing;A;3:00 PM - 4:15 PM;R;Vic Cavalli;3.00
-276;ENGL 224;Intro to American Lit. 1850-Present;A;12:00 PM - 1:15 PM;W;Katharine Bubel;3.00
-277;ENGL 240;Indigenous Literatures;A;1:30 PM - 2:45 PM;R;Janet Lermitte;3.00
-278;ENGL 324;Intro to American Lit. 1850-Present;A;12:00 PM - 1:15 PM;W;Katharine Bubel;3.00
-279;ENGL 390;Jane Austen;A;12:00 PM - 1:15 PM;R;Sara Pearson;3.00
-280;ENGL 430;Medieval English Literature;A;1:30 PM - 2:45 PM;W;Holly Nelson;3.00
+275;ENGL 207;Introduction to Creative Writing;A;3:00 PM - 4:15 PM;TR;Vic Cavalli;3.00
+276;ENGL 224;Intro to American Lit. 1850-Present;A;12:00 PM - 1:15 PM;MW;Katharine Bubel;3.00
+277;ENGL 240;Indigenous Literatures;A;1:30 PM - 2:45 PM;TR;Janet Lermitte;3.00
+278;ENGL 324;Intro to American Lit. 1850-Present;A;12:00 PM - 1:15 PM;MW;Katharine Bubel;3.00
+279;ENGL 390;Jane Austen;A;12:00 PM - 1:15 PM;TR;Sara Pearson;3.00
+280;ENGL 430;Medieval English Literature;A;1:30 PM - 2:45 PM;MW;Holly Nelson;3.00
 281;ENGL 450;Honours Essay;A;-;;Sara Pearson;3.00
 282;ENGL 482;World Literature in English;A;9:30 AM - 10:45 AM;;Lydia Forssander-;3.00
-283;ENGL 490;Literary Theory and Criticism;A;12:00 PM - 2:45 PM;;Katharine Bubel;3.00
-284;FNDN 101;The Liberal Arts Journey;A;8:00 AM - 9:15 AM;;Jason Burtt;1.00
-285;FNDN 101;The Liberal Arts Journey;B;12:00 PM - 1:15 PM;;David Squires;1.00
+283;ENGL 490;Literary Theory and Criticism;A;12:00 PM - 2:45 PM;F;Katharine Bubel;3.00
+284;FNDN 101;The Liberal Arts Journey;A;8:00 AM - 9:15 AM;W;Jason Burtt;1.00
+285;FNDN 101;The Liberal Arts Journey;B;12:00 PM - 1:15 PM;T;David Squires;1.00
 286;FNDN 101;The Liberal Arts Journey;GX;12:00 AM - 12:01 AM;;Rob Rhea;1.00
-287;FNDN 102;Human Flourishing;A;1:30 PM - 2:45 PM;W;Deanna Mackey;3.00
+287;FNDN 102;Human Flourishing;A;1:30 PM - 2:45 PM;MW;Deanna Mackey;3.00
 288;FNDN 102;Human Flourishing;B;9:30 AM - 10:45 AM;;Andrew Heming;3.00
-289;FNDN 102;Human Flourishing;C;8:00 AM - 9:15 AM;R;Andrew Heming;3.00
-290;FNDN 102;Human Flourishing;D;8:00 AM - 9:15 AM;R;Deanna Mackey;3.00
-291;FNDN 102;Human Flourishing;E;12:00 PM - 1:15 PM;W;Barbara Morrison;3.00
+289;FNDN 102;Human Flourishing;C;8:00 AM - 9:15 AM;TR;Andrew Heming;3.00
+290;FNDN 102;Human Flourishing;D;8:00 AM - 9:15 AM;TR;Deanna Mackey;3.00
+291;FNDN 102;Human Flourishing;E;12:00 PM - 1:15 PM;MW;Barbara Morrison;3.00
 292;FNDN 102;Human Flourishing;F;9:30 AM - 10:45 AM;;Shane Wiebe;3.00
 293;FNDN 102;Human Flourishing;G;12:00 AM - 12:01 AM;;Jack Reimer;3.00
 294;FNDN 102;Human Flourishing;GX;-;;Jack Reimer;3.00
-295;FNDN 102;Lab for FNDN 102;Lab A;8:25 AM - 9:15 AM;;Deanna Mackey;.00
-296;FNDN 102;Lab for FNDN 102;Lab B;8:25 AM - 9:15 AM;;Andrew Heming;.00
+295;FNDN 102;Lab for FNDN 102;Lab A;8:25 AM - 9:15 AM;W;Deanna Mackey;.00
+296;FNDN 102;Lab for FNDN 102;Lab B;8:25 AM - 9:15 AM;M;Andrew Heming;.00
 297;FNDN 102;Lab for FNDN 102;Lab C;9:30 AM - 10:20 AM;;Andrew Heming;.00
 298;FNDN 102;Lab for FNDN 102;Lab D;9:30 AM - 10:20 AM;;Deanna Mackey;.00
-299;FNDN 102;Lab for FNDN 102;Lab E;1:30 PM - 2:20 PM;;Jack Reimer;.00
-300;FNDN 102;Lab for FNDN 102;Lab F;8:25 AM - 9:15 AM;;Shane Wiebe;.00
+299;FNDN 102;Lab for FNDN 102;Lab E;1:30 PM - 2:20 PM;W;Jack Reimer;.00
+300;FNDN 102;Lab for FNDN 102;Lab F;8:25 AM - 9:15 AM;T;Shane Wiebe;.00
 301;FNDN 102;Lab for FNDN 102;Lab G;12:00 AM - 12:01 AM;;Jack Reimer;.00
-302;FNDN 201;Ideas that Inspire;A;12:00 PM - 1:15 PM;W;Calvin Townsend;3.00
-303;FNDN 201;Ideas that Inspire;C;3:00 PM - 4:15 PM;W;Calvin Townsend;3.00
-304;FNDN 201;Ideas that Inspire;D;12:00 PM - 1:15 PM;R;Bob Doede;3.00
+302;FNDN 201;Ideas that Inspire;A;12:00 PM - 1:15 PM;MW;Calvin Townsend;3.00
+303;FNDN 201;Ideas that Inspire;C;3:00 PM - 4:15 PM;MW;Calvin Townsend;3.00
+304;FNDN 201;Ideas that Inspire;D;12:00 PM - 1:15 PM;TR;Bob Doede;3.00
 305;FNDN 201;Ideas that Inspire;G;12:00 AM - 12:01 AM;;Dwight Friesen;3.00
 306;FREN 101;Introductory French;A;9:30 AM - 10:45 AM;;Sean Allison;3.00
-307;FREN 102;Introductory French;A;4:30 PM - 5:45 PM;W;Miriam Hostetler;3.00
+307;FREN 102;Introductory French;A;4:30 PM - 5:45 PM;MW;Miriam Hostetler;3.00
 308;FREN 112;Intermediate French;A;9:30 AM - 10:45 AM;;Sean Allison;3.00
-309;FREN 206;Langue et intro. à la littérature;A;3:00 PM - 4:15 PM;W;Miriam Hostetler;3.00
-310;FREN 306;Langue écrite et orale;A;3:00 PM - 4:15 PM;R;Sean Allison;3.00
-311;FREN 350;Civilisation francaise;A;4:30 PM - 5:45 PM;R;Miriam Hostetler;3.00
-312;GAME 140;Introduction to Game Design;A;6:15 PM - 9:00 PM;;Andrey Goncharov;3.00
-313;GAME 290;Game Development Project I;A;1:30 PM - 4:15 PM;;Andrey Goncharov;3.00
-314;GAME 332;Advanced Animation Projects;A;3:00 PM - 5:45 PM;;John Wang;3.00
-315;GAME 350;Video Game Programming;A;3:00 PM - 5:45 PM;;Thomas Henshell;3.00
-316;GAME 380;Game Development Field Placement;A;6:15 PM - 9:00 PM;;Kevin Schut;3.00
-317;GAME 391;Game Development Project II;A;6:15 PM - 9:00 PM;;Eric Stein;3.00
-318;GAME 471;Video Game Aesthetics;A;6:15 PM - 9:00 PM;;Eric Stein;3.00
-319;GAME 491;Game Development Project III;A;6:15 PM - 9:00 PM;;Eric Stein;3.00
-320;GNDR 105;Introduction to Gender Studies;A;6:15 PM - 9:00 PM;;Robynne Healey;3.00
-321;GENV 121;Intro to Earth Systems Science;A;1:30 PM - 2:45 PM;W;Chris Hall;3.00
+309;FREN 206;Langue et intro. à la littérature;A;3:00 PM - 4:15 PM;MW;Miriam Hostetler;3.00
+310;FREN 306;Langue écrite et orale;A;3:00 PM - 4:15 PM;TR;Sean Allison;3.00
+311;FREN 350;Civilisation francaise;A;4:30 PM - 5:45 PM;TR;Miriam Hostetler;3.00
+312;GAME 140;Introduction to Game Design;A;6:15 PM - 9:00 PM;R;Andrey Goncharov;3.00
+313;GAME 290;Game Development Project I;A;1:30 PM - 4:15 PM;F;Andrey Goncharov;3.00
+314;GAME 332;Advanced Animation Projects;A;3:00 PM - 5:45 PM;M;John Wang;3.00
+315;GAME 350;Video Game Programming;A;3:00 PM - 5:45 PM;R;Thomas Henshell;3.00
+316;GAME 380;Game Development Field Placement;A;6:15 PM - 9:00 PM;M;Kevin Schut;3.00
+317;GAME 391;Game Development Project II;A;6:15 PM - 9:00 PM;W;Eric Stein;3.00
+318;GAME 471;Video Game Aesthetics;A;6:15 PM - 9:00 PM;T;Eric Stein;3.00
+319;GAME 491;Game Development Project III;A;6:15 PM - 9:00 PM;W;Eric Stein;3.00
+320;GNDR 105;Introduction to Gender Studies;A;6:15 PM - 9:00 PM;R;Robynne Healey;3.00
+321;GENV 121;Intro to Earth Systems Science;A;1:30 PM - 2:45 PM;MW;Chris Hall;3.00
 322;GENV 121;Intro to Earth Systems Science;OL;12:00 AM - 12:01 AM;;Chris Hall;3.00
-323;GENV 121;Lab for GENV 121;Lab A;3:15 PM - 5:00 PM;;Chris Hall;.00
-324;GENV 121;Lab for GENV 121;Lab A;3:15 PM - 5:00 PM;;Chris Hall;.00
-325;GENV 121;Lab for GENV 121;Lab A;3:15 PM - 5:00 PM;;Chris Hall;.00
+323;GENV 121;Lab for GENV 121;Lab A;3:15 PM - 5:00 PM;M;Chris Hall;.00
+324;GENV 121;Lab for GENV 121;Lab A;3:15 PM - 5:00 PM;T;Chris Hall;.00
+325;GENV 121;Lab for GENV 121;Lab A;3:15 PM - 5:00 PM;W;Chris Hall;.00
 326;GENV 131;Global Environmental Issues;A;9:30 AM - 10:45 AM;;Maxwell;3.00
 327;GENV 131;Global Environmental Issues;IS;12:00 AM - 12:01 AM;;Jamie Spinney;3.00
-328;GENV 182;Digital Earth;OL;6:15 PM - 9:00 PM;;Aimee McGowan;3.00
-329;GENV 212;Urbanization Iss. of Dev. Countries;A;3:00 PM - 4:15 PM;W;Maxwell;3.00
-330;GENV 220;Geology of the Vancouver Region;TW;6:00 PM - 9:00 PM;;Terry Neufeldt;3.00
+328;GENV 182;Digital Earth;OL;6:15 PM - 9:00 PM;W;Aimee McGowan;3.00
+329;GENV 212;Urbanization Iss. of Dev. Countries;A;3:00 PM - 4:15 PM;MW;Maxwell;3.00
+330;GENV 220;Geology of the Vancouver Region;TW;6:00 PM - 9:00 PM;R;Terry Neufeldt;3.00
 331;GENV 230;Geography of Canada;IS;12:00 AM - 12:01 AM;;Jamie Spinney;3.00
-332;GENV 282;Geographic Information Systems;A;6:15 PM - 9:00 PM;;Geraldine Jordan;3.00
-333;GENV 341;Resources & Environmental Mgmt;A;6:15 PM - 7:30 PM;R;Aimee McGowan;3.00
-334;GENV 356;Urban and Regional Planning;A;12:00 PM - 1:15 PM;R;Maxwell;3.00
+332;GENV 282;Geographic Information Systems;A;6:15 PM - 9:00 PM;M;Geraldine Jordan;3.00
+333;GENV 341;Resources & Environmental Mgmt;A;6:15 PM - 7:30 PM;TR;Aimee McGowan;3.00
+334;GENV 356;Urban and Regional Planning;A;12:00 PM - 1:15 PM;TR;Maxwell;3.00
 335;GENV 372;Geography Internship/Practicum;A;12:00 AM - 12:01 AM;;Maxwell;3.00
 336;GENV 373;Geography Internship/Practicum;A;12:00 AM - 12:01 AM;;Maxwell;3.00
 337;GENV 374;Environmental Studies Internship;A;12:00 AM - 12:01 AM;;David Clements;3.00
 338;GENV 383;Geographic Data Analysis;A;9:30 AM - 10:45 AM;;Jason Burtt;3.00
 339;GENV 383;Tutorial for GENV 383;A    T1;11:00 AM - 12:00 PM;;Jason Burtt;.00
-340;GENV 410;Senior Thesis;A;1:30 PM - 2:45 PM;;Karen Steensma;2.00
-341;GENV 482;Geovisualization;OL;6:15 PM - 9:00 PM;;Stuart Jones;3.00
-342;GREE 329;Elementary New Testament Greek;A;12:00 PM - 1:15 PM;R;Kyle Parsons;3.00
-343;GREE 332;Readings in the Greek New Testament;A;1:30 PM - 2:45 PM;W;Tom Hatina;3.00
-344;HEBR 336;Elementary Biblical Hebrew;A;3:00 PM - 4:15 PM;W;Dirk Buchner;3.00
-345;HEBR 338;Readings in the Hebrew Bible;A;4:30 PM - 5:45 PM;R;Dirk Buchner;3.00
+340;GENV 410;Senior Thesis;A;1:30 PM - 2:45 PM;R;Karen Steensma;2.00
+341;GENV 482;Geovisualization;OL;6:15 PM - 9:00 PM;R;Stuart Jones;3.00
+342;GREE 329;Elementary New Testament Greek;A;12:00 PM - 1:15 PM;TR;Kyle Parsons;3.00
+343;GREE 332;Readings in the Greek New Testament;A;1:30 PM - 2:45 PM;MW;Tom Hatina;3.00
+344;HEBR 336;Elementary Biblical Hebrew;A;3:00 PM - 4:15 PM;MW;Dirk Buchner;3.00
+345;HEBR 338;Readings in the Hebrew Bible;A;4:30 PM - 5:45 PM;TR;Dirk Buchner;3.00
 346;HIST 107;World History to 1750;GX;12:00 AM - 12:01 AM;;Darren Provost;3.00
 347;HIST 108;World History since 1500 (II);A;9:30 AM - 10:45 AM;;Steven Hicks;3.00
 348;HIST 112;History of Western Civilization;A;9:30 AM - 10:45 AM;;Steven Hicks;3.00
-349;HIST 136;Post-Confederation Canadian History;A;12:00 PM - 1:15 PM;W;Bruce Shelvey;3.00
+349;HIST 136;Post-Confederation Canadian History;A;12:00 PM - 1:15 PM;MW;Bruce Shelvey;3.00
 350;HIST 136;Post-Confederation Canadian History;IS;12:00 AM - 12:01 AM;;Bob Burkinshaw;3.00
 351;HIST 237;Indigenous Nationhood & Canada;A;3:00 PM - 5:45 PM;M;Bruce Shelvey;3.00
 352;HIST 262;History of Christianity;WP;6:00 PM - 8:45 PM;M;Wergeland;3.00
@@ -364,7 +364,7 @@ sep=;
 362;HIST 391;Canadian Governmental Leadership;LC;12:00 AM - 12:01 AM;;Ann Penner;3.00
 363;HIST 406;War, Peace and Society;A;3:00 PM - 5:45 PM;T;Robynne Healey;3.00
 364;HIST 411;History Seminar (Historiography);A;3:00 PM - 5:45 PM;W;Bruce Shelvey;3.00
-365;HIST 440;Evolut'n of Canadian Foreign Policy;A;6:15 PM - 9:00 PM;;Leanne Smythe;3.00
+365;HIST 440;Evolut'n of Canadian Foreign Policy;A;6:15 PM - 9:00 PM;T;Leanne Smythe;3.00
 366;HIST 497;Senior Thesis;A;12:00 AM - 12:01 AM;;Robynne Healey;3.00
 367;HIST 498;Senior Thesis;A;12:00 AM - 12:01 AM;;Robynne Healey;3.00
 368;HKIN 100;Self Directed Activity;A;12:00 AM - 12:01 AM;;Jack Reimer;1.00
@@ -372,197 +372,197 @@ sep=;
 370;HKIN 102;Run for Fun;IS;12:00 AM - 12:01 AM;;Rob Rhea;1.00
 371;HKIN 103;Weight Training;A;12:00 PM - 12:50 PM;;Andrew Heming;1.00
 372;HKIN 104;Fitness for Living (Women);A;12:00 PM - 12:50 PM;;Deanna Mackey;1.00
-373;HKIN 105;Self-Defense for Women;A;8:25 AM - 9:15 AM;R;Tba;1.00
+373;HKIN 105;Self-Defense for Women;A;8:25 AM - 9:15 AM;TR;Tba;1.00
 374;HKIN 108;Martial Arts-Men;A;9:30 AM - 10:20 AM;;Tba;1.00
 375;HKIN 117;Rugby;MT;12:00 AM - 12:01 AM;;Andrew Evans;1.00
 376;HKIN 117;Rugby;WT;12:00 AM - 12:01 AM;;Andrew Evans;1.00
 377;HKIN 131;Track and Field;MT;12:00 AM - 12:01 AM;;Shane Wiebe;1.00
 378;HKIN 131;Track and Field;WT;12:00 AM - 12:01 AM;;Shane Wiebe;1.00
-379;HKIN 137;Outdoor Pursuits II;A;9:00 AM - 4:00 PM;;Matthew Follette;1.00
+379;HKIN 137;Outdoor Pursuits II;A;9:00 AM - 4:00 PM;S;Matthew Follette;1.00
 380;HKIN 143;Badminton;A;9:30 AM - 10:20 AM;;Jared Ginter;1.00
 381;HKIN 161;Basketball;MT;12:00 AM - 12:01 AM;;Trevor Pridie;1.00
 382;HKIN 161;Basketball;WT;12:00 AM - 12:01 AM;;Cheryl Jean-Paul;1.00
-383;HKIN 162;Volleyball;MT;12:00 AM - 12:01 AM;1/;ll;1.00
-384;HKIN 162;Volleyball;WT;12:00 AM - 12:01 AM;1/;Hofer;1.00
-385;HKIN 163;Soccer;MT;12:00 AM - 12:01 AM;1/;Shearon;1.00
-386;HKIN 163;Soccer;WT;12:00 AM - 12:01 AM;1/;m Roxburgh;1.00
-387;HKIN 164;Ice Hockey;WT;12:00 AM - 12:01 AM;1/;Laforest;1.00
-388;HKIN 191;Introduction to Exercise Physiology;A;12:00 PM - 1:15 PM;1/;a Fenuta;3.00
-389;HKIN 191;Lab for HKIN 191;Lab A;12:00 PM - 1:15 PM;1/;a Fenuta;.00
-390;HKIN 191;Lab for HKIN 191;Lab A;12:00 PM - 1:15 PM;1/;a Fenuta;.00
-391;HKIN 201;Strength and Conditioning;A;3:00 PM - 4:15 PM;1/;w Heming;3.00
-392;HKIN 202;Total Fitness for Women;A;1:30 PM - 2:45 PM;1/;l Stephenson;3.00
-393;HKIN 217;Rugby Team;MT;12:00 AM - 12:01 AM;1/;a;1.00
-394;HKIN 217;Rugby Team;WT;12:00 AM - 12:01 AM;1/;a;1.00
-395;HKIN 231;Track & Field;MT;12:00 AM - 12:01 AM;1/;a;1.00
-396;HKIN 235;Climbing Pursuits;A;12:00 PM - 2:45 PM;1/;Larochelle;3.00
-397;HKIN 260;Growth and Development;A;1:30 PM - 2:45 PM;1/;Turner;3.00
-398;HKIN 261;Basketball Team;MT;12:00 AM - 12:01 AM;1/;a;1.00
-399;HKIN 261;Basketball Team;WT;12:00 AM - 12:01 AM;1/;a;1.00
-400;HKIN 262;Volleyball Team;MT;12:00 AM - 12:01 AM;1/;Schriemer;1.00
-401;HKIN 262;Volleyball Team;WT;12:00 AM - 12:01 AM;1/;a;1.00
-402;HKIN 263;Soccer Team;MT;12:00 AM - 12:01 AM;1/;a;1.00
-403;HKIN 263;Soccer Team;WT;12:00 AM - 12:01 AM;1/;a;1.00
-404;HKIN 264;Hockey Team;TS;12:00 AM - 12:01 AM;1/;a;1.00
-405;HKIN 266;Indoor Team Sports;A;1:30 PM - 2:45 PM;1/;ll;3.00
-406;HKIN 277;Tech Apps in Human Kinetics & Recr.;A;3:00 PM - 4:15 PM;1/;Turner;3.00
-407;HKIN 280;Intro to Coaching;A;12:00 PM - 1:15 PM;1/;Turner;3.00
-408;HKIN 298;Introduction to Biomechanics;A;9:30 AM - 10:45 AM;1/;Sinclair;3.00
-409;HKIN 303;Advanced Strength Training;A;3:00 PM - 4:15 PM;1/;Luke;3.00
-410;HKIN 303;Lab for HKIN 303;Lab A;3:00 PM - 3:50 PM;1/;w Heming;.00
-411;HKIN 303;Lab for HKIN 303;Lab A;3:00 PM - 3:50 PM;1/;w Heming;.00
-412;HKIN 317;Rugby Team;MT;12:00 AM - 12:01 AM;1/;a;1.00
-413;HKIN 317;Rugby Team;WT;12:00 AM - 12:01 AM;1/;a;1.00
-414;HKIN 320;Management & Facilities;A;3:00 PM - 4:15 PM;1/;Ginter;3.00
-415;HKIN 331;Track & Field;TS;12:00 AM - 12:01 AM;1/;a;1.00
-416;HKIN 342;Dance Explorations;A;6:30 PM - 9:15 PM;1/;Crawford;3.00
-417;HKIN 350;Teaching Physical Education;A;3:00 PM - 4:15 PM;1/;Turner;3.00
-418;HKIN 351;Leadership & Management;A;1:30 PM - 2:45 PM;1/;Larochelle;3.00
-419;HKIN 355;Core Teaching Experience I;A;12:00 AM - 12:01 AM;1/;Reimer;1.00
-420;HKIN 355;Core Teaching Experience I;B;12:00 AM - 12:01 AM;1/;Reimer;2.00
-421;HKIN 361;Basketball Team;MT;12:00 AM - 12:01 AM;1/;r Pridie;1.00
-422;HKIN 361;Basketball Team;WT;12:00 AM - 12:01 AM;1/;l Jean-Paul;1.00
-423;HKIN 362;Volleyball Team;MT;12:00 AM - 12:01 AM;1/;ll;1.00
-424;HKIN 362;Volleyball Team;WT;12:00 AM - 12:01 AM;1/;Hofer;1.00
-425;HKIN 363;Soccer Team;MT;12:00 AM - 12:01 AM;1/;Shearon;1.00
-426;HKIN 363;Soccer Team;WT;12:00 AM - 12:01 AM;1/;m Roxburgh;1.00
-427;HKIN 364;Hockey Team;MT;12:00 AM - 12:01 AM;1/;t Kropf;1.00
-428;HKIN 364;Hockey Team;WT;12:00 AM - 12:01 AM;1/;Laforest;1.00
-429;HKIN 372;Athletic Injuries;A;12:00 PM - 1:15 PM;1/;a Mackey;3.00
-430;HKIN 372;Lab for HKIN 372;Lab A;9:30 AM - 10:20 AM;1;na Mackey;.00
-431;HKIN 372;Lab for HKIN 372;Lab A;9:30 AM - 10:20 AM;1;na Mackey;.00
-432;HKIN 375;Research Methods;A;1:30 PM - 2:45 PM;1;Bodner;3.00
-433;HKIN 417;Rugby Team;MT;12:00 AM - 12:01 AM;1;ba;1.00
-434;HKIN 417;Rugby Team;WT;12:00 AM - 12:01 AM;1;ba;1.00
-435;HKIN 431;Track & Field;TS;12:00 AM - 12:01 AM;1;ba;1.00
-436;HKIN 440;Applied Mental Skills SportsFitness;A;9:30 AM - 10:45 AM;1;r Whitmarsh;3.00
-437;HKIN 446;Advanced Human Anatomy;A;12:00 PM - 1:15 PM;1;a Cote;3.00
-438;HKIN 455;Core Teaching Experience II;A;12:00 AM - 12:01 AM;1;Reimer;1.00
-439;HKIN 455;Core Teaching Experience II;B;12:00 AM - 12:01 AM;1;Reimer;2.00
-440;HKIN 456;Core Teaching Experience III;A;12:00 AM - 12:01 AM;1;Reimer;1.00
-441;HKIN 456;Core Teaching Experience III;B;12:00 AM - 12:01 AM;1;Reimer;2.00
-442;HKIN 457;Coaching Experience;A;12:00 AM - 12:01 AM;1;Reimer;1.00
-443;HKIN 457;Coaching Experience;B;12:00 AM - 12:01 AM;1;Reimer;2.00
-444;HKIN 458;Approved Leadership Experience I;A;12:00 AM - 12:01 AM;1;Reimer;1.00
-445;HKIN 458;Approved Leadership Experience II;B;12:00 AM - 12:01 AM;1;Reimer;2.00
-446;HKIN 459;Sport & Leisure Management I;A;12:00 AM - 12:01 AM;1;Reimer;3.00
-447;HKIN 460;Sport & Leisure Management II;A;12:00 AM - 12:01 AM;1;Reimer;3.00
-448;HKIN 461;Basketball Team;MT;12:00 AM - 12:01 AM;1;or Pridie;1.00
-449;HKIN 461;Basketball Team;WT;12:00 AM - 12:01 AM;1;yl Jean-Paul;1.00
-450;HKIN 462;Volleyball Team;MT;12:00 AM - 12:01 AM;1;all;1.00
-451;HKIN 462;Volleyball Team;WT;12:00 AM - 12:01 AM;1;Hofer;1.00
-452;HKIN 463;Soccer Team;MT;12:00 AM - 12:01 AM;1;Shearon;1.00
+383;HKIN 162;Volleyball;MT;12:00 AM - 12:01 AM;;ll;1.00
+384;HKIN 162;Volleyball;WT;12:00 AM - 12:01 AM;;Hofer;1.00
+385;HKIN 163;Soccer;MT;12:00 AM - 12:01 AM;;Shearon;1.00
+386;HKIN 163;Soccer;WT;12:00 AM - 12:01 AM;;m Roxburgh;1.00
+387;HKIN 164;Ice Hockey;WT;12:00 AM - 12:01 AM;;Laforest;1.00
+388;HKIN 191;Introduction to Exercise Physiology;A;12:00 PM - 1:15 PM;;a Fenuta;3.00
+389;HKIN 191;Lab for HKIN 191;Lab A;12:00 PM - 1:15 PM;;a Fenuta;.00
+390;HKIN 191;Lab for HKIN 191;Lab A;12:00 PM - 1:15 PM;;a Fenuta;.00
+391;HKIN 201;Strength and Conditioning;A;3:00 PM - 4:15 PM;;w Heming;3.00
+392;HKIN 202;Total Fitness for Women;A;1:30 PM - 2:45 PM;;l Stephenson;3.00
+393;HKIN 217;Rugby Team;MT;12:00 AM - 12:01 AM;;a;1.00
+394;HKIN 217;Rugby Team;WT;12:00 AM - 12:01 AM;;a;1.00
+395;HKIN 231;Track & Field;MT;12:00 AM - 12:01 AM;;a;1.00
+396;HKIN 235;Climbing Pursuits;A;12:00 PM - 2:45 PM;;Larochelle;3.00
+397;HKIN 260;Growth and Development;A;1:30 PM - 2:45 PM;;Turner;3.00
+398;HKIN 261;Basketball Team;MT;12:00 AM - 12:01 AM;;a;1.00
+399;HKIN 261;Basketball Team;WT;12:00 AM - 12:01 AM;;a;1.00
+400;HKIN 262;Volleyball Team;MT;12:00 AM - 12:01 AM;;Schriemer;1.00
+401;HKIN 262;Volleyball Team;WT;12:00 AM - 12:01 AM;;a;1.00
+402;HKIN 263;Soccer Team;MT;12:00 AM - 12:01 AM;;a;1.00
+403;HKIN 263;Soccer Team;WT;12:00 AM - 12:01 AM;;a;1.00
+404;HKIN 264;Hockey Team;TS;12:00 AM - 12:01 AM;;a;1.00
+405;HKIN 266;Indoor Team Sports;A;1:30 PM - 2:45 PM;;ll;3.00
+406;HKIN 277;Tech Apps in Human Kinetics & Recr.;A;3:00 PM - 4:15 PM;;Turner;3.00
+407;HKIN 280;Intro to Coaching;A;12:00 PM - 1:15 PM;;Turner;3.00
+408;HKIN 298;Introduction to Biomechanics;A;9:30 AM - 10:45 AM;;Sinclair;3.00
+409;HKIN 303;Advanced Strength Training;A;3:00 PM - 4:15 PM;;Luke;3.00
+410;HKIN 303;Lab for HKIN 303;Lab A;3:00 PM - 3:50 PM;;w Heming;.00
+411;HKIN 303;Lab for HKIN 303;Lab A;3:00 PM - 3:50 PM;;w Heming;.00
+412;HKIN 317;Rugby Team;MT;12:00 AM - 12:01 AM;;a;1.00
+413;HKIN 317;Rugby Team;WT;12:00 AM - 12:01 AM;;a;1.00
+414;HKIN 320;Management & Facilities;A;3:00 PM - 4:15 PM;;Ginter;3.00
+415;HKIN 331;Track & Field;TS;12:00 AM - 12:01 AM;;a;1.00
+416;HKIN 342;Dance Explorations;A;6:30 PM - 9:15 PM;;Crawford;3.00
+417;HKIN 350;Teaching Physical Education;A;3:00 PM - 4:15 PM;;Turner;3.00
+418;HKIN 351;Leadership & Management;A;1:30 PM - 2:45 PM;;Larochelle;3.00
+419;HKIN 355;Core Teaching Experience I;A;12:00 AM - 12:01 AM;;Reimer;1.00
+420;HKIN 355;Core Teaching Experience I;B;12:00 AM - 12:01 AM;;Reimer;2.00
+421;HKIN 361;Basketball Team;MT;12:00 AM - 12:01 AM;;r Pridie;1.00
+422;HKIN 361;Basketball Team;WT;12:00 AM - 12:01 AM;;l Jean-Paul;1.00
+423;HKIN 362;Volleyball Team;MT;12:00 AM - 12:01 AM;;ll;1.00
+424;HKIN 362;Volleyball Team;WT;12:00 AM - 12:01 AM;;Hofer;1.00
+425;HKIN 363;Soccer Team;MT;12:00 AM - 12:01 AM;;Shearon;1.00
+426;HKIN 363;Soccer Team;WT;12:00 AM - 12:01 AM;;m Roxburgh;1.00
+427;HKIN 364;Hockey Team;MT;12:00 AM - 12:01 AM;;t Kropf;1.00
+428;HKIN 364;Hockey Team;WT;12:00 AM - 12:01 AM;;Laforest;1.00
+429;HKIN 372;Athletic Injuries;A;12:00 PM - 1:15 PM;;a Mackey;3.00
+430;HKIN 372;Lab for HKIN 372;Lab A;9:30 AM - 10:20 AM;;na Mackey;.00
+431;HKIN 372;Lab for HKIN 372;Lab A;9:30 AM - 10:20 AM;;na Mackey;.00
+432;HKIN 375;Research Methods;A;1:30 PM - 2:45 PM;;Bodner;3.00
+433;HKIN 417;Rugby Team;MT;12:00 AM - 12:01 AM;;ba;1.00
+434;HKIN 417;Rugby Team;WT;12:00 AM - 12:01 AM;;ba;1.00
+435;HKIN 431;Track & Field;TS;12:00 AM - 12:01 AM;;ba;1.00
+436;HKIN 440;Applied Mental Skills SportsFitness;A;9:30 AM - 10:45 AM;;r Whitmarsh;3.00
+437;HKIN 446;Advanced Human Anatomy;A;12:00 PM - 1:15 PM;;a Cote;3.00
+438;HKIN 455;Core Teaching Experience II;A;12:00 AM - 12:01 AM;;Reimer;1.00
+439;HKIN 455;Core Teaching Experience II;B;12:00 AM - 12:01 AM;;Reimer;2.00
+440;HKIN 456;Core Teaching Experience III;A;12:00 AM - 12:01 AM;;Reimer;1.00
+441;HKIN 456;Core Teaching Experience III;B;12:00 AM - 12:01 AM;;Reimer;2.00
+442;HKIN 457;Coaching Experience;A;12:00 AM - 12:01 AM;;Reimer;1.00
+443;HKIN 457;Coaching Experience;B;12:00 AM - 12:01 AM;;Reimer;2.00
+444;HKIN 458;Approved Leadership Experience I;A;12:00 AM - 12:01 AM;;Reimer;1.00
+445;HKIN 458;Approved Leadership Experience II;B;12:00 AM - 12:01 AM;;Reimer;2.00
+446;HKIN 459;Sport & Leisure Management I;A;12:00 AM - 12:01 AM;;Reimer;3.00
+447;HKIN 460;Sport & Leisure Management II;A;12:00 AM - 12:01 AM;;Reimer;3.00
+448;HKIN 461;Basketball Team;MT;12:00 AM - 12:01 AM;;or Pridie;1.00
+449;HKIN 461;Basketball Team;WT;12:00 AM - 12:01 AM;;yl Jean-Paul;1.00
+450;HKIN 462;Volleyball Team;MT;12:00 AM - 12:01 AM;;all;1.00
+451;HKIN 462;Volleyball Team;WT;12:00 AM - 12:01 AM;;Hofer;1.00
+452;HKIN 463;Soccer Team;MT;12:00 AM - 12:01 AM;;Shearon;1.00
 453;HKIN 463;Soccer Team;WT;12:00 AM - 12:01 AM;;Graham Roxburgh;1.00
 454;HKIN 464;Hockey Team;MT;-;;Barret Kropf;1.00
 455;HKIN 464;Hockey Team;WT;-;;Jean Laforest;1.00
 456;HKIN 475;Clinical Exercise Physiology;A;9:30 AM - 10:45 AM;;Alyssa Fenuta;3.00
-457;HKIN 492;Health Promotion;A;8:00 AM - 9:15 AM;W;Mike Bodner;3.00
-458;HKIN 495;Senior Seminar;A;6:30 PM - 9:15 PM;;Bill Luke;3.00
+457;HKIN 492;Health Promotion;A;8:00 AM - 9:15 AM;MW;Mike Bodner;3.00
+458;HKIN 495;Senior Seminar;A;6:30 PM - 9:15 PM;M;Bill Luke;3.00
 459;HUMA 130;Introduction to Law;A;9:30 AM - 10:45 AM;;Buckingham;3.00
-460;IDIS 201;Indigenous people of Turtle Island;A;12:00 PM - 2:45 PM;;Patti Victor;3.00
-461;IDIS 410;Influencing the Changing Workplace;A;3:00 PM - 5:45 PM;;Brian Albright;3.00
-462;IDIS 410;Influencing the Changing Workplace;B;6:15 PM - 9:00 PM;;Brian Albright;3.00
+460;IDIS 201;Indigenous people of Turtle Island;A;12:00 PM - 2:45 PM;F;Patti Victor;3.00
+461;IDIS 410;Influencing the Changing Workplace;A;3:00 PM - 5:45 PM;T;Brian Albright;3.00
+462;IDIS 410;Influencing the Changing Workplace;B;6:15 PM - 9:00 PM;T;Brian Albright;3.00
 463;IDIS 493;Law,Public Policy&Cultural Change;LC;12:00 AM - 12:01 AM;;Jon Waind;3.00
-464;JAPA 101;Introduction to Japanese;I2;1:00 PM - 4:00 PM;;Isao Ebihara;3.00
+464;JAPA 101;Introduction to Japanese;I2;1:00 PM - 4:00 PM;F;Isao Ebihara;3.00
 465;JAPA 101;Introduction to Japanese;IR;9:00 AM - 12:00 PM;;Isao Ebihara;3.00
-466;JAPA 102;Introduction to Japanese;A;1:30 PM - 2:45 PM;R;Isao Ebihara;3.00
+466;JAPA 102;Introduction to Japanese;A;1:30 PM - 2:45 PM;TR;Isao Ebihara;3.00
 467;LLC 001;LLC Program Fee (Ottawa);A;12:00 AM - 12:01 AM;;Tba;.00
 468;LDRS 220;Leading With Numbers;GX;12:00 AM - 12:01 AM;;Matthew Simonis;3.00
 469;LDRS 220;Leading With Numbers;IS;-;;Matthew Simonis;3.00
 470;LDRS 220;Leading With Numbers;OL;12:00 AM - 12:01 AM;;Matthew Simonis;3.00
-471;LDRS 300;Leadership as Service;A;6:00 PM - 9:00 PM;;Rob Bedard;3.00
+471;LDRS 300;Leadership as Service;A;6:00 PM - 9:00 PM;M;Rob Bedard;3.00
 472;LDRS 300;Leadership as Service;I2;9:00 AM - 12:00 PM;;Hendrik Prins;3.00
-473;LDRS 300;Leadership as Service;I3;1:00 PM - 4:00 PM;;Hendrik Prins;3.00
-474;LDRS 300;Leadership as Service;I4;1:30 PM - 4:30 PM;;Monica Muldoon;3.00
+473;LDRS 300;Leadership as Service;I3;1:00 PM - 4:00 PM;T;Hendrik Prins;3.00
+474;LDRS 300;Leadership as Service;I4;1:30 PM - 4:30 PM;T;Monica Muldoon;3.00
 475;LDRS 300;Leadership as Service;IR;9:00 AM - 12:00 PM;;Chen;3.00
 476;LDRS 300;Leadership as Service;OL;-;;Neil Best;3.00
-477;LDRS 301;Lifelong Learning in Leadership;I2;1:00 PM - 4:00 PM;;Geoffrey Feng;2.00
+477;LDRS 301;Lifelong Learning in Leadership;I2;1:00 PM - 4:00 PM;R;Geoffrey Feng;2.00
 478;LDRS 301;Lifelong Learning in Leadership;IN;8:00 AM - 10:45 AM;;Geoffrey Feng;2.00
 479;LDRS 301;Lifelong Learning in Leadership;IR;9:00 AM - 12:00 PM;;Geoffrey Feng;2.00
-480;LDRS 302;Historical Concepts & Theories;A;6:00 PM - 9:00 PM;;Mike Sambrook;3.00
+480;LDRS 302;Historical Concepts & Theories;A;6:00 PM - 9:00 PM;M;Mike Sambrook;3.00
 481;LDRS 302;Historical Concepts & Theories;I2;9:00 AM - 12:00 PM;;Adrian Wee;3.00
-482;LDRS 302;Historical Concepts & Theories;I3;1:00 PM - 4:00 PM;;Kevin Carmichael;3.00
-483;LDRS 302;Historical Concepts & Theories;I4;1:30 PM - 4:30 PM;;Gerald Van Dyck;3.00
+482;LDRS 302;Historical Concepts & Theories;I3;1:00 PM - 4:00 PM;T;Kevin Carmichael;3.00
+483;LDRS 302;Historical Concepts & Theories;I4;1:30 PM - 4:30 PM;T;Gerald Van Dyck;3.00
 484;LDRS 302;Historical Concepts & Theories;IR;9:00 AM - 12:00 PM;;Rebecca Straforelli;3.00
-485;LDRS 303;Contemporary Leadership Approaches;I2;1:00 PM - 4:00 PM;;Rob Tegelberg;3.00
+485;LDRS 303;Contemporary Leadership Approaches;I2;1:00 PM - 4:00 PM;M;Rob Tegelberg;3.00
 486;LDRS 303;Contemporary Leadership Approaches;I3;9:00 AM - 12:00 PM;;Rob Tegelberg;3.00
-487;LDRS 303;Contemporary Leadership Approaches;I4;1:00 PM - 4:00 PM;;Rob Tegelberg;3.00
-488;LDRS 303;Contemporary Leadership Approaches;IN;12:00 PM - 2:45 PM;;Stephen Liang;3.00
+487;LDRS 303;Contemporary Leadership Approaches;I4;1:00 PM - 4:00 PM;F;Rob Tegelberg;3.00
+488;LDRS 303;Contemporary Leadership Approaches;IN;12:00 PM - 2:45 PM;R;Stephen Liang;3.00
 489;LDRS 303;Contemporary Leadership Approaches;IR;9:00 AM - 12:00 PM;;Rebecca Straforelli;3.00
 490;LDRS 310;The Learning Organization;I2;9:00 AM - 12:00 PM;;Hendrik Prins;3.00
-491;LDRS 310;The Learning Organization;I3;1:00 PM - 4:00 PM;;Hendrik Prins;3.00
+491;LDRS 310;The Learning Organization;I3;1:00 PM - 4:00 PM;R;Hendrik Prins;3.00
 492;LDRS 310;The Learning Organization;IR;9:00 AM - 12:00 PM;;Rob Tegelberg;3.00
 493;LDRS 320;Ethical Decision Making;I2;9:00 AM - 12:00 PM;;Linda Vandersys;3.00
-494;LDRS 320;Ethical Decision Making;I3;1:00 PM - 4:00 PM;;Linda Vandersys;3.00
-495;LDRS 320;Ethical Decision Making;IR;5:30 PM - 8:30 PM;;Gerald Van Dyck;3.00
-496;LDRS 330;Leadership in Org.& Small Groups;I2;1:00 PM - 4:00 PM;;Lily Sha;3.00
-497;LDRS 330;Leadership in Org.& Small Groups;I3;1:00 PM - 4:00 PM;;Lily Sha;3.00
-498;LDRS 330;Leadership in Org.& Small Groups;I4;1:00 PM - 4:00 PM;;Gang Li;3.00
+494;LDRS 320;Ethical Decision Making;I3;1:00 PM - 4:00 PM;W;Linda Vandersys;3.00
+495;LDRS 320;Ethical Decision Making;IR;5:30 PM - 8:30 PM;T;Gerald Van Dyck;3.00
+496;LDRS 330;Leadership in Org.& Small Groups;I2;1:00 PM - 4:00 PM;M;Lily Sha;3.00
+497;LDRS 330;Leadership in Org.& Small Groups;I3;1:00 PM - 4:00 PM;T;Lily Sha;3.00
+498;LDRS 330;Leadership in Org.& Small Groups;I4;1:00 PM - 4:00 PM;F;Gang Li;3.00
 499;LDRS 330;Leadership in Org.& Small Groups;IN;8:00 AM - 10:45 AM;;Rob Giesbrecht;3.00
-500;LDRS 375;Culture & Christianity;A;6:00 PM - 9:00 PM;;Paul Chamberlain;3.00
+500;LDRS 375;Culture & Christianity;A;6:00 PM - 9:00 PM;T;Paul Chamberlain;3.00
 501;LDRS 375;Culture & Christianity;I2;9:00 AM - 12:00 PM;;Chris Christiansen;3.00
-502;LDRS 375;Culture & Christianity;I3;1:00 PM - 4:00 PM;;Chris Christiansen;3.00
-503;LDRS 375;Culture & Christianity;I4;1:00 PM - 4:00 PM;;Chris Christiansen;3.00
-504;LDRS 375;Culture & Christianity;IN;12:00 PM - 2:45 PM;;Monica Muldoon;3.00
+502;LDRS 375;Culture & Christianity;I3;1:00 PM - 4:00 PM;T;Chris Christiansen;3.00
+503;LDRS 375;Culture & Christianity;I4;1:00 PM - 4:00 PM;R;Chris Christiansen;3.00
+504;LDRS 375;Culture & Christianity;IN;12:00 PM - 2:45 PM;F;Monica Muldoon;3.00
 505;LDRS 375;Culture & Christianity;IR;9:00 AM - 12:00 PM;;Chen;3.00
 506;LDRS 400;Managing Conflict;I2;9:00 AM - 12:00 PM;;Ken Kush;3.00
-507;LDRS 400;Managing Conflict;I3;1:30 PM - 4:30 PM;;Ken Kush;3.00
+507;LDRS 400;Managing Conflict;I3;1:30 PM - 4:30 PM;T;Ken Kush;3.00
 508;LDRS 400;Managing Conflict;I4;9:00 AM - 12:00 PM;;Rebecca Straforelli;3.00
-509;LDRS 400;Managing Conflict;IR;1:00 PM - 4:00 PM;;Ryan Williams;3.00
-510;LDRS 410;Persuasion and Positive Influence;A;6:00 PM - 9:00 PM;;Dave Blundell;3.00
-511;LDRS 410;Persuasion and Positive Influence;I2;5:30 PM - 8:30 PM;;Shelley Gossett;3.00
+509;LDRS 400;Managing Conflict;IR;1:00 PM - 4:00 PM;M;Ryan Williams;3.00
+510;LDRS 410;Persuasion and Positive Influence;A;6:00 PM - 9:00 PM;T;Dave Blundell;3.00
+511;LDRS 410;Persuasion and Positive Influence;I2;5:30 PM - 8:30 PM;M;Shelley Gossett;3.00
 512;LDRS 410;Persuasion and Positive Influence;I3;9:00 AM - 12:00 PM;;Adrian Wee;3.00
-513;LDRS 410;Persuasion and Positive Influence;I4;1:00 PM - 4:00 PM;;Adrian Wee;3.00
+513;LDRS 410;Persuasion and Positive Influence;I4;1:00 PM - 4:00 PM;W;Adrian Wee;3.00
 514;LDRS 410;Persuasion and Positive Influence;IF;-;;Dotun Reju;3.00
-515;LDRS 410;Persuasion and Positive Influence;IN;4:30 PM - 7:30 PM;;Carrie Paproski;3.00
-516;LDRS 410;Persuasion and Positive Influence;IR;1:00 PM - 4:00 PM;;Chen;3.00
-517;LDRS 420;Leading Change;A;6:00 PM - 9:00 PM;;Steven Kim;3.00
-518;LDRS 420;Leading Change;I2;1:00 PM - 4:00 PM;;Stephen Liang;3.00
+515;LDRS 410;Persuasion and Positive Influence;IN;4:30 PM - 7:30 PM;M;Carrie Paproski;3.00
+516;LDRS 410;Persuasion and Positive Influence;IR;1:00 PM - 4:00 PM;M;Chen;3.00
+517;LDRS 420;Leading Change;A;6:00 PM - 9:00 PM;M;Steven Kim;3.00
+518;LDRS 420;Leading Change;I2;1:00 PM - 4:00 PM;M;Stephen Liang;3.00
 519;LDRS 420;Leading Change;I3;9:00 AM - 12:00 PM;;Steven Kim;3.00
-520;LDRS 420;Leading Change;I4;1:00 PM - 4:00 PM;;Steven Kim;3.00
+520;LDRS 420;Leading Change;I4;1:00 PM - 4:00 PM;W;Steven Kim;3.00
 521;LDRS 420;Leading Change;IR;9:00 AM - 12:00 PM;;Stephen Liang;3.00
 522;LDRS 420;Leading Change;OL;-;;Steven Kim;3.00
 523;LDRS 432;Building Leaders II;I2;9:00 AM - 12:00 PM;;Ken Kush;1.00
-524;LDRS 432;Building Leaders II;I3;1:00 PM - 4:00 PM;;Kate Walters;1.00
-525;LDRS 432;Building Leaders II;I4;1:30 PM - 4:30 PM;;Ken Kush;1.00
+524;LDRS 432;Building Leaders II;I3;1:00 PM - 4:00 PM;R;Kate Walters;1.00
+525;LDRS 432;Building Leaders II;I4;1:30 PM - 4:30 PM;R;Ken Kush;1.00
 526;LDRS 432;Building Leaders II;I5;9:00 AM - 12:00 PM;;Jonathan Michael;1.00
-527;LDRS 432;Building Leaders II;IN;4:30 PM - 7:30 PM;;Rob Bedard;1.00
+527;LDRS 432;Building Leaders II;IN;4:30 PM - 7:30 PM;W;Rob Bedard;1.00
 528;LDRS 432;Building Leaders II;IR;9:00 AM - 12:00 PM;;Kate Walters;1.00
 529;LDRS 432;Building Leaders II;OL;9:00 AM - 12:00 PM;;Kate Walters;1.00
 530;LDRS 433;Building Leaders III;IS;12:00 AM - 12:01 AM;;Rob Bedard;1.00
 531;LDRS 433;Building Leaders III;OL;-;;Rob Bedard;1.00
-532;LDRS 440;Developing Admin Competence;A;6:00 PM - 9:00 PM;;Linda Long;3.00
+532;LDRS 440;Developing Admin Competence;A;6:00 PM - 9:00 PM;M;Linda Long;3.00
 533;LDRS 440;Developing Admin Competence;I2;9:00 AM - 12:00 PM;;Kevin Carmichael;3.00
-534;LDRS 440;Developing Admin Competence;I3;1:00 PM - 4:00 PM;;Kevin Carmichael;3.00
-535;LDRS 440;Developing Admin Competence;I4;5:30 PM - 8:30 PM;;Nancy Ketler;3.00
-536;LDRS 440;Developing Admin Competence;IN;12:00 PM - 2:45 PM;;Kevin Carmichael;3.00
+534;LDRS 440;Developing Admin Competence;I3;1:00 PM - 4:00 PM;R;Kevin Carmichael;3.00
+535;LDRS 440;Developing Admin Competence;I4;5:30 PM - 8:30 PM;R;Nancy Ketler;3.00
+536;LDRS 440;Developing Admin Competence;IN;12:00 PM - 2:45 PM;M;Kevin Carmichael;3.00
 537;LDRS 440;Developing Admin Competence;IR;9:00 AM - 12:00 PM;;Kevin Carmichael;3.00
 538;LDRS 464;Authentic Learning Communities;OL;-;;Daniel To;3.00
-539;LDRS 490;Leading in the World;I2;1:00 PM - 4:00 PM;;Gang Li;3.00
+539;LDRS 490;Leading in the World;I2;1:00 PM - 4:00 PM;W;Gang Li;3.00
 540;LDRS 490;Leading in the World;I3;9:00 AM - 12:00 PM;;Mark Halvorson;3.00
-541;LDRS 490;Leading in the World;I4;1:00 PM - 4:00 PM;;Mark Halvorson;3.00
-542;LDRS 490;Leading in the World;IN;12:00 PM - 2:45 PM;;Kathie Chiu;3.00
+541;LDRS 490;Leading in the World;I4;1:00 PM - 4:00 PM;R;Mark Halvorson;3.00
+542;LDRS 490;Leading in the World;IN;12:00 PM - 2:45 PM;W;Kathie Chiu;3.00
 543;LDRS 490;Leading in the World;IR;9:00 AM - 12:00 PM;;Gang Li;3.00
 544;LDRS 491;Leadership Practicum #1;OL;-;;Kathie Chiu;2.00
 545;LDRS 493;Leadership Practicum #1;OL;-;;Kathie Chiu;3.00
 546;LDRS 499;Leadership Project;OL;-;;Kathie Chiu;3.00
-547;LING 101;Introduction to Linguistics;A;12:00 PM - 1:15 PM;W;Ryan Kopke;3.00
+547;LING 101;Introduction to Linguistics;A;12:00 PM - 1:15 PM;MW;Ryan Kopke;3.00
 548;LING 102;Applying Linquistics in the World;A;9:30 AM - 10:45 AM;;Hannah Olney;3.00
-549;LING 210;Language and Society;A;12:00 PM - 1:15 PM;R;Rick Olney;3.00
+549;LING 210;Language and Society;A;12:00 PM - 1:15 PM;TR;Rick Olney;3.00
 550;LING 330;Phonological Analysis;A;9:30 AM - 10:45 AM;;Hannah Olney;3.00
-551;LING 371;Training Across Cultures;A;1:30 PM - 2:45 PM;W;Miriam Seaver;3.00
+551;LING 371;Training Across Cultures;A;1:30 PM - 2:45 PM;MW;Miriam Seaver;3.00
 552;LING 398;Linguistics Practicum;A;3:00 PM - 4:15 PM;;Randy Lebold;3.00
 553;LING 399;Internship in Field Linguistics;A;-;;Randy Lebold;3.00
 554;LING 401;TESL Practicum;A;-;;Kerry Choi;1.00
-555;LING 401;TESL Practicum;A;4:30 PM - 6:00 PM;;Kerry Choi;1.00
+555;LING 401;TESL Practicum;A;4:30 PM - 6:00 PM;M;Kerry Choi;1.00
 556;LING 402;TESOL Teaching Practicum II;A;-;;Kerry Choi;1.00
-557;LING 402;TESOL Teaching Practicum II;A;4:30 PM - 6:00 PM;;Kerry Choi;1.00
-558;LING 420;Teaching Reading and Writing in ESL;A;6:15 PM - 9:00 PM;;Karen Mathew;3.00
-559;LING 471;First Language Acquisition;A;6:00 PM - 9:00 PM;;Michael Witten;3.00
-560;LING 475;Scripture Engagement;A;12:00 PM - 1:15 PM;W;Michelle Petersen;3.00
+557;LING 402;TESOL Teaching Practicum II;A;4:30 PM - 6:00 PM;M;Kerry Choi;1.00
+558;LING 420;Teaching Reading and Writing in ESL;A;6:15 PM - 9:00 PM;T;Karen Mathew;3.00
+559;LING 471;First Language Acquisition;A;6:00 PM - 9:00 PM;W;Michael Witten;3.00
+560;LING 475;Scripture Engagement;A;12:00 PM - 1:15 PM;MW;Michelle Petersen;3.00
 561;LING 480;Field Methods: Data Mgmt & Analysis;A;9:30 AM - 10:45 AM;;Kathleen Sackett;3.00
-562;LING 480;Field Methods: Data Mgmt & Analysis;A;2:45 PM - 4:00 PM;;Kathleen Sackett;3.00
-563;LING 481;Ethnography;A;12:00 PM - 1:15 PM;R;Lezlie Allison;3.00
+562;LING 480;Field Methods: Data Mgmt & Analysis;A;2:45 PM - 4:00 PM;R;Kathleen Sackett;3.00
+563;LING 481;Ethnography;A;12:00 PM - 1:15 PM;TR;Lezlie Allison;3.00
 564;LING 482;Issues in Community Literacy;A;12:00 AM - 12:00 AM;;Jordan Kopke;3.00
 565;LING 483;Lang Program Design & Mgmt;A;9:30 AM - 10:45 AM;;Jeremy Lang;3.00
 566;LING 484;Principles of Literacy;A;12:00 AM - 12:00 AM;;Jordan Kopke;3.00
@@ -580,92 +580,92 @@ sep=;
 578;MATH 124;Tutorial for MATH 124;A    T2;3:00 PM - 4:15 PM;R;Sam Pimentel;.00
 579;MATH 190;Mathematics for Elementary Teachers;A;4:30 PM - 6:30 PM;TR;Greg Scholtens;3.00
 580;MATH 190;Mathematics for Elementary Teachers;IS;12:00 AM - 12:01 AM;;Stephen Benecke;3.00
-581;MATH 191;Mathematics, History & Culture;A;4:30 PM - 6:30 PM;W;Glen Van;3.00
-582;MATH 321;Differential Equations;A;3:00 PM - 4:15 PM;WF;Simon Tse;4.00
-583;MATH 333;Mathematics of Data Science;A;1:30 PM - 2:45 PM;W;Simon Tse;3.00
-584;MATH 370;Geometry;A;8:00 AM - 8:50 AM;WF;Rick Sutcliffe;3.00
+581;MATH 191;Mathematics, History & Culture;A;4:30 PM - 6:30 PM;MW;Glen Van;3.00
+582;MATH 321;Differential Equations;A;3:00 PM - 4:15 PM;MWF;Simon Tse;4.00
+583;MATH 333;Mathematics of Data Science;A;1:30 PM - 2:45 PM;MW;Simon Tse;3.00
+584;MATH 370;Geometry;A;8:00 AM - 8:50 AM;MWF;Rick Sutcliffe;3.00
 585;MATH 410;Senior Thesis;A;12:00 AM - 12:01 AM;;Sam Pimentel;2.00
 586;MATH 411;Senior Thesis;A;12:00 AM - 12:01 AM;;Sam Pimentel;3.00
 587;MCOM 111;Introduction to Mass Communication;A;9:30 AM - 10:45 AM;;Kevin Schut;3.00
-588;MCOM 140;Introduction to Game Design;A;6:15 PM - 9:00 PM;;Andrey Goncharov;3.00
+588;MCOM 140;Introduction to Game Design;A;6:15 PM - 9:00 PM;R;Andrey Goncharov;3.00
 589;MCOM 171;Introduction to Communication;IR;9:00 AM - 12:00 PM;;Adrian Wee;3.00
 590;MCOM 171;Introduction to Communication;IS;12:00 AM - 12:01 AM;;Curtis Congo;3.00
-591;MCOM 171;Introduction to Communication;OL;6:00 PM - 9:00 PM;;Adrian Wee;3.00
-592;MCOM 190;Communication Colloquium;A;3:00 PM - 4:15 PM;;Kevin Schut;.00
+591;MCOM 171;Introduction to Communication;OL;6:00 PM - 9:00 PM;W;Adrian Wee;3.00
+592;MCOM 190;Communication Colloquium;A;3:00 PM - 4:15 PM;W;Kevin Schut;.00
 593;MCOM 190;Communication Colloquium;OL;-;;Kevin Schut;.00
-594;MCOM 191;Writing & Research in Communication;A;3:00 PM - 4:15 PM;R;Loranne Brown;3.00
-595;MCOM 192;Comm.Colloquium: Profesional Prep.;A;3:00 PM - 4:15 PM;;Kevin Schut;1.00
-596;MCOM 221;Digital Filmmaking I;A;4:30 PM - 5:45 PM;R;Ned Vankevich;3.00
+594;MCOM 191;Writing & Research in Communication;A;3:00 PM - 4:15 PM;TR;Loranne Brown;3.00
+595;MCOM 192;Comm.Colloquium: Profesional Prep.;A;3:00 PM - 4:15 PM;W;Kevin Schut;1.00
+596;MCOM 221;Digital Filmmaking I;A;4:30 PM - 5:45 PM;TR;Ned Vankevich;3.00
 597;MCOM 221;Digital Filmmaking I;GX;12:00 AM - 12:01 AM;;Ned Vankevich;3.00
 598;MCOM 231;Fundamentals of Digital Design;A;8:00 AM - 10:45 AM;;John Wang;3.00
 599;MCOM 231;Fundamentals of Digital Design;B;8:00 AM - 10:45 AM;;John Wang;3.00
-600;MCOM 231;Fundamentals of Digital Design;C;3:00 PM - 5:45 PM;;John Wang;3.00
-601;MCOM 252;Intro to Public Relations;A;12:00 PM - 1:15 PM;W;Divine Agodzo;3.00
-602;MCOM 272;Organizational Communication;A;12:00 PM - 1:15 PM;R;Divine Agodzo;3.00
-603;MCOM 281;Public Speaking;A;4:30 PM - 5:45 PM;W;Curtis Congo;3.00
+600;MCOM 231;Fundamentals of Digital Design;C;3:00 PM - 5:45 PM;W;John Wang;3.00
+601;MCOM 252;Intro to Public Relations;A;12:00 PM - 1:15 PM;MW;Divine Agodzo;3.00
+602;MCOM 272;Organizational Communication;A;12:00 PM - 1:15 PM;TR;Divine Agodzo;3.00
+603;MCOM 281;Public Speaking;A;4:30 PM - 5:45 PM;MW;Curtis Congo;3.00
 604;MCOM 281;Public Speaking;GX;12:00 AM - 12:01 AM;;Ned Vankevich;3.00
 605;MCOM 281;Public Speaking;IR;9:00 AM - 12:00 PM;;Curtis Congo;3.00
 606;MCOM 281;Public Speaking;IS;12:00 AM - 12:01 AM;;Curtis Congo;3.00
-607;MCOM 281;Public Speaking;UA;3:00 PM - 4:30 PM;W;Curtis Congo;3.00
-608;MCOM 322;Digital Post Production;A;6:15 PM - 9:00 PM;;Ned Vankevich;3.00
-609;MCOM 323;Digital Recording I;A;6:15 PM - 9:00 PM;;Jef Gibbons;3.00
-610;MCOM 333;Format & Layout Design;A;12:00 PM - 2:45 PM;;Joshua Hale;3.00
-611;MCOM 334;Interaction Design;A;3:00 PM - 5:45 PM;;Joshua Hale;3.00
+607;MCOM 281;Public Speaking;UA;3:00 PM - 4:30 PM;MW;Curtis Congo;3.00
+608;MCOM 322;Digital Post Production;A;6:15 PM - 9:00 PM;T;Ned Vankevich;3.00
+609;MCOM 323;Digital Recording I;A;6:15 PM - 9:00 PM;R;Jef Gibbons;3.00
+610;MCOM 333;Format & Layout Design;A;12:00 PM - 2:45 PM;T;Joshua Hale;3.00
+611;MCOM 334;Interaction Design;A;3:00 PM - 5:45 PM;R;Joshua Hale;3.00
 612;MCOM 354;Sports Journalism;A;9:30 AM - 10:45 AM;;Mark Janzen;3.00
-613;MCOM 362;Playwriting;A;1:30 PM - 4:15 PM;;Becky Martin;3.00
-614;MCOM 369;Adventures in Narrative Nonfiction;A;6:15 PM - 9:00 PM;;Loranne Brown;3.00
+613;MCOM 362;Playwriting;A;1:30 PM - 4:15 PM;W;Becky Martin;3.00
+614;MCOM 369;Adventures in Narrative Nonfiction;A;6:15 PM - 9:00 PM;R;Loranne Brown;3.00
 615;MCOM 372;Cross-cultural Communication;A;9:30 AM - 10:45 AM;;Divine Agodzo;3.00
 616;MCOM 372;Cross-cultural Communication;GX;-;;Scott Macklin;3.00
-617;MCOM 372;Cross-cultural Communication;I2;1:00 PM - 4:00 PM;;Claudia Launhardt;3.00
+617;MCOM 372;Cross-cultural Communication;I2;1:00 PM - 4:00 PM;M;Claudia Launhardt;3.00
 618;MCOM 372;Cross-cultural Communication;IR;9:00 AM - 12:00 PM;;Claudia Launhardt;3.00
 619;MCOM 372;Cross-cultural Communication;IS;12:00 AM - 12:01 AM;;Ruth Anaya;3.00
-620;MCOM 381;Argumentation and Debate;A;1:30 PM - 2:45 PM;W;Bill Strom;3.00
-621;MCOM 391;Media+Communication Field Placement;A;6:15 PM - 9:00 PM;;Ruth Anaya;1.00
-622;MCOM 392;Media+Comm. Field Placement;A;6:15 PM - 9:00 PM;;Ruth Anaya;2.00
-623;MCOM 393;Media+Communication Field Placement;A;6:15 PM - 9:00 PM;;Ruth Anaya;3.00
+620;MCOM 381;Argumentation and Debate;A;1:30 PM - 2:45 PM;MW;Bill Strom;3.00
+621;MCOM 391;Media+Communication Field Placement;A;6:15 PM - 9:00 PM;M;Ruth Anaya;1.00
+622;MCOM 392;Media+Comm. Field Placement;A;6:15 PM - 9:00 PM;M;Ruth Anaya;2.00
+623;MCOM 393;Media+Communication Field Placement;A;6:15 PM - 9:00 PM;M;Ruth Anaya;3.00
 624;MCOM 393;Media+Communication Field Placement;LC 01;12:00 AM - 12:01 AM;;Ann Penner;3.00
 625;MCOM 393;Media+Communication Field Placement;LC 02;12:00 AM - 12:01 AM;;Ann Penner;3.00
 626;MCOM 399;Comm Theory in Everyday Life;A;9:30 AM - 10:45 AM;;Bill Strom;3.00
-627;MCOM 411;Media, Culture and Criticism;A;1:30 PM - 4:15 PM;;Kevin Schut;3.00
-628;MCOM 412;Masters of Cinema;A;6:15 PM - 9:00 PM;;Ned Vankevich;3.00
-629;MCOM 421;Digital Recording II;A;6:15 PM - 9:00 PM;R;Jef Gibbons;3.00
-630;MCOM 422;Digital Film Direction;A;6:15 PM - 9:00 PM;;Ned Vankevich;3.00
-631;MCOM 453;Editing for Newspapers & Magazines;A;4:30 PM - 5:45 PM;R;Loranne Brown;3.00
-632;MCOM 479;Leadership Communication Capstone;A;3:00 PM - 4:15 PM;R;Bill Strom;3.00
-633;MUSI 100;Repertory and Studio;A;4:30 PM - 5:45 PM;;Suzanne Klukas;.00
-634;MUSI 110;Fundamentals of Music;A;12:00 PM - 1:15 PM;R;Jon Thompson;3.00
+627;MCOM 411;Media, Culture and Criticism;A;1:30 PM - 4:15 PM;F;Kevin Schut;3.00
+628;MCOM 412;Masters of Cinema;A;6:15 PM - 9:00 PM;R;Ned Vankevich;3.00
+629;MCOM 421;Digital Recording II;A;6:15 PM - 9:00 PM;TR;Jef Gibbons;3.00
+630;MCOM 422;Digital Film Direction;A;6:15 PM - 9:00 PM;W;Ned Vankevich;3.00
+631;MCOM 453;Editing for Newspapers & Magazines;A;4:30 PM - 5:45 PM;TR;Loranne Brown;3.00
+632;MCOM 479;Leadership Communication Capstone;A;3:00 PM - 4:15 PM;TR;Bill Strom;3.00
+633;MUSI 100;Repertory and Studio;A;4:30 PM - 5:45 PM;W;Suzanne Klukas;.00
+634;MUSI 110;Fundamentals of Music;A;12:00 PM - 1:15 PM;TR;Jon Thompson;3.00
 635;MUSI 131;Music History from 1600 -1800;A;9:30 AM - 10:45 AM;;Jon Thompson;3.00
-636;MUSI 145;Orchestra;A;6:15 PM - 9:00 PM;;Jon Thompson;1.00
-637;MUSI 146;Orchestra;A;6:15 PM - 9:00 PM;;Jon Thompson;1.00
-638;MUSI 147;Band;A;6:15 PM - 9:00 PM;;Allan Thorpe;1.00
-639;MUSI 148;Band;A;6:15 PM - 9:00 PM;;Allan Thorpe;1.00
-640;MUSI 153;Chamber Choir;A;12:00 PM - 1:15 PM;W;Joel Tranquilla;1.00
-641;MUSI 153;Chamber Choir;A;7:00 PM - 8:15 PM;;Joel Tranquilla;1.00
-642;MUSI 154;Chamber Choir;A;12:00 PM - 1:15 PM;W;Joel Tranquilla;1.00
-643;MUSI 154;Chamber Choir;A;7:00 PM - 8:15 PM;;Joel Tranquilla;1.00
-644;MUSI 161;Vocal Ensemble;C;3:00 PM - 4:15 PM;R;Jon Thompson;1.00
-645;MUSI 162;Vocal Ensemble;C;3:00 PM - 4:15 PM;R;Jon Thompson;1.00
-646;MUSI 165;Jazz Combo;B;4:30 PM - 5:45 PM;R;Jef Gibbons;1.00
+636;MUSI 145;Orchestra;A;6:15 PM - 9:00 PM;R;Jon Thompson;1.00
+637;MUSI 146;Orchestra;A;6:15 PM - 9:00 PM;R;Jon Thompson;1.00
+638;MUSI 147;Band;A;6:15 PM - 9:00 PM;M;Allan Thorpe;1.00
+639;MUSI 148;Band;A;6:15 PM - 9:00 PM;M;Allan Thorpe;1.00
+640;MUSI 153;Chamber Choir;A;12:00 PM - 1:15 PM;MW;Joel Tranquilla;1.00
+641;MUSI 153;Chamber Choir;A;7:00 PM - 8:15 PM;T;Joel Tranquilla;1.00
+642;MUSI 154;Chamber Choir;A;12:00 PM - 1:15 PM;MW;Joel Tranquilla;1.00
+643;MUSI 154;Chamber Choir;A;7:00 PM - 8:15 PM;T;Joel Tranquilla;1.00
+644;MUSI 161;Vocal Ensemble;C;3:00 PM - 4:15 PM;TR;Jon Thompson;1.00
+645;MUSI 162;Vocal Ensemble;C;3:00 PM - 4:15 PM;TR;Jon Thompson;1.00
+646;MUSI 165;Jazz Combo;B;4:30 PM - 5:45 PM;TR;Jef Gibbons;1.00
 647;MUSI 165;New Music Collective;K;12:00 AM - 12:00 AM;;Allan Thorpe;1.00
-648;MUSI 166;Jazz Combo;B;4:30 PM - 5:45 PM;R;Jef Gibbons;1.00
+648;MUSI 166;Jazz Combo;B;4:30 PM - 5:45 PM;TR;Jef Gibbons;1.00
 649;MUSI 166;New Music Collective;K;12:00 AM - 12:00 AM;;Allan Thorpe;1.00
 650;MUSI 225;Tonal Harmony I;A;9:30 AM - 10:45 AM;;Allan Thorpe;3.00
-651;MUSI 225;Lab for MUSI 225;Lab A;8:25 AM - 9:15 AM;R;Cathrie Yuen;.00
-652;MUSI 245;Orchestra;A;6:15 PM - 9:00 PM;;Jon Thompson;1.00
-653;MUSI 246;Orchestra;A;6:15 PM - 9:00 PM;;Jon Thompson;1.00
-654;MUSI 247;Band;A;6:15 PM - 9:00 PM;;Allan Thorpe;1.00
-655;MUSI 248;Band;A;6:15 PM - 9:00 PM;;Allan Thorpe;1.00
-656;MUSI 253;Chamber Choir;A;12:00 PM - 1:15 PM;W;Joel Tranquilla;1.00
-657;MUSI 253;Chamber Choir;A;7:00 PM - 8:15 PM;;Joel Tranquilla;1.00
-658;MUSI 254;Chamber Choir;A;12:00 PM - 1:15 PM;W;Joel Tranquilla;1.00
-659;MUSI 254;Chamber Choir;A;7:00 PM - 8:15 PM;;Joel Tranquilla;1.00
-660;MUSI 261;Vocal Ensemble;C;3:00 PM - 4:15 PM;R;Jon Thompson;1.00
-661;MUSI 262;Vocal Ensemble;C;3:00 PM - 4:15 PM;R;Jon Thompson;1.00
-662;MUSI 265;Jazz Combo;B;4:30 PM - 5:45 PM;R;Jef Gibbons;1.00
+651;MUSI 225;Lab for MUSI 225;Lab A;8:25 AM - 9:15 AM;TR;Cathrie Yuen;.00
+652;MUSI 245;Orchestra;A;6:15 PM - 9:00 PM;R;Jon Thompson;1.00
+653;MUSI 246;Orchestra;A;6:15 PM - 9:00 PM;R;Jon Thompson;1.00
+654;MUSI 247;Band;A;6:15 PM - 9:00 PM;M;Allan Thorpe;1.00
+655;MUSI 248;Band;A;6:15 PM - 9:00 PM;M;Allan Thorpe;1.00
+656;MUSI 253;Chamber Choir;A;12:00 PM - 1:15 PM;MW;Joel Tranquilla;1.00
+657;MUSI 253;Chamber Choir;A;7:00 PM - 8:15 PM;T;Joel Tranquilla;1.00
+658;MUSI 254;Chamber Choir;A;12:00 PM - 1:15 PM;MW;Joel Tranquilla;1.00
+659;MUSI 254;Chamber Choir;A;7:00 PM - 8:15 PM;T;Joel Tranquilla;1.00
+660;MUSI 261;Vocal Ensemble;C;3:00 PM - 4:15 PM;TR;Jon Thompson;1.00
+661;MUSI 262;Vocal Ensemble;C;3:00 PM - 4:15 PM;TR;Jon Thompson;1.00
+662;MUSI 265;Jazz Combo;B;4:30 PM - 5:45 PM;TR;Jef Gibbons;1.00
 663;MUSI 265;New Music Collective;K;12:00 AM - 12:00 AM;;Allan Thorpe;1.00
-664;MUSI 266;Jazz Combo;B;4:30 PM - 5:45 PM;R;Jef Gibbons;1.00
+664;MUSI 266;Jazz Combo;B;4:30 PM - 5:45 PM;TR;Jef Gibbons;1.00
 665;MUSI 266;New Music Collective;K;12:00 AM - 12:00 AM;;Allan Thorpe;1.00
-666;MUSI 325;Tonal Harmony III;A;8:00 AM - 9:15 AM;R;Allan Thorpe;3.00
+666;MUSI 325;Tonal Harmony III;A;8:00 AM - 9:15 AM;TR;Allan Thorpe;3.00
 667;MUSI 325;Lab for MUSI 325;Lab A;9:30 AM - 10:20 AM;;Cathrie Yuen;.00
 668;MUSI 327;Composition;A2;12:00 AM - 12:01 AM;;David Squires;2.00
 669;MUSI 327;Composition;B2;12:00 AM - 12:01 AM;;David Squires;3.00
@@ -677,27 +677,27 @@ sep=;
 675;MUSI 329;Composition;A2;12:00 AM - 12:01 AM;;David Squires;2.00
 676;MUSI 329;Composition;B1;12:00 AM - 12:01 AM;;Jef Gibbons;3.00
 677;MUSI 329;Composition;B2;12:00 AM - 12:01 AM;;David Squires;3.00
-678;MUSI 340;Digital Recording I;A;6:15 PM - 9:00 PM;;Jef Gibbons;3.00
-679;MUSI 341;Digital Recording II;A;6:15 PM - 9:00 PM;;Jef Gibbons;3.00
-680;MUSI 345;Orchestra;A;6:15 PM - 9:00 PM;;Jon Thompson;1.00
-681;MUSI 346;Orchestra;A;6:15 PM - 9:00 PM;;Jon Thompson;1.00
-682;MUSI 347;Band;A;6:15 PM - 9:00 PM;;Allan Thorpe;1.00
-683;MUSI 348;Band;A;6:15 PM - 9:00 PM;;Allan Thorpe;1.00
-684;MUSI 353;Chamber Choir;A;12:00 PM - 1:15 PM;W;Joel Tranquilla;1.00
-685;MUSI 353;Chamber Choir;A;7:00 PM - 8:15 PM;;Joel Tranquilla;1.00
-686;MUSI 354;Chamber Choir;A;12:00 PM - 1:15 PM;W;Joel Tranquilla;1.00
-687;MUSI 354;Chamber Choir;A;7:00 PM - 8:15 PM;;Joel Tranquilla;1.00
-688;MUSI 361;Vocal Ensemble;C;3:00 PM - 4:15 PM;R;Jon Thompson;1.00
-689;MUSI 362;Vocal Ensemble;C;3:00 PM - 4:15 PM;R;Jon Thompson;1.00
-690;MUSI 365;Jazz Combo;B;4:30 PM - 5:45 PM;R;Jef Gibbons;1.00
+678;MUSI 340;Digital Recording I;A;6:15 PM - 9:00 PM;R;Jef Gibbons;3.00
+679;MUSI 341;Digital Recording II;A;6:15 PM - 9:00 PM;T;Jef Gibbons;3.00
+680;MUSI 345;Orchestra;A;6:15 PM - 9:00 PM;R;Jon Thompson;1.00
+681;MUSI 346;Orchestra;A;6:15 PM - 9:00 PM;R;Jon Thompson;1.00
+682;MUSI 347;Band;A;6:15 PM - 9:00 PM;M;Allan Thorpe;1.00
+683;MUSI 348;Band;A;6:15 PM - 9:00 PM;M;Allan Thorpe;1.00
+684;MUSI 353;Chamber Choir;A;12:00 PM - 1:15 PM;MW;Joel Tranquilla;1.00
+685;MUSI 353;Chamber Choir;A;7:00 PM - 8:15 PM;T;Joel Tranquilla;1.00
+686;MUSI 354;Chamber Choir;A;12:00 PM - 1:15 PM;MW;Joel Tranquilla;1.00
+687;MUSI 354;Chamber Choir;A;7:00 PM - 8:15 PM;T;Joel Tranquilla;1.00
+688;MUSI 361;Vocal Ensemble;C;3:00 PM - 4:15 PM;TR;Jon Thompson;1.00
+689;MUSI 362;Vocal Ensemble;C;3:00 PM - 4:15 PM;TR;Jon Thompson;1.00
+690;MUSI 365;Jazz Combo;B;4:30 PM - 5:45 PM;TR;Jef Gibbons;1.00
 691;MUSI 365;New Music collective;K;12:00 AM - 12:00 AM;;Allan Thorpe;1.00
-692;MUSI 366;Jazz Combo;B;4:30 PM - 5:45 PM;R;Jef Gibbons;1.00
+692;MUSI 366;Jazz Combo;B;4:30 PM - 5:45 PM;TR;Jef Gibbons;1.00
 693;MUSI 366;New Music Collective;K;12:00 AM - 12:00 AM;;Allan Thorpe;1.00
 694;MUSI 370;Junior Recital;A;12:00 AM - 12:01 AM;;Jon Thompson;1.00
-695;MUSI 372;Instrumental Techiques: Woodwinds;A;4:00 PM - 5:45 PM;;Tony Gallo;1.00
+695;MUSI 372;Instrumental Techiques: Woodwinds;A;4:00 PM - 5:45 PM;M;Tony Gallo;1.00
 696;MUSI 402;Worship Practicum I;A;12:00 AM - 12:01 AM;;David Squires;1.00
 697;MUSI 403;Worship Practicum II;A;12:00 AM - 12:01 AM;;David Squires;1.00
-698;MUSI 406;Conducting II;A;12:00 PM - 1:15 PM;R;Joel Tranquilla;3.00
+698;MUSI 406;Conducting II;A;12:00 PM - 1:15 PM;TR;Joel Tranquilla;3.00
 699;MUSI 427;Composition;A1;12:00 AM - 12:01 AM;;Jef Gibbons;2.00
 700;MUSI 427;Composition;A2;12:00 AM - 12:01 AM;;David Squires;2.00
 701;MUSI 427;Composition;B1;12:00 AM - 12:01 AM;;Jef Gibbons;3.00
@@ -710,23 +710,23 @@ sep=;
 708;MUSI 429;Composition;A2;12:00 AM - 12:01 AM;;David Squires;2.00
 709;MUSI 429;Composition;B1;12:00 AM - 12:01 AM;;Jef Gibbons;3.00
 710;MUSI 429;Composition;B2;12:00 AM - 12:01 AM;;David Squires;3.00
-711;MUSI 430;Foundation/Princ of Music Education;A;6:15 PM - 9:00 PM;;Greg Farrugia;3.00
-712;MUSI 445;Orchestra;A;6:15 PM - 9:00 PM;;Jon Thompson;1.00
-713;MUSI 446;Orchestra;A;6:15 PM - 9:00 PM;;Jon Thompson;1.00
-714;MUSI 447;Band;A;6:15 PM - 9:00 PM;;Allan Thorpe;1.00
-715;MUSI 448;Band;A;6:15 PM - 9:00 PM;;Allan Thorpe;1.00
-716;MUSI 453;Chamber Choir;A;12:00 PM - 1:15 PM;W;Joel Tranquilla;1.00
-717;MUSI 453;Chamber Choir;A;7:00 PM - 8:15 PM;;Joel Tranquilla;1.00
-718;MUSI 454;Chamber Choir;A;12:00 PM - 1:15 PM;WF;Joel Tranquilla;1.00
-719;MUSI 461;Vocal Ensemble;C;3:00 PM - 4:15 PM;R;Jon Thompson;1.00
-720;MUSI 462;Vocal Ensemble;C;3:00 PM - 4:15 PM;R;Jon Thompson;1.00
-721;MUSI 465;Jazz Combo;B;4:30 PM - 5:45 PM;R;Jef Gibbons;1.00
+711;MUSI 430;Foundation/Princ of Music Education;A;6:15 PM - 9:00 PM;W;Greg Farrugia;3.00
+712;MUSI 445;Orchestra;A;6:15 PM - 9:00 PM;R;Jon Thompson;1.00
+713;MUSI 446;Orchestra;A;6:15 PM - 9:00 PM;R;Jon Thompson;1.00
+714;MUSI 447;Band;A;6:15 PM - 9:00 PM;M;Allan Thorpe;1.00
+715;MUSI 448;Band;A;6:15 PM - 9:00 PM;M;Allan Thorpe;1.00
+716;MUSI 453;Chamber Choir;A;12:00 PM - 1:15 PM;MW;Joel Tranquilla;1.00
+717;MUSI 453;Chamber Choir;A;7:00 PM - 8:15 PM;T;Joel Tranquilla;1.00
+718;MUSI 454;Chamber Choir;A;12:00 PM - 1:15 PM;MWF;Joel Tranquilla;1.00
+719;MUSI 461;Vocal Ensemble;C;3:00 PM - 4:15 PM;TR;Jon Thompson;1.00
+720;MUSI 462;Vocal Ensemble;C;3:00 PM - 4:15 PM;TR;Jon Thompson;1.00
+721;MUSI 465;Jazz Combo;B;4:30 PM - 5:45 PM;TR;Jef Gibbons;1.00
 722;MUSI 465;New Music Collective;K;12:00 AM - 12:00 AM;;Allan Thorpe;1.00
-723;MUSI 466;Jazz Combo;B;4:30 PM - 5:45 PM;R;Jef Gibbons;1.00
+723;MUSI 466;Jazz Combo;B;4:30 PM - 5:45 PM;TR;Jef Gibbons;1.00
 724;MUSI 466;New Music Collective;K;12:00 AM - 12:00 AM;;Allan Thorpe;1.00
 725;MUSI 470;Senior Recital;A;12:00 AM - 12:01 AM;;Jon Thompson;1.00
-726;MUSA 101;Repertory and Studio;A;4:30 PM - 5:45 PM;;Cathrie Yuen;1.00
-727;MUSA 102;Repertory and Studio;A;4:30 PM - 5:45 PM;;Cathrie Yuen;1.00
+726;MUSA 101;Repertory and Studio;A;4:30 PM - 5:45 PM;W;Cathrie Yuen;1.00
+727;MUSA 102;Repertory and Studio;A;4:30 PM - 5:45 PM;W;Cathrie Yuen;1.00
 728;MUSA 110;Private Voice Lesson;A1;12:00 AM - 12:00 AM;;Alison Nystrom;1.00
 729;MUSA 110;Private Voice Lesson;A2;12:00 AM - 12:00 AM;;Jonny Michel;1.00
 730;MUSA 110;Private Voice Lesson;A3;12:00 AM - 12:00 AM;;Christy Derksen;1.00
@@ -1016,93 +1016,93 @@ sep=;
 1014;MUSA 471;Private Guitar Lesson;A1;12:00 AM - 12:00 AM;;Tim Olsen;1.00
 1015;MUSA 471;Private Guitar Lesson;B1;12:00 AM - 12:00 AM;;Tim Olsen;2.00
 1016;NURS 123;Clinical Skills II;A;-;;Cathy Son;2.00
-1017;NURS 123;Lab for NURS 123;Lab A;12:00 PM - 2:45 PM;;Janice Kamke;.00
-1018;NURS 123;Lab for NURS 123;Lab A;12:00 PM - 2:45 PM;;Rachel Froese;.00
-1019;NURS 123;Lab for NURS 123;Lab A;3:00 PM - 5:45 PM;;Janice Kamke;.00
-1020;NURS 123;Lab for NURS 123;Lab A;3:00 PM - 5:45 PM;;Rachel Froese;.00
-1021;NURS 123;Lab for NURS 123;Lab A;12:00 PM - 2:45 PM;;Janice Kamke;.00
-1022;NURS 123;Lab for NURS 123;Lab A;12:00 PM - 2:45 PM;;Rachel Froese;.00
-1023;NURS 124;Communication and Covenantal Caring;A;3:00 PM - 4:45 PM;;Lynn Musto;2.00
-1024;NURS 124;Communication and Covenantal Caring;B;3:00 PM - 4:45 PM;;Darlaine Jantzen;2.00
-1025;NURS 127;Health Promotion & Primary Health;A;3:00 PM - 4:45 PM;;Kelly Schutt;3.00
-1026;NURS 127;Health Promotion & Primary Health;B;3:00 PM - 4:45 PM;;Kelly Schutt;3.00
-1027;NURS 127;Clinical for NURS 127;Clin. A;7:00 AM - 1:00 PM;;Landa Terblanche;.00
-1028;NURS 127;Clinical for NURS 127;Clin. A;7:00 AM - 1:00 PM;;Landa Terblanche;.00
-1029;NURS 200;Nursing Therapeutics I;A;12:00 PM - 1:15 PM;R;Tracy Stephen;3.00
-1030;NURS 200;Nursing Therapeutics I;B;3:00 PM - 4:15 PM;R;Tracy Stephen;3.00
-1031;NURS 227;Glbl Health,Humanitarianism&Mission;A;3:00 PM - 5:45 PM;;Barb Astle;3.00
-1032;NURS 227;Glbl Health,Humanitarianism&Mission;B;3:00 PM - 5:45 PM;;Tammy Brandsma;3.00
-1033;NURS 232;Nursing Care of Adults;A;8:00 AM - 9:15 AM;R;Tammy Brandsma;3.00
+1017;NURS 123;Lab for NURS 123;Lab A;12:00 PM - 2:45 PM;M;Janice Kamke;.00
+1018;NURS 123;Lab for NURS 123;Lab A;12:00 PM - 2:45 PM;M;Rachel Froese;.00
+1019;NURS 123;Lab for NURS 123;Lab A;3:00 PM - 5:45 PM;T;Janice Kamke;.00
+1020;NURS 123;Lab for NURS 123;Lab A;3:00 PM - 5:45 PM;T;Rachel Froese;.00
+1021;NURS 123;Lab for NURS 123;Lab A;12:00 PM - 2:45 PM;W;Janice Kamke;.00
+1022;NURS 123;Lab for NURS 123;Lab A;12:00 PM - 2:45 PM;W;Rachel Froese;.00
+1023;NURS 124;Communication and Covenantal Caring;A;3:00 PM - 4:45 PM;M;Lynn Musto;2.00
+1024;NURS 124;Communication and Covenantal Caring;B;3:00 PM - 4:45 PM;W;Darlaine Jantzen;2.00
+1025;NURS 127;Health Promotion & Primary Health;A;3:00 PM - 4:45 PM;M;Kelly Schutt;3.00
+1026;NURS 127;Health Promotion & Primary Health;B;3:00 PM - 4:45 PM;W;Kelly Schutt;3.00
+1027;NURS 127;Clinical for NURS 127;Clin. A;7:00 AM - 1:00 PM;R;Landa Terblanche;.00
+1028;NURS 127;Clinical for NURS 127;Clin. A;7:00 AM - 1:00 PM;F;Landa Terblanche;.00
+1029;NURS 200;Nursing Therapeutics I;A;12:00 PM - 1:15 PM;TR;Tracy Stephen;3.00
+1030;NURS 200;Nursing Therapeutics I;B;3:00 PM - 4:15 PM;TR;Tracy Stephen;3.00
+1031;NURS 227;Glbl Health,Humanitarianism&Mission;A;3:00 PM - 5:45 PM;W;Barb Astle;3.00
+1032;NURS 227;Glbl Health,Humanitarianism&Mission;B;3:00 PM - 5:45 PM;R;Tammy Brandsma;3.00
+1033;NURS 232;Nursing Care of Adults;A;8:00 AM - 9:15 AM;TR;Tammy Brandsma;3.00
 1034;NURS 232;Nursing Care of Adults;B;9:30 AM - 10:45 AM;;Tammy Brandsma;3.00
-1035;NURS 233;Clinical Practice: Adult Health II;A;-;;Tammy Brandsma;4.00
-1036;NURS 233;Lab for NURS 233;Lab A;8:00 AM - 9:15 AM;;Cathy Son;.00
+1035;NURS 233;Clinical Practice: Adult Health II;A;-;M;Tammy Brandsma;4.00
+1036;NURS 233;Lab for NURS 233;Lab A;8:00 AM - 9:15 AM;T;Cathy Son;.00
 1037;NURS 233;Lab for NURS 233;Lab A;9:30 AM - 10:45 AM;;Cathy Son;.00
-1038;NURS 233;Lab for NURS 233;Lab A;12:00 PM - 1:15 PM;;Cathy Son;.00
-1039;NURS 233;Lab for NURS 233;Lab A;8:00 AM - 9:15 AM;;Cathy Son;.00
+1038;NURS 233;Lab for NURS 233;Lab A;12:00 PM - 1:15 PM;T;Cathy Son;.00
+1039;NURS 233;Lab for NURS 233;Lab A;8:00 AM - 9:15 AM;R;Cathy Son;.00
 1040;NURS 233;Lab for NURS 233;Lab A;9:30 AM - 10:45 AM;;Cathy Son;.00
 1041;NURS 322;Nurs. Care of Childbearing Families;A;8:00 AM - 10:45 AM;;Karen Larochelle;3.00
 1042;NURS 322;Nurs. Care of Childbearing Families;B;8:00 AM - 10:45 AM;;Karen Larochelle;3.00
-1043;NURS 323;Clinical Practice: Family Health;A;-;RF;Karen Larochelle;3.00
-1044;NURS 323;Clinical Practice: Family Health;B;-;RF;Karen Larochelle;3.00
-1045;NURS 323;Lab for NURS 323;Lab A;3:00 PM - 5:00 PM;;Karen Larochelle;.00
-1046;NURS 323;Lab for NURS 323;Lab A;3:00 PM - 5:00 PM;;Caitlin Friesen;.00
-1047;NURS 323;Lab for NURS 323;Lab B;3:00 PM - 5:00 PM;;Karen Larochelle;.00
-1048;NURS 323;Lab for NURS 323;Lab B;3:00 PM - 5:00 PM;;Caitlin Friesen;.00
-1049;NURS 342;Nursing Care of Children & Families;A;12:00 PM - 2:45 PM;W;Heather Meyerhoff;3.00
-1050;NURS 342;Nursing Care of Children & Families;B;12:00 PM - 2:45 PM;W;Heather Meyerhoff;3.00
-1051;NURS 343;Clinical Practice: Family Health II;A;-;RF;Heather Meyerhoff;3.00
-1052;NURS 343;Clinical Practice: Family Health II;B;-;RF;Heather Meyerhoff;3.00
+1043;NURS 323;Clinical Practice: Family Health;A;-;TRF;Karen Larochelle;3.00
+1044;NURS 323;Clinical Practice: Family Health;B;-;TRF;Karen Larochelle;3.00
+1045;NURS 323;Lab for NURS 323;Lab A;3:00 PM - 5:00 PM;M;Karen Larochelle;.00
+1046;NURS 323;Lab for NURS 323;Lab A;3:00 PM - 5:00 PM;W;Caitlin Friesen;.00
+1047;NURS 323;Lab for NURS 323;Lab B;3:00 PM - 5:00 PM;M;Karen Larochelle;.00
+1048;NURS 323;Lab for NURS 323;Lab B;3:00 PM - 5:00 PM;W;Caitlin Friesen;.00
+1049;NURS 342;Nursing Care of Children & Families;A;12:00 PM - 2:45 PM;MW;Heather Meyerhoff;3.00
+1050;NURS 342;Nursing Care of Children & Families;B;12:00 PM - 2:45 PM;MW;Heather Meyerhoff;3.00
+1051;NURS 343;Clinical Practice: Family Health II;A;-;TRF;Heather Meyerhoff;3.00
+1052;NURS 343;Clinical Practice: Family Health II;B;-;TRF;Heather Meyerhoff;3.00
 1053;NURS 343;Lab for NURS 343;Lab A;8:45 AM - 10:45 AM;;Heather Meyerhoff;.00
 1054;NURS 343;Lab for NURS 343;Lab A;8:45 AM - 10:45 AM;;Andrea Orr;.00
 1055;NURS 343;Lab for NURS 343;Lab B;8:45 AM - 10:45 AM;;Heather Meyerhoff;.00
 1056;NURS 343;Lab for NURS 343;Lab B;8:45 AM - 10:45 AM;;Andrea Orr;.00
-1057;NURS 350;Spirituality & Helping Professions;A;6:15 PM - 9:00 PM;;Kelly Schutt;3.00
-1058;NURS 360;Person-Centred Palliative Approach;A;6:15 PM - 9:00 PM;;Landa Terblanche;3.00
-1059;NURS 424;Professional Ethics;A;4:30 PM - 8:45 PM;;Dorolen Wolfs;3.00
-1060;NURS 424;Professional Ethics;A;9:30 AM - 1:45 PM;;Dorolen Wolfs;3.00
-1061;NURS 424;Professional Ethics;B;4:30 PM - 8:45 PM;;Dorolen Wolfs;3.00
-1062;NURS 424;Professional Ethics;B;2:15 PM - 5:45 PM;;Dorolen Wolfs;3.00
-1063;NURS 434;Leadership in Nursing Care;A;4:30 PM - 8:45 PM;;Angela Wolff;3.00
-1064;NURS 434;Leadership in Nursing Care;A;9:30 AM - 1:45 PM;;Angela Wolff;3.00
-1065;NURS 434;Leadership in Nursing Care;B;4:30 PM - 8:45 PM;;Angela Wolff;3.00
-1066;NURS 434;Leadership in Nursing Care;B;2:15 PM - 5:45 PM;;Angela Wolff;3.00
+1057;NURS 350;Spirituality & Helping Professions;A;6:15 PM - 9:00 PM;M;Kelly Schutt;3.00
+1058;NURS 360;Person-Centred Palliative Approach;A;6:15 PM - 9:00 PM;W;Landa Terblanche;3.00
+1059;NURS 424;Professional Ethics;A;4:30 PM - 8:45 PM;M;Dorolen Wolfs;3.00
+1060;NURS 424;Professional Ethics;A;9:30 AM - 1:45 PM;F;Dorolen Wolfs;3.00
+1061;NURS 424;Professional Ethics;B;4:30 PM - 8:45 PM;W;Dorolen Wolfs;3.00
+1062;NURS 424;Professional Ethics;B;2:15 PM - 5:45 PM;F;Dorolen Wolfs;3.00
+1063;NURS 434;Leadership in Nursing Care;A;4:30 PM - 8:45 PM;M;Angela Wolff;3.00
+1064;NURS 434;Leadership in Nursing Care;A;9:30 AM - 1:45 PM;F;Angela Wolff;3.00
+1065;NURS 434;Leadership in Nursing Care;B;4:30 PM - 8:45 PM;W;Angela Wolff;3.00
+1066;NURS 434;Leadership in Nursing Care;B;2:15 PM - 5:45 PM;F;Angela Wolff;3.00
 1067;NURS 443;Clinical Practice: Consolodation;A;-;;Landa Terblanche;6.00
-1068;PHIL 100;Philosophy for Life;A;3:00 PM - 4:15 PM;W;Chris Morrissey;3.00
-1069;PHIL 100;Philosophy for Life;B;3:00 PM - 4:15 PM;R;Chris Morrissey;3.00
+1068;PHIL 100;Philosophy for Life;A;3:00 PM - 4:15 PM;MW;Chris Morrissey;3.00
+1069;PHIL 100;Philosophy for Life;B;3:00 PM - 4:15 PM;TR;Chris Morrissey;3.00
 1070;PHIL 100;Philosophy for Life;GX;-;;Andrew Brigham;3.00
-1071;PHIL 105;Introduction to Philosophy;I2;1:00 PM - 4:00 PM;;Benjamin;3.00
-1072;PHIL 105;Introduction to Philosophy;IN;12:00 PM - 2:45 PM;;Benjamin;3.00
+1071;PHIL 105;Introduction to Philosophy;I2;1:00 PM - 4:00 PM;R;Benjamin;3.00
+1072;PHIL 105;Introduction to Philosophy;IN;12:00 PM - 2:45 PM;T;Benjamin;3.00
 1073;PHIL 105;Introduction to Philosophy;IS;12:00 AM - 12:01 AM;;Chris Morrissey;3.00
-1074;PHIL 106;Introduction to Philosophy;A;1:30 PM - 2:45 PM;W;Grant Havers;3.00
+1074;PHIL 106;Introduction to Philosophy;A;1:30 PM - 2:45 PM;MW;Grant Havers;3.00
 1075;PHIL 109;Critical Thinking: Informal Logic;IR;9:00 AM - 12:00 PM;;Chris Morrissey;3.00
-1076;PHIL 109;Critical Thinking: Informal Logic;UA;4:30 PM - 5:45 PM;R;Chris Morrissey;3.00
+1076;PHIL 109;Critical Thinking: Informal Logic;UA;4:30 PM - 5:45 PM;TR;Chris Morrissey;3.00
 1077;PHIL 210;Contemporary Ethical Issues;A;9:30 AM - 10:45 AM;;Bob Doede;3.00
 1078;PHIL 210;Contemporary Ethical Issues;GX;12:00 AM - 12:01 AM;;Paul Chamberlain;3.00
-1079;PHIL 210;Contemporary Ethical Issues;IR;1:00 PM - 4:00 PM;;Chris Morrissey;3.00
-1080;PHIL 210;Contemporary Ethical Issues;WP;6:00 PM - 8:45 PM;;Chris Morrissey;3.00
-1081;PHIL 303;Medieval Philosophy;CP;12:00 PM - 1:15 PM;W;David Bellusci;3.00
-1082;PHIL 304;Philosophy of St. Thomas Aquinas;CP;4:30 PM - 5:45 PM;R;David Bellusci;3.00
-1083;PHIL 305;Philosopy of the Human Person;CP;3:00 PM - 4:15 PM;R;David Henderson;3.00
-1084;PHIL 320;Social and Political Philosophy;A;4:30 PM - 5:45 PM;W;Grant Havers;3.00
-1085;PHIL 331;Environmental Philosophy;A;12:00 PM - 1:15 PM;R;Bob Doede;3.00
-1086;PHIL 350;Symbolic Logic;A;4:30 PM - 5:45 PM;R;Chris Morrissey;3.00
+1079;PHIL 210;Contemporary Ethical Issues;IR;1:00 PM - 4:00 PM;F;Chris Morrissey;3.00
+1080;PHIL 210;Contemporary Ethical Issues;WP;6:00 PM - 8:45 PM;R;Chris Morrissey;3.00
+1081;PHIL 303;Medieval Philosophy;CP;12:00 PM - 1:15 PM;MW;David Bellusci;3.00
+1082;PHIL 304;Philosophy of St. Thomas Aquinas;CP;4:30 PM - 5:45 PM;TR;David Bellusci;3.00
+1083;PHIL 305;Philosopy of the Human Person;CP;3:00 PM - 4:15 PM;TR;David Henderson;3.00
+1084;PHIL 320;Social and Political Philosophy;A;4:30 PM - 5:45 PM;MW;Grant Havers;3.00
+1085;PHIL 331;Environmental Philosophy;A;12:00 PM - 1:15 PM;TR;Bob Doede;3.00
+1086;PHIL 350;Symbolic Logic;A;4:30 PM - 5:45 PM;TR;Chris Morrissey;3.00
 1087;PHIL 420;Authors;A;12:00 AM - 12:01 AM;;Tba;3.00
 1088;PHIL 430;Honours Thesis;A;12:00 AM - 12:01 AM;;Tba;3.00
-1089;PHYS 112;Fundamentals of Physics II;A;3:00 PM - 4:15 PM;WF;Arnold Sikkema;3.00
-1090;PHYS 112;Lab for PHYS 112;Lab A;12:00 PM - 2:45 PM;;Terry Neufeldt;.00
-1091;PHYS 112;Lab for PHYS 112;Lab A;12:00 PM - 2:45 PM;;Terry Neufeldt;.00
-1092;PHYS 321;Differential Equations;A;3:00 PM - 4:15 PM;WF;Simon Tse;4.00
-1093;PHYS 341;Advanced Physical Chemistry I;A;12:00 PM - 1:15 PM;W;Arnold Sikkema;3.00
-1094;PHYS 341;Lab for PHYS 341;Lab A;1:30 PM - 5:30 PM;;Miriam Buschhaus;.00
-1095;POLS 101;Introduction to Political Thinking;A;1:30 PM - 2:45 PM;R;Calvin Townsend;3.00
-1096;POLS 101;Introduction to Political Thinking;IR;5:30 PM - 8:30 PM;;Calvin Townsend;3.00
-1097;POLS 211;International Politics;A;12:00 PM - 1:15 PM;R;Paul Rowe;3.00
-1098;POLS 234;CDN Government & Politics;A;4:30 PM - 5:45 PM;W;Leanne Smythe;3.00
-1099;POLS 237;Indigenous Nationhood & Canada;A;3:00 PM - 5:45 PM;;Bruce Shelvey;3.00
-1100;POLS 314;International Political Economy;A;3:00 PM - 4:15 PM;R;Paul Rowe;3.00
-1101;POLS 320;Social and Political Philosophy;A;4:30 PM - 5:45 PM;W;Grant Havers;3.00
-1102;POLS 330;Law and Canadian Politics;A;1:30 PM - 4:15 PM;;Janet Epp;3.00
-1103;POLS 334;Canadian Government and Politcs;A;1:30 PM - 2:45 PM;W;Leanne Smythe;3.00
+1089;PHYS 112;Fundamentals of Physics II;A;3:00 PM - 4:15 PM;MWF;Arnold Sikkema;3.00
+1090;PHYS 112;Lab for PHYS 112;Lab A;12:00 PM - 2:45 PM;W;Terry Neufeldt;.00
+1091;PHYS 112;Lab for PHYS 112;Lab A;12:00 PM - 2:45 PM;R;Terry Neufeldt;.00
+1092;PHYS 321;Differential Equations;A;3:00 PM - 4:15 PM;MWF;Simon Tse;4.00
+1093;PHYS 341;Advanced Physical Chemistry I;A;12:00 PM - 1:15 PM;MW;Arnold Sikkema;3.00
+1094;PHYS 341;Lab for PHYS 341;Lab A;1:30 PM - 5:30 PM;T;Miriam Buschhaus;.00
+1095;POLS 101;Introduction to Political Thinking;A;1:30 PM - 2:45 PM;TR;Calvin Townsend;3.00
+1096;POLS 101;Introduction to Political Thinking;IR;5:30 PM - 8:30 PM;T;Calvin Townsend;3.00
+1097;POLS 211;International Politics;A;12:00 PM - 1:15 PM;TR;Paul Rowe;3.00
+1098;POLS 234;CDN Government & Politics;A;4:30 PM - 5:45 PM;MW;Leanne Smythe;3.00
+1099;POLS 237;Indigenous Nationhood & Canada;A;3:00 PM - 5:45 PM;M;Bruce Shelvey;3.00
+1100;POLS 314;International Political Economy;A;3:00 PM - 4:15 PM;TR;Paul Rowe;3.00
+1101;POLS 320;Social and Political Philosophy;A;4:30 PM - 5:45 PM;MW;Grant Havers;3.00
+1102;POLS 330;Law and Canadian Politics;A;1:30 PM - 4:15 PM;F;Janet Epp;3.00
+1103;POLS 334;Canadian Government and Politcs;A;1:30 PM - 2:45 PM;MW;Leanne Smythe;3.00
 1104;POLS 361;Political Science Practicum;A;12:00 AM - 12:01 AM;;Paul Rowe;1.00
 1105;POLS 362;Political Science Practicum;A;12:00 AM - 12:01 AM;;Paul Rowe;2.00
 1106;POLS 363;Political Science Practicum;A;12:00 AM - 12:01 AM;;Paul Rowe;3.00
@@ -1115,8 +1115,8 @@ sep=;
 1113;POLS 392;Ethics and Public Affairs;LC;12:00 AM - 12:01 AM;;Tba;3.00
 1114;POLS 395;LLC Internship;LC;12:00 AM - 12:01 AM;;Ann Penner;3.00
 1115;POLS 396;LLC Internship;LC;12:00 AM - 12:01 AM;;Ann Penner;3.00
-1116;POLS 406;War, Peace and Society;A;3:00 PM - 5:45 PM;;Robynne Healey;3.00
-1117;POLS 440;Evolut'n of Canadian Foreign Policy;A;6:15 PM - 9:00 PM;;Leanne Smythe;3.00
+1116;POLS 406;War, Peace and Society;A;3:00 PM - 5:45 PM;T;Robynne Healey;3.00
+1117;POLS 440;Evolut'n of Canadian Foreign Policy;A;6:15 PM - 9:00 PM;T;Leanne Smythe;3.00
 1118;POLS 493;Law Public Policy & Cultural Change;LC;12:00 AM - 12:01 AM;;Tba;3.00
 1119;PMPP 201;Intro to Project Management;OL;-;;Matthew Simonis;3.00
 1120;PMPP 302;Project Scope Management;OL;-;;Matthew Simonis;3.00
@@ -1125,85 +1125,85 @@ sep=;
 1123;PMPP 401;PMPP Certification;OL;-;;Matthew Simonis;3.00
 1124;PSYC 105;Introduction to Psychology;A;9:30 AM - 10:45 AM;;Jaime Palmer-;3.00
 1125;PSYC 105;Introduction to Psychology;IS;12:00 AM - 12:01 AM;;Todd Dutka;3.00
-1126;PSYC 106;Introduction to Psychology;A;12:00 PM - 1:15 PM;W;Todd Dutka;3.00
-1127;PSYC 106;Introduction to Psychology;B;3:00 PM - 5:45 PM;;Lori Heaslip;3.00
+1126;PSYC 106;Introduction to Psychology;A;12:00 PM - 1:15 PM;MW;Todd Dutka;3.00
+1127;PSYC 106;Introduction to Psychology;B;3:00 PM - 5:45 PM;T;Lori Heaslip;3.00
 1128;PSYC 106;Introduction to Psychology;GX;12:00 AM - 12:01 AM;;Todd Dutka;3.00
-1129;PSYC 106;Introduction to Psychology;OL;6:00 PM - 9:00 PM;;Todd Dutka;3.00
-1130;PSYC 201;Experimental Psychology;A;12:00 PM - 2:45 PM;;Kelly Arbeau;3.00
-1131;PSYC 204;Social Psychology;A;3:00 PM - 4:15 PM;W;Chelsea Beyer;3.00
-1132;PSYC 207;Data Analysis;A;8:00 AM - 9:15 AM;W;Chelsea Beyer;3.00
+1129;PSYC 106;Introduction to Psychology;OL;6:00 PM - 9:00 PM;R;Todd Dutka;3.00
+1130;PSYC 201;Experimental Psychology;A;12:00 PM - 2:45 PM;F;Kelly Arbeau;3.00
+1131;PSYC 204;Social Psychology;A;3:00 PM - 4:15 PM;MW;Chelsea Beyer;3.00
+1132;PSYC 207;Data Analysis;A;8:00 AM - 9:15 AM;MW;Chelsea Beyer;3.00
 1133;PSYC 207;Data Analysis;IS;12:00 AM - 12:01 AM;;Stephen Benecke;3.00
-1134;PSYC 214;Psych Fndns of Teaching/Learning;A;4:30 PM - 7:30 PM;;Andrew Shutsa;3.00
-1135;PSYC 214;Psych Fndns of Teaching/Learning;B;6:15 PM - 9:00 PM;;Andrew Shutsa;3.00
-1136;PSYC 215;Lifespan Development;A;12:00 PM - 2:45 PM;;Todd Dutka;3.00
+1134;PSYC 214;Psych Fndns of Teaching/Learning;A;4:30 PM - 7:30 PM;T;Andrew Shutsa;3.00
+1135;PSYC 214;Psych Fndns of Teaching/Learning;B;6:15 PM - 9:00 PM;W;Andrew Shutsa;3.00
+1136;PSYC 215;Lifespan Development;A;12:00 PM - 2:45 PM;F;Todd Dutka;3.00
 1137;PSYC 215;Lifespan Development;IS;12:00 AM - 12:01 AM;;Lisa Barker;3.00
-1138;PSYC 301;Theories of Personality;A;12:00 PM - 1:15 PM;R;Chuck Macknee;3.00
+1138;PSYC 301;Theories of Personality;A;12:00 PM - 1:15 PM;TR;Chuck Macknee;3.00
 1139;PSYC 301;Theories of Personality;IS;12:00 AM - 12:01 AM;;Todd Dutka;3.00
-1140;PSYC 301;Theories of Personality;OL;6:00 PM - 9:00 PM;;Todd Dutka;3.00
-1141;PSYC 305;Abnormal Psychology;A;3:00 PM - 4:15 PM;R;Jim Weibelzahl;3.00
+1140;PSYC 301;Theories of Personality;OL;6:00 PM - 9:00 PM;T;Todd Dutka;3.00
+1141;PSYC 305;Abnormal Psychology;A;3:00 PM - 4:15 PM;TR;Jim Weibelzahl;3.00
 1142;PSYC 305;Abnormal Psychology;IS;12:00 AM - 12:01 AM;;Lisa Barker;3.00
 1143;PSYC 310;Exceptional Child in Reg. Classroom;A;9:30 AM - 10:45 AM;;Moira Fricke;3.00
-1144;PSYC 310;Exceptional Child in Reg. Classroom;B;12:00 PM - 1:15 PM;R;Moira Fricke;3.00
-1145;PSYC 322;Research Methods;A;4:30 PM - 5:45 PM;W;Kelly Arbeau;3.00
-1146;PSYC 326;Cognitive Processes;A;1:30 PM - 2:45 PM;W;Kelly Arbeau;3.00
-1147;PSYC 330;Leadership in Organiz. & Small Grps;OL;6:00 PM - 9:00 PM;;Mark Warren;3.00
-1148;PSYC 340;Interpersonal and Helping Skills;A;6:15 PM - 9:00 PM;;Lori Heaslip;3.00
-1149;PSYC 340;Interpersonal and Helping Skills;OL;6:00 PM - 9:00 PM;;Trevor Broadhurst;3.00
+1144;PSYC 310;Exceptional Child in Reg. Classroom;B;12:00 PM - 1:15 PM;TR;Moira Fricke;3.00
+1145;PSYC 322;Research Methods;A;4:30 PM - 5:45 PM;MW;Kelly Arbeau;3.00
+1146;PSYC 326;Cognitive Processes;A;1:30 PM - 2:45 PM;MW;Kelly Arbeau;3.00
+1147;PSYC 330;Leadership in Organiz. & Small Grps;OL;6:00 PM - 9:00 PM;T;Mark Warren;3.00
+1148;PSYC 340;Interpersonal and Helping Skills;A;6:15 PM - 9:00 PM;T;Lori Heaslip;3.00
+1149;PSYC 340;Interpersonal and Helping Skills;OL;6:00 PM - 9:00 PM;T;Trevor Broadhurst;3.00
 1150;PSYC 345;Disorders of Childhood;A;9:30 AM - 10:45 AM;;Glory Mulera;3.00
 1151;PSYC 354;Brain and Behaviour;A;9:30 AM - 10:45 AM;;Jaime Palmer-;3.00
-1152;PSYC 354;Brain and Behaviour;O2;6:00 PM - 9:00 PM;;Juliet Teeter;3.00
-1153;PSYC 354;Brain and Behaviour;OL;6:00 PM - 9:00 PM;;Tba;3.00
-1154;PSYC 356;Motivation & Emotion;A;12:00 PM - 1:15 PM;W;Jaime Palmer-;3.00
+1152;PSYC 354;Brain and Behaviour;O2;6:00 PM - 9:00 PM;R;Juliet Teeter;3.00
+1153;PSYC 354;Brain and Behaviour;OL;6:00 PM - 9:00 PM;R;Tba;3.00
+1154;PSYC 356;Motivation & Emotion;A;12:00 PM - 1:15 PM;MW;Jaime Palmer-;3.00
 1155;PSYC 361;Practicum;A;12:00 AM - 12:01 AM;;Tba;3.00
 1156;PSYC 390;Positive Psychology;A;8:00 AM - 10:45 AM;;Lori Heaslip;3.00
-1157;PSYC 408;History and Systems of Psychology;A;8:25 AM - 9:15 AM;WF;Chuck Macknee;3.00
-1158;PSYC 408;History and Systems of Psychology;OL;6:00 PM - 9:00 PM;;Trevor Broadhurst;3.00
+1157;PSYC 408;History and Systems of Psychology;A;8:25 AM - 9:15 AM;MWF;Chuck Macknee;3.00
+1158;PSYC 408;History and Systems of Psychology;OL;6:00 PM - 9:00 PM;R;Trevor Broadhurst;3.00
 1159;PSYC 412;Strategies for the Exceptional Chil;A;9:30 AM - 10:45 AM;;Moira Fricke;3.00
-1160;PSYC 412;Seminar;A    D1;8:00 AM - 9:15 AM;;Moira Fricke;1.00
-1161;PSYC 415;Human Sexuality;A;3:00 PM - 5:45 PM;;Chuck Macknee;3.00
-1162;PSYC 431;Career Counselling and Development;A;3:00 PM - 4:15 PM;W;Todd Dutka;3.00
-1163;PSYC 490;Personhood: The Individual;OL;6:00 PM - 9:00 PM;;Debra Ivancovich;3.00
-1164;PSYC 498;Senior Thesis;A;4:30 PM - 5:45 PM;W;Phil Laird;3.00
+1160;PSYC 412;Seminar;A    D1;8:00 AM - 9:15 AM;W;Moira Fricke;1.00
+1161;PSYC 415;Human Sexuality;A;3:00 PM - 5:45 PM;R;Chuck Macknee;3.00
+1162;PSYC 431;Career Counselling and Development;A;3:00 PM - 4:15 PM;MW;Todd Dutka;3.00
+1163;PSYC 490;Personhood: The Individual;OL;6:00 PM - 9:00 PM;T;Debra Ivancovich;3.00
+1164;PSYC 498;Senior Thesis;A;4:30 PM - 5:45 PM;MW;Phil Laird;3.00
 1165;RELS 100;Introduction to Christianity;A;9:30 AM - 10:45 AM;;Joanne Pepper;3.00
 1166;RELS 101;Introduction to the Old Testament;A;9:30 AM - 10:45 AM;;Tba;3.00
-1167;RELS 101;Introduction to the Old Testament;B;8:00 AM - 9:15 AM;R;Spencer Elliott;3.00
-1168;RELS 101;Introduction to the Old Testament;C;1:30 PM - 2:45 PM;R;Stu Talene;3.00
-1169;RELS 101;Introduction to the Old Testament;D;6:15 PM - 9:00 PM;;Spencer Elliott;3.00
-1170;RELS 101;Introduction to the Old Testament;E;12:00 PM - 3:00 PM;;Stu Talene;3.00
-1171;RELS 102;Introduction to New Testament;B;4:30 PM - 5:45 PM;W;Tom Hatina;3.00
-1172;RELS 102;Introduction to New Testament;C;4:30 PM - 5:45 PM;R;Kyle Parsons;3.00
-1173;RELS 102;Introduction to New Testament;D;6:15 PM - 9:00 PM;;Stu Talene;3.00
-1174;RELS 102;Introduction to New Testament;E;8:00 AM - 9:15 AM;W;Kyle Parsons;3.00
-1175;RELS 105;The Coherence of Faith;CP;1:30 PM - 2:45 PM;W;Andrew Kaethler;3.00
+1167;RELS 101;Introduction to the Old Testament;B;8:00 AM - 9:15 AM;TR;Spencer Elliott;3.00
+1168;RELS 101;Introduction to the Old Testament;C;1:30 PM - 2:45 PM;TR;Stu Talene;3.00
+1169;RELS 101;Introduction to the Old Testament;D;6:15 PM - 9:00 PM;T;Spencer Elliott;3.00
+1170;RELS 101;Introduction to the Old Testament;E;12:00 PM - 3:00 PM;F;Stu Talene;3.00
+1171;RELS 102;Introduction to New Testament;B;4:30 PM - 5:45 PM;MW;Tom Hatina;3.00
+1172;RELS 102;Introduction to New Testament;C;4:30 PM - 5:45 PM;TR;Kyle Parsons;3.00
+1173;RELS 102;Introduction to New Testament;D;6:15 PM - 9:00 PM;W;Stu Talene;3.00
+1174;RELS 102;Introduction to New Testament;E;8:00 AM - 9:15 AM;MW;Kyle Parsons;3.00
+1175;RELS 105;The Coherence of Faith;CP;1:30 PM - 2:45 PM;MW;Andrew Kaethler;3.00
 1176;RELS 110;Introduction to Christianity;A;9:30 AM - 10:45 AM;;Joanne Pepper;3.00
-1177;RELS 110;Introduction to Christianity;I2;1:00 PM - 4:00 PM;;Calvin Townsend;3.00
-1178;RELS 110;Introduction to Christianity;IN;3:00 PM - 4:15 PM;R;Kyung Baek;3.00
+1177;RELS 110;Introduction to Christianity;I2;1:00 PM - 4:00 PM;F;Calvin Townsend;3.00
+1178;RELS 110;Introduction to Christianity;IN;3:00 PM - 4:15 PM;TR;Kyung Baek;3.00
 1179;RELS 110;Introduction to Christianity;IR;9:00 AM - 12:00 PM;;Calvin Townsend;3.00
 1180;RELS 111;Old Testament: God, Humanity, World;A;9:30 AM - 10:45 AM;;Tba;3.00
-1181;RELS 111;Old Testament: God, Humanity, World;B;8:00 AM - 9:15 AM;R;Spencer Elliott;3.00
-1182;RELS 111;Old Testament: God, Humanity, World;C;1:30 PM - 2:45 PM;R;Stu Talene;3.00
-1183;RELS 111;Old Testament: God, Humanity, World;D;6:15 PM - 9:00 PM;;Spencer Elliott;3.00
-1184;RELS 111;Old Testament: God, Humanity, World;E;12:00 PM - 3:00 PM;;Stu Talene;3.00
-1185;RELS 111;Old Testament: God, Humanity, World;I2;5:00 PM - 8:00 PM;;Ivan De Silva;3.00
-1186;RELS 111;Old Testament: God, Humanity, World;IR;1:00 PM - 4:00 PM;;Ivan De Silva;3.00
-1187;RELS 112;New Testament: God, Humanity, World;B;4:30 PM - 5:45 PM;W;Tom Hatina;3.00
-1188;RELS 112;New Testament: God, Humanity, World;C;4:30 PM - 5:45 PM;R;Kyle Parsons;3.00
-1189;RELS 112;New Testament: God, Humanity, World;D;12:00 PM - 1:15 PM;R;Stu Talene;3.00
-1190;RELS 112;New Testament: God, Humanity, World;E;8:00 AM - 9:15 AM;W;Kyle Parsons;3.00
-1191;RELS 112;New Testament: God, Humanity, World;FC;4:30 PM - 5:45 PM;R;Kyung Baek;3.00
+1181;RELS 111;Old Testament: God, Humanity, World;B;8:00 AM - 9:15 AM;TR;Spencer Elliott;3.00
+1182;RELS 111;Old Testament: God, Humanity, World;C;1:30 PM - 2:45 PM;TR;Stu Talene;3.00
+1183;RELS 111;Old Testament: God, Humanity, World;D;6:15 PM - 9:00 PM;T;Spencer Elliott;3.00
+1184;RELS 111;Old Testament: God, Humanity, World;E;12:00 PM - 3:00 PM;F;Stu Talene;3.00
+1185;RELS 111;Old Testament: God, Humanity, World;I2;5:00 PM - 8:00 PM;R;Ivan De Silva;3.00
+1186;RELS 111;Old Testament: God, Humanity, World;IR;1:00 PM - 4:00 PM;R;Ivan De Silva;3.00
+1187;RELS 112;New Testament: God, Humanity, World;B;4:30 PM - 5:45 PM;MW;Tom Hatina;3.00
+1188;RELS 112;New Testament: God, Humanity, World;C;4:30 PM - 5:45 PM;TR;Kyle Parsons;3.00
+1189;RELS 112;New Testament: God, Humanity, World;D;12:00 PM - 1:15 PM;TR;Stu Talene;3.00
+1190;RELS 112;New Testament: God, Humanity, World;E;8:00 AM - 9:15 AM;MW;Kyle Parsons;3.00
+1191;RELS 112;New Testament: God, Humanity, World;FC;4:30 PM - 5:45 PM;TR;Kyung Baek;3.00
 1192;RELS 112;New Testament: God, Humanity, World;IR;9:00 AM - 12:00 PM;;Clement Tong;3.00
 1193;RELS 160;Intro to Theology;A;9:30 AM - 10:45 AM;;Craig Allert;3.00
-1194;RELS 160;Intro to Theology;B;1:30 PM - 2:45 PM;R;Kenneth Laing;3.00
-1195;RELS 225;Revelation and Interpretation;CP;1:30 PM - 2:25 PM;R;David Henderson;3.00
-1196;RELS 272;Eastern World Religions;A;3:00 PM - 4:15 PM;W;Joanne Pepper;3.00
-1197;RELS 272;Eastern World Religions;B;6:15 PM - 9:00 PM;;Kyung Baek;3.00
+1194;RELS 160;Intro to Theology;B;1:30 PM - 2:45 PM;TR;Kenneth Laing;3.00
+1195;RELS 225;Revelation and Interpretation;CP;1:30 PM - 2:25 PM;TR;David Henderson;3.00
+1196;RELS 272;Eastern World Religions;A;3:00 PM - 4:15 PM;MW;Joanne Pepper;3.00
+1197;RELS 272;Eastern World Religions;B;6:15 PM - 9:00 PM;W;Kyung Baek;3.00
 1198;RELS 275;Vatican I to Today;CP;9:30 AM - 10:45 AM;;David Henderson;3.00
-1199;RELS 329;Elementary New Testament Greek;A;12:00 PM - 1:15 PM;R;Kyle Parsons;3.00
-1200;RELS 332;Readings in the Greek New Testament;A;1:30 PM - 2:45 PM;W;Tom Hatina;3.00
-1201;RELS 336;Elementary Biblical Hebrew;A;3:00 PM - 4:15 PM;W;Dirk Buchner;3.00
-1202;RELS 338;Readings in the Hebrew Bible;A;4:30 PM - 5:45 PM;R;Dirk Buchner;3.00
+1199;RELS 329;Elementary New Testament Greek;A;12:00 PM - 1:15 PM;TR;Kyle Parsons;3.00
+1200;RELS 332;Readings in the Greek New Testament;A;1:30 PM - 2:45 PM;MW;Tom Hatina;3.00
+1201;RELS 336;Elementary Biblical Hebrew;A;3:00 PM - 4:15 PM;MW;Dirk Buchner;3.00
+1202;RELS 338;Readings in the Hebrew Bible;A;4:30 PM - 5:45 PM;TR;Dirk Buchner;3.00
 1203;RELS 342;Psalms and Wisdom Literature;A;9:30 AM - 10:45 AM;;Dirk Buchner;3.00
-1204;RELS 352;Life and Letters of Paul;A;12:00 PM - 1:15 PM;W;Tony Cummins;3.00
+1204;RELS 352;Life and Letters of Paul;A;12:00 PM - 1:15 PM;MW;Tony Cummins;3.00
 1205;RELS 362;History of Christianity II;A;6:15 PM - 9:00 PM;M;David Wood;3.00
 1206;RELS 367;The Catholic Church Past & Present;CP;12:00 PM - 1:15 PM;TR;David Bellusci;3.00
 1207;RELS 386;Global Theologies;A;-;;Joanne Pepper;3.00
@@ -1218,64 +1218,64 @@ sep=;
 1216;SOCS 383;Social Data Analysis;A;9:30 AM - 10:45 AM;;Jason Burtt;3.00
 1217;SOCS 383;Tutorial;A    T1;11:00 AM - 12:00 PM;;Jason Burtt;.00
 1218;SOCI 101;Introduction to Sociology;A;9:30 AM - 10:45 AM;;Jason Burtt;3.00
-1219;SOCI 101;Introduction to Sociology;B;3:00 PM - 4:15 PM;R;Katie Steeves;3.00
+1219;SOCI 101;Introduction to Sociology;B;3:00 PM - 4:15 PM;TR;Katie Steeves;3.00
 1220;SOCI 101;Introduction to Sociology;GX;12:00 AM - 12:01 AM;;Todd Martin;3.00
-1221;SOCI 101;Introduction to Sociology;IR;5:30 PM - 8:30 PM;;Joshua Park;3.00
+1221;SOCI 101;Introduction to Sociology;IR;5:30 PM - 8:30 PM;W;Joshua Park;3.00
 1222;SOCI 101;Introduction to Sociology;IS;12:00 AM - 12:01 AM;;Ruth Anaya;3.00
-1223;SOCI 101;Introduction to Sociology;OL;6:00 PM - 9:00 PM;;Jason Burtt;3.00
+1223;SOCI 101;Introduction to Sociology;OL;6:00 PM - 9:00 PM;T;Jason Burtt;3.00
 1224;SOCI 101;Introduction to Sociology;WP;9:00 AM - 11:45 AM;;Todd Martin;3.00
-1225;SOCI 105;Introduction to Gender Studies;A;6:15 PM - 9:00 PM;;Robynne Healey;3.00
-1226;SOCI 204;Social Psychology;A;3:00 PM - 4:15 PM;W;Chelsea Beyer;3.00
-1227;SOCI 210;Race and Ethnicity;A;3:00 PM - 4:15 PM;R;Jennifer Adkins;3.00
-1228;SOCI 234;Intro to CDN Government & Politics;A;4:30 PM - 5:45 PM;W;Leanne Smythe;3.00
-1229;SOCI 252;Contemporary Social Issues;A;12:00 PM - 1:15 PM;W;Jason Burtt;3.00
-1230;SOCI 320;Field Placement;A;12:00 PM - 1:15 PM;;Alex Dueck;3.00
+1225;SOCI 105;Introduction to Gender Studies;A;6:15 PM - 9:00 PM;R;Robynne Healey;3.00
+1226;SOCI 204;Social Psychology;A;3:00 PM - 4:15 PM;MW;Chelsea Beyer;3.00
+1227;SOCI 210;Race and Ethnicity;A;3:00 PM - 4:15 PM;TR;Jennifer Adkins;3.00
+1228;SOCI 234;Intro to CDN Government & Politics;A;4:30 PM - 5:45 PM;MW;Leanne Smythe;3.00
+1229;SOCI 252;Contemporary Social Issues;A;12:00 PM - 1:15 PM;MW;Jason Burtt;3.00
+1230;SOCI 320;Field Placement;A;12:00 PM - 1:15 PM;F;Alex Dueck;3.00
 1231;SOCI 320;Field Placement;OL;-;;Debra Hanenburg;3.00
 1232;SOCI 356;Self and Identity;A;9:30 AM - 10:45 AM;;Katie Steeves;3.00
 1233;SOCI 391;Canadian Governmental Leadership;LC;12:00 AM - 12:01 AM;;Tba;3.00
 1234;SOCI 392;Ethics and Public Affairs;LC;12:00 AM - 12:01 AM;;Tba;3.00
-1235;SOCI 395;Indigenous Peoples in Canada;A;4:30 PM - 5:45 PM;R;Claudia Launhardt;3.00
+1235;SOCI 395;Indigenous Peoples in Canada;A;4:30 PM - 5:45 PM;TR;Claudia Launhardt;3.00
 1236;SOCI 395;Indigenous Peoples in Canada;IR;9:00 AM - 12:00 PM;;Claudia Launhardt;3.00
-1237;SOCI 400;Critical Issues in Human Services;A;12:00 PM - 1:15 PM;R;Alex Dueck;3.00
+1237;SOCI 400;Critical Issues in Human Services;A;12:00 PM - 1:15 PM;TR;Alex Dueck;3.00
 1238;SOCI 411;Practicum;A;9:30 AM - 10:45 AM;;Alex Dueck;3.00
 1239;SOCI 411;Practicum;DS;-;;Alex Dueck;3.00
 1240;SOCI 411;Practicum;OL;-;;Debra Hanenburg;3.00
 1241;SOCI 420;Practicum;A;9:30 AM - 10:45 AM;;Alex Dueck;3.00
 1242;SOCI 420;Practicum;LC;12:00 AM - 12:01 AM;;Ann Penner;3.00
 1243;SOCI 420;Practicum;OL;-;;Debra Hanenburg;3.00
-1244;SOCI 450;Seminar in Sociology;A;8:00 AM - 9:15 AM;R;Michael Wilkinson;3.00
-1245;SPAN 101;Introduction to Spanish;A;4:30 PM - 5:45 PM;W;Silvia Brynjolfson;3.00
+1244;SOCI 450;Seminar in Sociology;A;8:00 AM - 9:15 AM;TR;Michael Wilkinson;3.00
+1245;SPAN 101;Introduction to Spanish;A;4:30 PM - 5:45 PM;MW;Silvia Brynjolfson;3.00
 1246;SPAN 102;Introduction to Spanish;B;9:30 AM - 10:45 AM;;Slava Petlitsa;3.00
-1247;SPAN 202;Intermediate Spanish;A;12:00 PM - 1:15 PM;W;Silvia Brynjolfson;3.00
+1247;SPAN 202;Intermediate Spanish;A;12:00 PM - 1:15 PM;MW;Silvia Brynjolfson;3.00
 1248;SPAN 302;Literature, Grammar and Composition;A;9:30 AM - 10:45 AM;;Silvia Brynjolfson;3.00
-1249;SPAN 405;Spanish Peninsular Literature I;A;3:00 PM - 4:15 PM;R;Silvia Brynjolfson;3.00
-1250;STAT 102;Intro to Probability and Statistics;A;8:00 AM - 9:15 AM;R;Enrique Torres;3.00
-1251;SKLS 001;Study Skills;A;12:00 PM - 1:45 PM;W;Karen Mathew;.00
+1249;SPAN 405;Spanish Peninsular Literature I;A;3:00 PM - 4:15 PM;TR;Silvia Brynjolfson;3.00
+1250;STAT 102;Intro to Probability and Statistics;A;8:00 AM - 9:15 AM;TR;Enrique Torres;3.00
+1251;SKLS 001;Study Skills;A;12:00 PM - 1:45 PM;MW;Karen Mathew;.00
 1252;SKLS 001;Study Skills;B;9:30 AM - 10:45 AM;;Karen Mathew;.00
 1253;SKLS 001;Study Skills;C;12:00 AM - 12:01 AM;;Tba;.00
-1254;SKLS 001;Study Skills;F1;3:00 PM - 4:15 PM;;Sarah MacIntosh;.00
-1255;SKLS 001;Study Skills;GD;7:45 AM - 9:00 AM;;Tba;.00
+1254;SKLS 001;Study Skills;F1;3:00 PM - 4:15 PM;W;Sarah MacIntosh;.00
+1255;SKLS 001;Study Skills;GD;7:45 AM - 9:00 AM;F;Tba;.00
 1256;SKLS 003;Academic Coaching;A;12:00 AM - 12:01 AM;;Tba;.00
 1257;SKLS 003;Academic Coaching;GD;-;;Tba;.00
 1258;SKLS 008;U1 Academic Trial Support;UA;12:00 AM - 12:01 AM;;Anna Bergen;.00
-1259;THTR 102;Production;A;1:30 PM - 4:30 PM;;Lora-Lynne;1.00
-1260;THTR 112;Stagecraft II;A;1:30 PM - 2:45 PM;R;Lora-Lynne;2.00
+1259;THTR 102;Production;A;1:30 PM - 4:30 PM;F;Lora-Lynne;1.00
+1260;THTR 112;Stagecraft II;A;1:30 PM - 2:45 PM;TR;Lora-Lynne;2.00
 1261;THTR 152;Mainstage;A;6:00 PM - 10:00 PM;;Angela Konrad;1.00
-1262;THTR 152;Mainstage;A;9:00 AM - 5:00 PM;;Angela Konrad;1.00
+1262;THTR 152;Mainstage;A;9:00 AM - 5:00 PM;S;Angela Konrad;1.00
 1263;THTR 154;Ensemble;A;6:00 PM - 10:00 PM;;Becky Martin;1.00
-1264;THTR 154;Ensemble;A;9:00 AM - 5:00 PM;;Becky Martin;1.00
+1264;THTR 154;Ensemble;A;9:00 AM - 5:00 PM;S;Becky Martin;1.00
 1265;THTR 162;Acting I-The Actor's Process;A;9:30 AM - 10:45 AM;;Kerri Norris;3.00
-1266;THTR 180;Integration Forum;A;12:00 PM - 1:15 PM;;Becky Martin;.00
+1266;THTR 180;Integration Forum;A;12:00 PM - 1:15 PM;F;Becky Martin;.00
 1267;THTR 275;Voice and Movement II;A;12:00 AM - 12:01 AM;;Jason Simpson;3.00
-1268;THTR 302;Production;A;1:30 PM - 4:30 PM;;Lora-Lynne;1.00
-1269;THTR 325;Playwriting I;A;1:30 PM - 4:15 PM;;Becky Martin;3.00
-1270;THTR 331;Theatre History I: Origins to 1660;A;12:00 PM - 1:15 PM;R;Becky Martin;3.00
+1268;THTR 302;Production;A;1:30 PM - 4:30 PM;F;Lora-Lynne;1.00
+1269;THTR 325;Playwriting I;A;1:30 PM - 4:15 PM;W;Becky Martin;3.00
+1270;THTR 331;Theatre History I: Origins to 1660;A;12:00 PM - 1:15 PM;TR;Becky Martin;3.00
 1271;THTR 352;Mainstage;A;6:00 PM - 10:00 PM;;Angela Konrad;1.00
-1272;THTR 352;Mainstage;A;9:00 AM - 5:00 PM;;Angela Konrad;1.00
+1272;THTR 352;Mainstage;A;9:00 AM - 5:00 PM;S;Angela Konrad;1.00
 1273;THTR 354;Ensemble;A;6:00 PM - 10:00 PM;;Becky Martin;1.00
-1274;THTR 354;Ensemble;A;9:00 AM - 5:00 PM;;Becky Martin;1.00
+1274;THTR 354;Ensemble;A;9:00 AM - 5:00 PM;S;Becky Martin;1.00
 1275;THTR 375;Voice and Movement III;A;12:00 AM - 12:01 AM;;Jason Simpson;3.00
-1276;THTR 462;Acting IV-From Stage to Screen;A;1:30 PM - 4:15 PM;;Craig Erickson;3.00
+1276;THTR 462;Acting IV-From Stage to Screen;A;1:30 PM - 4:15 PM;M;Craig Erickson;3.00
 1277;THTR 475;Voice and Movement IV;A;12:00 AM - 12:01 AM;;Jason Simpson;3.00
 1278;TLAC 011;TLC Academic Content I;A;-;;Tba;.00
 1279;TLAC 021;TLC Academic Content II;A;-;;Tba;.00
@@ -1286,21 +1286,21 @@ sep=;
 1284;TLPS 021;TLC Progressive Skills Level II;A;-;;Tba;.00
 1285;TUTX 001;TWU/TUT Exchange Program;A;12:00 AM - 12:01 AM;;Tba;12.00
 1286;TUTX 002;TWU/TUT Exchange Program;A;12:00 AM - 12:01 AM;;Tba;15.00
-1287;UNIV 108;Introduction to Cultural Engagement;OG;6:15 PM - 7:30 PM;;Debbie Mohamed;1.00
+1287;UNIV 108;Introduction to Cultural Engagement;OG;6:15 PM - 7:30 PM;T;Debbie Mohamed;1.00
 1288;UNIV 110;Scholarly Inquiry & Resrch Methods;IS;-;;Bill Badke;2.00
-1289;UNIV 110;Scholarly Inquiry & Resrch Methods;OL;6:00 PM - 9:00 PM;;Bill Badke;2.00
+1289;UNIV 110;Scholarly Inquiry & Resrch Methods;OL;6:00 PM - 9:00 PM;W;Bill Badke;2.00
 1290;WRSH 402;Worship Practicum I;A;12:00 AM - 12:01 AM;;David Squires;1.00
 1291;WRSH 403;Worship Practicum II;A;12:00 AM - 12:01 AM;;David Squires;1.00
-1292;WRTG 100;Writing in the University Context;A;12:00 PM - 1:15 PM;W;Jennifer Doede;3.00
-1293;WRTG 100;Writing in the University Context;B;1:30 PM - 2:45 PM;W;Jennifer Doede;3.00
+1292;WRTG 100;Writing in the University Context;A;12:00 PM - 1:15 PM;MW;Jennifer Doede;3.00
+1293;WRTG 100;Writing in the University Context;B;1:30 PM - 2:45 PM;MW;Jennifer Doede;3.00
 1294;WRTG 100;Writing in the University Context;IS;12:00 AM - 12:01 AM;;Micah Towery;3.00
-1295;WRTG 100;Writing in the University Context;OL;6:00 PM - 9:00 PM;;Janet Lermitte;3.00
-1296;WRTG 101;Writing and Culture;A;1:30 PM - 2:45 PM;W;Gordon Reisdorf;3.00
+1295;WRTG 100;Writing in the University Context;OL;6:00 PM - 9:00 PM;W;Janet Lermitte;3.00
+1296;WRTG 101;Writing and Culture;A;1:30 PM - 2:45 PM;MW;Gordon Reisdorf;3.00
 1297;WRTG 101;Writing and Culture;B;9:30 AM - 10:45 AM;;Gordon Reisdorf;3.00
 1298;WRTG 101;Writing and Culture;GX;12:00 AM - 12:01 AM;;Olya Kliuyeva;3.00
 1299;WRTG 101;Writing and Culture;I2;10:30 AM - 11:45 AM;;Simei Zhou;3.00
-1300;WRTG 101;Writing and Culture;I3;1:00 PM - 2:15 PM;WF;Jocelyn Maleniza;3.00
-1301;WRTG 101;Writing and Culture;I4;2:30 PM - 3:45 PM;WF;Simei Zhou;3.00
+1300;WRTG 101;Writing and Culture;I3;1:00 PM - 2:15 PM;MWF;Jocelyn Maleniza;3.00
+1301;WRTG 101;Writing and Culture;I4;2:30 PM - 3:45 PM;MWF;Simei Zhou;3.00
 1302;WRTG 101;Writing and Culture;IN;9:30 AM - 10:45 AM;;Jocelyn Maleniza;3.00
 1303;WRTG 101;Writing and Culture;IR;9:00 AM - 10:15 AM;;Simei Zhou;3.00
 1304;WRTG 101;Writing and Culture;UA;9:30 AM - 10:45 AM;;Shine Hong;3.00
