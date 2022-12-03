@@ -86,6 +86,8 @@ public class AcademicCalendar {
                 count++;
                 bw.flush();
             }
+            br.close();
+            br2.close();
             bw.close();
         }
         catch(Exception e){

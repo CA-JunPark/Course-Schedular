@@ -86,6 +86,8 @@ public class timetable {
                 bw2.flush();
                 num++;
             }
+            br.close();
+            bw2.close();
         }
         catch(Exception e){
             e.printStackTrace();
@@ -118,6 +120,7 @@ public class timetable {
                 lineCount ++;
                 
             }
+            br.close();
         }
         catch(IOException e){
             e.printStackTrace();

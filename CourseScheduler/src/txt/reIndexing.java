@@ -8,9 +8,8 @@ import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
 
-public class reIndexting {
+public class reIndexing {
     public static void main(String[] args) {
         try{
             File myTxt = new File("CourseScheduler/src/txt/courseDescriptions.csv");
@@ -37,6 +36,7 @@ public class reIndexting {
                 bw.flush();
                 count++;
             }
+            br.close();
             bw.close();
         }
         catch(Exception e){
