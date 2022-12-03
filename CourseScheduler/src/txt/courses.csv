@@ -1,5 +1,5 @@
 sep=;
-#; CourseCode; CourseTitle; section; time; date; instructor; credit
+num;CourseCode;CourseTitle;section;time;date;instructor;credit
 1;ANTH 101;Introduction Cultural Anthropology;A;12:00 PM - 1:15 PM;TR;Claudia Launhardt;3.00
 2;ANTH 101;Introduction Cultural Anthropology;GX;12:00 AM - 12:01 AM;;Ruth Anaya;3.00
 3;ANTH 101;Introduction Cultural Anthropology;IR;1:00 PM - 4:00 PM;W;Claudia Launhardt;3.00

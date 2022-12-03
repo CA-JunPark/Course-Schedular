@@ -1,5 +1,5 @@
 sep=;
-#; CourseCode; CourseTitle; section; time; date; instructor; credit
+num;CourseCode;CourseTitle;section;time;date;instructor;credit
 1;ANTH 101;Introduction Cultural Anthropology;A;12:00 PM - 1:15 PM;TR;Claudia Launhardt;3.00
 2;ANTH 101;Introduction Cultural Anthropology;GX;12:00 AM - 12:01 AM;;Ruth Anaya;3.00
 3;ANTH 101;Introduction Cultural Anthropology;IR;1:00 PM - 4:00 PM;W;Claudia Launhardt;3.00
@@ -387,23 +387,23 @@ sep=;
 385;HKIN 163;Soccer;MT;12:00 AM - 12:01 AM;;Shearon;1.00
 386;HKIN 163;Soccer;WT;12:00 AM - 12:01 AM;;m Roxburgh;1.00
 387;HKIN 164;Ice Hockey;WT;12:00 AM - 12:01 AM;;Laforest;1.00
-388;HKIN 191;Introduction to Exercise Physiology;A;12:00 PM - 1:15 PM;;a Fenuta;3.00
-389;HKIN 191;Lab for HKIN 191;Lab A;12:00 PM - 1:15 PM;;a Fenuta;.00
-390;HKIN 191;Lab for HKIN 191;Lab A;12:00 PM - 1:15 PM;;a Fenuta;.00
+388;HKIN 191;Introduction to Exercise Physiology;A;12:00 PM - 1:15 PM;;;3.00
+389;HKIN 191;Lab for HKIN 191;Lab A;12:00 PM - 1:15 PM;;;.00
+390;HKIN 191;Lab for HKIN 191;Lab A;12:00 PM - 1:15 PM;;;.00
 391;HKIN 201;Strength and Conditioning;A;3:00 PM - 4:15 PM;;w Heming;3.00
 392;HKIN 202;Total Fitness for Women;A;1:30 PM - 2:45 PM;;l Stephenson;3.00
-393;HKIN 217;Rugby Team;MT;12:00 AM - 12:01 AM;;a;1.00
-394;HKIN 217;Rugby Team;WT;12:00 AM - 12:01 AM;;a;1.00
-395;HKIN 231;Track & Field;MT;12:00 AM - 12:01 AM;;a;1.00
+393;HKIN 217;Rugby Team;MT;12:00 AM - 12:01 AM;;;1.00
+394;HKIN 217;Rugby Team;WT;12:00 AM - 12:01 AM;;;1.00
+395;HKIN 231;Track & Field;MT;12:00 AM - 12:01 AM;;;1.00
 396;HKIN 235;Climbing Pursuits;A;12:00 PM - 2:45 PM;;Larochelle;3.00
 397;HKIN 260;Growth and Development;A;1:30 PM - 2:45 PM;;Turner;3.00
-398;HKIN 261;Basketball Team;MT;12:00 AM - 12:01 AM;;a;1.00
-399;HKIN 261;Basketball Team;WT;12:00 AM - 12:01 AM;;a;1.00
+398;HKIN 261;Basketball Team;MT;12:00 AM - 12:01 AM;;;1.00
+399;HKIN 261;Basketball Team;WT;12:00 AM - 12:01 AM;;;1.00
 400;HKIN 262;Volleyball Team;MT;12:00 AM - 12:01 AM;;Schriemer;1.00
-401;HKIN 262;Volleyball Team;WT;12:00 AM - 12:01 AM;;a;1.00
-402;HKIN 263;Soccer Team;MT;12:00 AM - 12:01 AM;;a;1.00
-403;HKIN 263;Soccer Team;WT;12:00 AM - 12:01 AM;;a;1.00
-404;HKIN 264;Hockey Team;TS;12:00 AM - 12:01 AM;;a;1.00
+401;HKIN 262;Volleyball Team;WT;12:00 AM - 12:01 AM;;;1.00
+402;HKIN 263;Soccer Team;MT;12:00 AM - 12:01 AM;;;1.00
+403;HKIN 263;Soccer Team;WT;12:00 AM - 12:01 AM;;;1.00
+404;HKIN 264;Hockey Team;TS;12:00 AM - 12:01 AM;;;1.00
 405;HKIN 266;Indoor Team Sports;A;1:30 PM - 2:45 PM;;ll;3.00
 406;HKIN 277;Tech Apps in Human Kinetics & Recr.;A;3:00 PM - 4:15 PM;;Turner;3.00
 407;HKIN 280;Intro to Coaching;A;12:00 PM - 1:15 PM;;Turner;3.00
@@ -411,10 +411,10 @@ sep=;
 409;HKIN 303;Advanced Strength Training;A;3:00 PM - 4:15 PM;;Luke;3.00
 410;HKIN 303;Lab for HKIN 303;Lab A;3:00 PM - 3:50 PM;;w Heming;.00
 411;HKIN 303;Lab for HKIN 303;Lab A;3:00 PM - 3:50 PM;;w Heming;.00
-412;HKIN 317;Rugby Team;MT;12:00 AM - 12:01 AM;;a;1.00
-413;HKIN 317;Rugby Team;WT;12:00 AM - 12:01 AM;;a;1.00
+412;HKIN 317;Rugby Team;MT;12:00 AM - 12:01 AM;;;1.00
+413;HKIN 317;Rugby Team;WT;12:00 AM - 12:01 AM;;;1.00
 414;HKIN 320;Management & Facilities;A;3:00 PM - 4:15 PM;;Ginter;3.00
-415;HKIN 331;Track & Field;TS;12:00 AM - 12:01 AM;;a;1.00
+415;HKIN 331;Track & Field;TS;12:00 AM - 12:01 AM;;;1.00
 416;HKIN 342;Dance Explorations;A;6:30 PM - 9:15 PM;;Crawford;3.00
 417;HKIN 350;Teaching Physical Education;A;3:00 PM - 4:15 PM;;Turner;3.00
 418;HKIN 351;Leadership & Management;A;1:30 PM - 2:45 PM;;Larochelle;3.00
@@ -428,7 +428,7 @@ sep=;
 426;HKIN 363;Soccer Team;WT;12:00 AM - 12:01 AM;;m Roxburgh;1.00
 427;HKIN 364;Hockey Team;MT;12:00 AM - 12:01 AM;;t Kropf;1.00
 428;HKIN 364;Hockey Team;WT;12:00 AM - 12:01 AM;;Laforest;1.00
-429;HKIN 372;Athletic Injuries;A;12:00 PM - 1:15 PM;;a Mackey;3.00
+429;HKIN 372;Athletic Injuries;A;12:00 PM - 1:15 PM;;;3.00
 430;HKIN 372;Lab for HKIN 372;Lab A;9:30 AM - 10:20 AM;;na Mackey;.00
 431;HKIN 372;Lab for HKIN 372;Lab A;9:30 AM - 10:20 AM;;na Mackey;.00
 432;HKIN 375;Research Methods;A;1:30 PM - 2:45 PM;;Bodner;3.00
@@ -436,7 +436,7 @@ sep=;
 434;HKIN 417;Rugby Team;WT;12:00 AM - 12:01 AM;;ba;1.00
 435;HKIN 431;Track & Field;TS;12:00 AM - 12:01 AM;;ba;1.00
 436;HKIN 440;Applied Mental Skills SportsFitness;A;9:30 AM - 10:45 AM;;r Whitmarsh;3.00
-437;HKIN 446;Advanced Human Anatomy;A;12:00 PM - 1:15 PM;;a Cote;3.00
+437;HKIN 446;Advanced Human Anatomy;A;12:00 PM - 1:15 PM;;;3.00
 438;HKIN 455;Core Teaching Experience II;A;12:00 AM - 12:01 AM;;Reimer;1.00
 439;HKIN 455;Core Teaching Experience II;B;12:00 AM - 12:01 AM;;Reimer;2.00
 440;HKIN 456;Core Teaching Experience III;A;12:00 AM - 12:01 AM;;Reimer;1.00
