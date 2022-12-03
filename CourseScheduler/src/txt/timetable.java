@@ -81,8 +81,9 @@ public class timetable {
             bw2.write("#; CourseCode; CourseTitle; section; time; date; instructor; credit\n");
             int num = 1;
             for (String[] des : courses){
-                String a = des[0] + "; " + des[1] + "; " + des[2] + "; " + des[3] + "; " + des[4] + "; " + des[5] + "; " + des[6] + "\n";
-                bw2.write(num + "; " + a) ;
+                String a = des[0] + ";" + des[1] + ";" + des[2] + ";" + des[3] + ";" + des[4] + ";" + des[5] + ";" + des[6] + "\n";
+                bw2.write(num + ";" + a) ;
+                bw2.flush();
                 num++;
             }
         }
@@ -123,7 +124,7 @@ public class timetable {
         }
         return sectionLineIndex;
     }
-    static boolean UpperCheck(String s){
+    public static boolean UpperCheck(String s){
         boolean result = false;
         for (int i = 0; i < s.length(); i++){
             if (Character.isUpperCase(s.charAt(i))){
