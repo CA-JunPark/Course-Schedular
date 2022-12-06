@@ -3,6 +3,7 @@ package application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -53,7 +54,7 @@ public class Controller {
     private ListView<String> listView;
 
     @FXML
-    private MenuButton menuButtonSemester;
+    private MenuButton menuButtonSearchOption;
 
     @FXML
     private MenuButton menuButtonSort;
@@ -66,6 +67,22 @@ public class Controller {
 
     @FXML
     private TextField textFieldSearch;
+    @FXML
+    private CheckMenuItem SearchCheckCode;
+
+    @FXML
+    private CheckMenuItem SearchCheckProf;
+
+    @FXML
+    private CheckMenuItem SearchCheckTitle;
+    @FXML
+    private CheckMenuItem SortCheckCode;
+
+    @FXML
+    private CheckMenuItem SortCheckTitle;
+
+    public String searchOption = "CourseCode";
+    public String sortOption = "CourseCode";
 
     @FXML
     private TextField textFieldSemesterDisplay;
@@ -99,10 +116,12 @@ public class Controller {
 
     public void initialize(){
         setTimeLines();
+        SearchCheckCode.setSelected(true);
+        SortCheckCode.setSelected(true);
 
-//        ResultSet a = JDBC_Connection.initialSearch();
+        ResultSet a = JDBC_Connection.initialSearch();
 
-//        updateListView(a);
+        updateListView(a);
     }
     @FXML
     public void processClickOnListView(MouseEvent mouseEvent) {
@@ -293,16 +312,22 @@ public class Controller {
                 C2.add(set.getString("CourseTitle"));
 
                 String time = set.getString("_Time");
-                String[] t = time.split(" ");
-                String start = t[0];
-                String end = t[3];
-                if (start.length() == 4){
-                    start = "0" + t[0];
+                if (time.length() > 4){
+                    String[] t = time.split(" ");
+                    String start = t[0];
+                    String end = t[3];
+                    if (start.length() == 4){
+                        start = "0" + t[0];
+                    }
+                    if(end.length() == 4){
+                        end = "0" + t[3];
+                    }
+                    T.add(start+t[2]+end);
                 }
-                if(end.length() == 4){
-                    end = "0" + t[3];
+                else{
+                    T.add("12:00-12:01");
                 }
-                T.add(start+t[2]+end);
+
 
                 String date = set.getString("_Date");
                 String[] d = date.split("");
@@ -322,7 +347,8 @@ public class Controller {
 
     public void processButtonSearch(ActionEvent event) throws SQLException {
         String input = textFieldSearch.getText();
-        ResultSet set = JDBC_Connection.CodeSearch(input);
+        //TODO TODO TODO
+        ResultSet set = JDBC_Connection.CodeSearch(input, searchOption, sortOption);
         updateListView(set);
     }
     void resetInfo(){
@@ -341,5 +367,37 @@ public class Controller {
         P = new ArrayList<>();
         // credit
         CR = new ArrayList<>();
+    }
+
+    // select only one is possible
+    public void checkSearchOption(ActionEvent event){
+        CheckMenuItem selected = (CheckMenuItem) event.getSource();
+        if (selected.equals(SearchCheckCode)){
+            SearchCheckTitle.setSelected(false);
+            SearchCheckProf.setSelected(false);
+            searchOption = "CourseCode";
+        }
+        else if (selected.equals(SearchCheckTitle)){
+            SearchCheckCode.setSelected(false);
+            SearchCheckProf.setSelected(false);
+            searchOption = "CourseTitle";
+        }
+        else{
+            SearchCheckCode.setSelected(false);
+            SearchCheckTitle.setSelected(false);
+            searchOption = "Instructor";
+        }
+    }
+
+    public void checkSortOption(ActionEvent event){
+        CheckMenuItem selected = (CheckMenuItem) event.getSource();
+        if (selected.equals(SortCheckCode)){
+            SortCheckTitle.setSelected(false);
+            sortOption = "CourseCode";
+        }
+        else{
+            SortCheckCode.setSelected(false);
+            sortOption = "CourseTitle";
+        }
     }
 }
