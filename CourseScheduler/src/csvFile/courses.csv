@@ -178,8 +178,8 @@ num;CourseCode;CourseTitle;section;time;date;instructor;credit
 176;CHIN 411;Modern Chinese Texts I;I3;9:00 AM - 12:00 PM;;Shiju Liu;3.00
 177;CHIN 411;Modern Chinese Texts I;IR;9:00 AM - 12:00 PM;;Shiju Liu;3.00
 178;CHIN 412;Modern Chinese Texts II;B;4:30 PM - 7:30 PM;R;Na Wu;3.00
-179;CMPT 140;Intro Computing Science & Program I;A;9:30 AM - 10:45 AM;;Herbert Tsang;3.00
-180;CMPT 166;Intr Computing Science & Program II;A;9:30 AM - 10:45 AM;;Andrew Park;3.00
+179;CMPT 140;Intro Computing Science & Program I;A;9:30 AM - 10:45 AM;WF;Herbert Tsang;3.00
+180;CMPT 166;Intr Computing Science & Program II;A;9:30 AM - 10:45 AM;TR;Andrew Park;3.00
 181;CMPT 211;Web Programming I;A;6:15 PM - 9:00 PM;R;Ryan Mcbride;3.00
 182;CMPT 360;Comparative Programming Languages;A;9:30 AM - 10:20 AM;;Rick Sutcliffe;3.00
 183;CMPT 380;Artificial Intelligence;A;3:00 PM - 4:15 PM;TR;Andrew Park;3.00
