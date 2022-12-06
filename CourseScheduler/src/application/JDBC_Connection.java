@@ -71,8 +71,37 @@ public class JDBC_Connection {
         } catch (Exception e){
             e.printStackTrace();
         }
-
-
         return resultSet;
+    }
+
+    public static void DeleteCoursesRecord(String CourseCode, String Section){
+        String query = String.format("delete from courses where CourseCode = '%1$s' and Section = '%2$s'", CourseCode, Section);
+        try{
+            Connection connection = DriverManager.getConnection(URL,USER,PASSWORD);
+            Statement statement = connection.createStatement();
+
+            ResultSet resultSet = statement.executeQuery(query);
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public static void updateCoursesRecord(String currentCourseCode, String currentSection,
+                                    String newCourseCode, String newCourseTitle, String newSection, String newTime,
+                                    String newDate, String newProf, int newCredit){
+        String query = String.format("UPDATE courses SET CourseCode = '%1$s', CourseTitle = '%2$s', Section = '%3$s', " +
+                                    "_Time = '%4$s', _Date = '%5$s', Instructor = '%6$s', Credit = '%7$d' " +
+                                    "WHERE CourseCode = '%8$s' and Section = '%9$s'",
+                newCourseCode, newCourseTitle, newSection, newTime,newDate, newProf, newCredit, currentCourseCode, currentSection);
+        try{
+            Connection connection = DriverManager.getConnection(URL,USER,PASSWORD);
+            Statement statement = connection.createStatement();
+
+            ResultSet resultSet = statement.executeQuery(query);
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
