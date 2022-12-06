@@ -122,6 +122,7 @@ public class Controller {
         ResultSet a = JDBC_Connection.initialSearch();
 
         updateListView(a);
+        
     }
     @FXML
     public void processClickOnListView(MouseEvent mouseEvent) {
@@ -351,6 +352,7 @@ public class Controller {
         ResultSet set = JDBC_Connection.CodeSearch(input, searchOption, sortOption);
         updateListView(set);
     }
+
     void resetInfo(){
         C1 = new ArrayList<>();
         // Section
@@ -373,30 +375,34 @@ public class Controller {
     public void checkSearchOption(ActionEvent event){
         CheckMenuItem selected = (CheckMenuItem) event.getSource();
         if (selected.equals(SearchCheckCode)){
+            SearchCheckCode.setSelected(true);
             SearchCheckTitle.setSelected(false);
             SearchCheckProf.setSelected(false);
             searchOption = "CourseCode";
         }
         else if (selected.equals(SearchCheckTitle)){
             SearchCheckCode.setSelected(false);
+            SearchCheckProf.setSelected(true);
             SearchCheckProf.setSelected(false);
             searchOption = "CourseTitle";
         }
         else{
             SearchCheckCode.setSelected(false);
             SearchCheckTitle.setSelected(false);
+            SearchCheckProf.setSelected(true);
             searchOption = "Instructor";
         }
     }
-
     public void checkSortOption(ActionEvent event){
         CheckMenuItem selected = (CheckMenuItem) event.getSource();
         if (selected.equals(SortCheckCode)){
+            SortCheckCode.setSelected(true);
             SortCheckTitle.setSelected(false);
             sortOption = "CourseCode";
         }
         else{
             SortCheckCode.setSelected(false);
+            SortCheckTitle.setSelected(true);
             sortOption = "CourseTitle";
         }
     }
