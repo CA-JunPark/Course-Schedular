@@ -2,21 +2,25 @@
  listView Skin
 ****************************************************************/
 .list-view {
-    -fx-background-color: #1f1f1f7f;
+    -fx-background-color: #434343;
 }
-
 .list-view .list-cell:hover {
-    -fx-background-color: #1c1c1cb2;
+    -fx-background-color:  #FFFFFF20;
 }
 .list-view .list-cell:selected {
-    -fx-background-color: #1c1c1cb2;
+    -fx-background-color: lightgrey;
     -fx-text-fill:  #fc4364;
+    -fx-background-radius: 10;
 }
 .list-view .list-cell {
-    -fx-background-color: #1f1f1f7f;
+    -fx-background-color: transparent;
     -fx-text-fill: white;
     -fx-font-size: 14px;
     -fx-font-family: 'Comic Sans MS';
+    -fx-background-radius: 10;
+}
+.list-view {
+    -fx-background-radius: 10;
 }
 /****************************************************************
  ScrollBar Skin
@@ -98,15 +102,47 @@
  menuItem Skin
 ****************************************************************/
 .menu-item{
-    -fx-background-color: #232323;
+    -fx-background-color: white;
     -fx-font-family: 'Comic Sans MS';
+    -fx-background-radius: 10;
 }
 .menu-item:hover{
-    -fx-background-color: #434343;
+    -fx-background-color: lightgrey;
+    -fx-background-radius: 10;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
 }
 .menu-item .label{
-    -fx-text-fill: white;
+    -fx-text-fill:  #fc4364;
+    -fx-background-radius: 10;
 }
+
+
+.menu-button{
+    -fx-background-color:  #fc4364;
+    -fx-font-family: 'Comic Sans MS';
+}
+.menu-button:hover{
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.00;
+}
+
+.menu-bar .menu-button{
+    -fx-background-color: #434343;
+}
+
+.menu-bar{
+    -fx-background-color: #434343;
+}
+.menu-bar .label{
+    -fx-text-fill:  #fc4364;
+}
+.menu-bar .menu-button:hover{
+    -fx-background-color:  #FFFFFF20;
+    -fx-background-radius: 10;
+}
+
+
 
 /****************************************************************
  Other Skin
@@ -138,7 +174,8 @@
     -fx-background-color: white;
 }
 .text-area {
-    -fx-background-color: #1f1f1f7f;
+    -fx-background-color: #434343;
+    -fx-highlight-fill: grey;
     -fx-text-fill: white;
     -fx-font-family: 'Comic Sans MS';
 }
@@ -153,6 +190,10 @@
 
 
 .text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
     -fx-background-color: transparent;
 }
 
