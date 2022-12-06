@@ -1,8 +1,7 @@
 package application;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import com.sun.source.tree.WhileLoopTree;
+
+import java.sql.*;
 import java.util.ArrayList;
 
 public class JDBC_Connection {
@@ -47,11 +46,32 @@ public class JDBC_Connection {
         try{
             Connection connection = DriverManager.getConnection(URL,USER,PASSWORD);
             Statement statement = connection.createStatement();
-
-            resultSet = statement.executeQuery("SELECT * FROM courses c JOIN courseDescriptions d using (CourseCode) WHERE CourseCode like 'CMPT%' ORDER BY courseCode ASC");
+            String select = "SELECT * FROM courses c JOIN courseDescriptions d using (CourseCode) WHERE CourseCode like 'CMPT%' ORDER BY courseCode ASC";
+            resultSet = statement.executeQuery(select);
         } catch (Exception e){
             e.printStackTrace();
         }
+
+        return resultSet;
+    }
+
+    public static ResultSet CodeSearch(String input, String searchOption, String sortOption) throws SQLException {
+        ResultSet resultSet = null;
+        System.out.println("sortOp = " + sortOption);
+        String where = String.format("%2$s like '%1$s%%' or %2$s like '%%%1$s' or %2$s like '%%%1$s%%'", input, searchOption);
+
+        String select = String.format("SELECT * FROM courses c JOIN courseDescriptions d using (CourseCode) WHERE %2$s ORDER BY %3$s ASC", input, where, sortOption);
+        System.out.println(select);
+        try{
+            Connection connection = DriverManager.getConnection(URL,USER,PASSWORD);
+            Statement statement = connection.createStatement();
+
+            resultSet = statement.executeQuery(select);
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
 
         return resultSet;
     }
