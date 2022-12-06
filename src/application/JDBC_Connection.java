@@ -7,14 +7,20 @@ import java.sql.Statement;
 
 public class JDBC_Connection {
 
-    public static void main(String[] args) {
+    static final String URL = "jdbc:mysql://remotemysql.com:3306/D62PAbWL1b";
+    static final String USER = "D62PAbWL1b";
+    static final String PASSWORD = "pT9OQggEJ3";
+
+    public static ResultSet JDBC(String search) {
+        ResultSet resultSet = null;
+
         try{
             Connection connection = DriverManager.getConnection
-                    ("jdbc:mysql://localhost:3306/courses", "root", "1234");
+                    (URL, USER, PASSWORD);
 
             Statement statement = connection.createStatement();
 
-            ResultSet resultSet = statement.executeQuery("select * from Student");
+            resultSet = statement.executeQuery("select * from Courses");
 
             while (resultSet.next()){
                 System.out.println(resultSet.getString("Student_id"));
@@ -22,6 +28,8 @@ public class JDBC_Connection {
         } catch (Exception e){
             e.printStackTrace();
         }
+
+        return resultSet;
 
     }
 }
