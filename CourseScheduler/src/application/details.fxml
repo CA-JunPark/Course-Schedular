@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="540.0" style="-fx-background-color: #554e4d; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DetailController">
+   <children>
+      <TextArea fx:id="textAreaDetails" editable="false" layoutX="10.0" layoutY="48.0" prefHeight="263.0" prefWidth="517.0" />
+      <Button fx:id="buttonDrop" layoutX="465.0" layoutY="324.0" mnemonicParsing="false" onAction="#processButtonDrop" prefHeight="13.0" prefWidth="62.0" style="-fx-background-color: #fc4364;" text="Drop" textFill="WHITE" />
+      <Button fx:id="buttonDone" layoutX="12.0" layoutY="324.0" mnemonicParsing="false" onAction="#processButtonDone" prefHeight="13.0" prefWidth="62.0" style="-fx-background-color: #fc4364;" text="Done" textFill="WHITE" />
+      <TextField fx:id="textFieldCourseTitle" editable="false" layoutX="10.0" layoutY="11.0" prefHeight="26.0" prefWidth="518.0" />
+   </children>
+</AnchorPane>
