@@ -55,9 +55,12 @@ public class JDBC_Connection {
         return resultSet;
     }
 
-    public static ResultSet CodeSearch(String input) throws SQLException {
+    public static ResultSet CodeSearch(String input, String searchOption, String sortOption) throws SQLException {
         ResultSet resultSet = null;
-        String select = String.format("SELECT * FROM courses c JOIN courseDescriptions d using (CourseCode) WHERE CourseCode like '%s%%' ORDER BY courseCode ASC", input);
+        System.out.println("sortOp = " + sortOption);
+        String where = String.format("%2$s like '%1$s%%' or %2$s like '%%%1$s' or %2$s like '%%%1$s%%'", input, searchOption);
+
+        String select = String.format("SELECT * FROM courses c JOIN courseDescriptions d using (CourseCode) WHERE %2$s ORDER BY %3$s ASC", input, where, sortOption);
         System.out.println(select);
         try{
             Connection connection = DriverManager.getConnection(URL,USER,PASSWORD);
