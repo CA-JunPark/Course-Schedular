@@ -19,20 +19,15 @@ import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Objects;
 
 import java.io.IOException;
+import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Objects;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Objects;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.Statement;
+
 
 public class Controller {
 
@@ -82,46 +77,32 @@ public class Controller {
     // last clicked index in the listView
     static int index = 0;
 
+    // CourseCode
     static ArrayList<String> C1 = new ArrayList<>();
+    // Section
+    static ArrayList<String> S = new ArrayList<>();
+    // CourseTitle
     static ArrayList<String> C2 = new ArrayList<>();
+    // Time
     static ArrayList<String> T = new ArrayList<>();
+    // Date
     static ArrayList<String[]> W = new ArrayList<>();
+    // Description
     static ArrayList<String> D = new ArrayList<>();
+    // prof
     static ArrayList<String> P = new ArrayList<>();
+    // credit
+    static ArrayList<Integer> CR = new ArrayList<>();
+
+    static HashMap<String,CourseButton[]> scheduleMap = new HashMap<String, CourseButton[]>();
+
+
     public void initialize(){
         setTimeLines();
 
-        ResultSet a = JDBC_Connection.initialSearch();
-        
-        try{
-            while(a.next()){
-                String code = a.getString("CourseCode") + " " + a.getString("Section");
-                C1.add(code);
-                C2.add(a.getString("CourseTitle"));
+//        ResultSet a = JDBC_Connection.initialSearch();
 
-                String time = a.getString("_Time");
-                String[] t = time.split(" ");
-                String start = t[0];
-                String end = t[3];
-                if (start.length() == 4){
-                   start = "0" + t[0];
-                }
-                if(end.length() == 4){
-                    end = "0" + t[3];
-                }
-                T.add(start+t[2]+end);
-
-                String date = a.getString("_Date");
-                String[] d = date.split("");
-                W.add(d);
-                D.add(a.getString("_Description"));
-                P.add(a.getString("Instructor"));
-            }
-        }
-        catch(Exception e){
-            e.printStackTrace();
-        }
-        updateListView();
+//        updateListView(a);
     }
     @FXML
     public void processClickOnListView(MouseEvent mouseEvent) {
@@ -131,20 +112,21 @@ public class Controller {
             for (String k : W.get(index)){
                 text += k;
             }
-            text += "\n"+T.get(index)+"\n"+P.get(index);
+            text += "\n"+T.get(index) + "\n" + P.get(index) + "\nCredit: " + CR.get(index);
             textAreaDetailsMain.setText(text);
         }
     }
     @FXML
-    void processButtonAdd(ActionEvent event) {
+    void processButtonAdd(ActionEvent event) throws IOException {
         String[] w = W.get(index);
         int length = w.length;
-        
-        for (int i = 0; i < length; i++){
-            addCourse(C1.get(index), getStartTimeFromData(T.get(index)), 
-                        getEndTimeFromData(T.get(index)), getDayOfWeekFromData(w[i]), "#FF6666");
+        CourseButton[] buttons = new CourseButton[length];
+        for (int i = 0; i < length; i ++) {
+            CourseButton button =  addCourse(C1.get(index), S.get(index), C2.get(index),
+                                        T.get(index), w[i], w, P.get(index),CR.get(index),  D.get(index), "#FF6666");
+            buttons[i] = button;
         }
-        
+        scheduleMap.put(C1.get(index), buttons);
     }
     @FXML
     void processScrollPaneClicked(MouseEvent event) {
@@ -205,19 +187,6 @@ public class Controller {
         });
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     // UI Design
     public void setTimeLines(){
         Text textStart = new Text("Start");
@@ -237,35 +206,47 @@ public class Controller {
     }
     // to add a course on the calendar
     // addCourse(courseTitle, start, end, M/W/T/R/F,)
-    public void addCourse(String description, String start, String end, int day, String color){
-        int interval = Integer.parseInt(end)-Integer.parseInt(start);
+    public CourseButton addCourse(String CourseCode, String Section, String CourseTitle,
+                          String Time, String oneDate, String[] Date,
+                          String prof, int credit, String Description, String color) throws IOException{
+        String startTime = getStartTimeFromData(Time);
+        String endTime = getEndTimeFromData(Time);
+        int interval = Integer.parseInt(endTime)-Integer.parseInt(startTime);
         String time = "";
-        time = time.concat(start.substring(0,2)+":").concat(start.substring(2)+"~");
-        time = time.concat(end.substring(0,2)+":").concat(end.substring(2));
-        Button button = new Button();
-        button.setText(description+"\n"+time);
-        button.setPrefSize(115, getTimeDifference(start, end));
+        time = time.concat(startTime.substring(0,2)+":").concat(startTime.substring(2)+"~");
+        time = time.concat(endTime.substring(0,2)+":").concat(endTime.substring(2));
+        CourseButton button = new CourseButton(CourseCode, Section, CourseTitle,
+                Time, Date,
+                prof, credit, Description);
+        button.setText(CourseCode + " " + Section + "\n" + time);
+        button.setPrefSize(115, getTimeDifference(startTime, endTime));
+        int day = getDayOfWeekFromData(oneDate);
         button.setLayoutX(52+(115*(day-1)));
         button.setStyle("-fx-background-color: "+color);
-        button.setLayoutY(34+((Integer.parseInt(start.substring(0,2))+Double.parseDouble(start.substring(2))/60)-6)*60);
+        button.setLayoutY(34+((Integer.parseInt(startTime.substring(0,2))+Double.parseDouble(startTime.substring(2))/60)-6)*60);
+        button.setOnAction(this::clickOnCourse);
         anchorPaneCalendar.getChildren().add(button);
-        button.setOnMouseClicked(v->{
-            AnchorPane root = null;
-            try {
-                root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("details.fxml")));
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            assert root != null;
-            Scene scene = new Scene(root, 540, 360);
-            scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("application.css")).toExternalForm());
-            stage = new Stage();
-            stage.setScene(scene);
-            stage.setResizable(false);
-            stage.initModality(Modality.APPLICATION_MODAL);
-            stage.setTitle("Details");
-            stage.show();
-        });
+        return button;
+    }
+
+    public void clickOnCourse(ActionEvent event){
+        CourseButton clickedButton = (CourseButton) event.getSource();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("details.fxml"));
+        Scene scene = null;
+        try {
+            scene = new Scene(fxmlLoader.load());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        DetailController detailController = fxmlLoader.getController();
+        detailController.setTextAreaDetails(clickedButton);
+        detailController.setTextField(clickedButton);
+        Stage stage = new Stage();
+        stage.setTitle("Details");
+        stage.setScene(scene);
+        stage.setResizable(false);
+        stage.initModality(Modality.APPLICATION_MODAL);
+        stage.show();
     }
 
     public String getStartTimeFromData(String time){
@@ -300,9 +281,65 @@ public class Controller {
         return H*60+M;
     }
 
-    public void updateListView(){
-        for (int i=0; i < C1.size(); i++) {
-            listView.getItems().add(C1.get(i)+": "+C2.get(i));
+    public void updateListView(ResultSet a){
+        ResultSet set = a;
+        resetInfo();
+        listView.getItems().clear();
+        try{
+            while(set.next()){
+                String code = set.getString("CourseCode");
+                C1.add(code);
+                S.add(set.getString("Section"));
+                C2.add(set.getString("CourseTitle"));
+
+                String time = set.getString("_Time");
+                String[] t = time.split(" ");
+                String start = t[0];
+                String end = t[3];
+                if (start.length() == 4){
+                    start = "0" + t[0];
+                }
+                if(end.length() == 4){
+                    end = "0" + t[3];
+                }
+                T.add(start+t[2]+end);
+
+                String date = set.getString("_Date");
+                String[] d = date.split("");
+                W.add(d);
+                D.add(set.getString("_Description"));
+                P.add(set.getString("Instructor"));
+                CR.add(set.getInt("Credit"));
+            }
         }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        for (int i=0; i < C1.size(); i++) {
+            listView.getItems().add(C1.get(i) + " " + S.get(i) + ": " + C2.get(i));
+        }
+    }
+
+    public void processButtonSearch(ActionEvent event) throws SQLException {
+        String input = textFieldSearch.getText();
+        ResultSet set = JDBC_Connection.CodeSearch(input);
+        updateListView(set);
+    }
+    void resetInfo(){
+        C1 = new ArrayList<>();
+        // Section
+        S = new ArrayList<>();
+        // CourseTitle
+        C2 = new ArrayList<>();
+        // Time
+        T = new ArrayList<>();
+        // Date
+        W = new ArrayList<>();
+        // Description
+        D = new ArrayList<>();
+        // prof
+        P = new ArrayList<>();
+        // credit
+        CR = new ArrayList<>();
     }
 }
