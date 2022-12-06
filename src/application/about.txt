@@ -1,9 +1,0 @@
-The project CourseScheduler is created for Trinity Western Students, potentially stretching to other universities, depending if they have the same issue. The app will be made user friendly, unlike the TWU course registration portal, where the course selection process requires students to have multiple tabs open, constantly refreshing and alternating between two pages when a course they selected does not match their timetable. This project will integrate MySQL and JavaFx to create an application that helps TWU students choose and select courses without being worrisome of time conflicts, and making the course registration process faster.
-
-Contribution:
-Isaac Shoma
-Indra Kanyana
-Jun Park
-Linyun Liu
-
-Copyright ©2022-2022 DataZilla
