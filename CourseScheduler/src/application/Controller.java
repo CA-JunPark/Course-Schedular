@@ -110,6 +110,13 @@ public class Controller {
 
     static HashMap<String,CourseButton[]> scheduleMap = new HashMap<>();
 
+    // Calender Time
+    private ReservedTime mon = new ReservedTime(1);
+    private ReservedTime tue = new ReservedTime(2);
+    private ReservedTime wed = new ReservedTime(3);
+    private ReservedTime thr = new ReservedTime(4);
+    private ReservedTime fri = new ReservedTime(5);
+    private ReservedTime[] reservedTimes = {mon, tue, wed, thr, fri};
 
     public void initialize(){
         setTimeLines();
@@ -139,9 +146,21 @@ public class Controller {
         String[] w = W.get(index);
         int length = w.length;
         CourseButton[] buttons = new CourseButton[length];
+        int[] startEnd = ReservedTime.getStartEnd(getStartTimeFromData(T.get(index)), getEndTimeFromData(T.get(index)));
+        for (String s : w) {
+            int day = getDayOfWeekFromData(s);
+            if (reservedTimes[day - 1].conflictCheck(startEnd)) {
+                Alert alert = new Alert(Alert.AlertType.ERROR, "There is Conflict", ButtonType.CLOSE);
+                alert.showAndWait();
+                return;
+            }
+        }
         for (int i = 0; i < length; i ++) {
+            int day = getDayOfWeekFromData(w[i]);
+
             CourseButton button =  addCourse(C1.get(index), S.get(index), C2.get(index),
                                         T.get(index), w[i], w, P.get(index),CR.get(index), D.get(index), "#FF6666");
+            reservedTimes[day-1].reserve(startEnd);
             if (button != null){
                buttons[i] = button;
             }
@@ -226,7 +245,6 @@ public class Controller {
         }
     }
     // to add a course on the calendar
-    // addCourse(courseTitle, start, end, M/W/T/R/F,)
     public CourseButton addCourse(String CourseCode, String Section, String CourseTitle,
                           String Time, String oneDate, String[] Date,
                           String prof, int credit, String Description, String color) throws IOException{
