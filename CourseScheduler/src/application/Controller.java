@@ -87,7 +87,7 @@ public class Controller {
     boolean isClicked = false;
     public static Stage stage;
     // last clicked index in the listView
-    static int index = 0;
+    static int index;
 
     // CourseCode
     static ArrayList<String> C1 = new ArrayList<>();
@@ -108,6 +108,13 @@ public class Controller {
 
     static HashMap<String,CourseButton[]> scheduleMap = new HashMap<>();
 
+    // Calender Time
+    private ReservedTime mon = new ReservedTime(1);
+    private ReservedTime tue = new ReservedTime(2);
+    private ReservedTime wed = new ReservedTime(3);
+    private ReservedTime thr = new ReservedTime(4);
+    private ReservedTime fri = new ReservedTime(5);
+    private ReservedTime[] reservedTimes = {mon, tue, wed, thr, fri};
 
     public void initialize(){
         setTimeLines();
@@ -119,7 +126,7 @@ public class Controller {
         ResultSet a = JDBC_Connection.initialSearch();
 
         updateListView(a);
-        
+
     }
     @FXML
     public void processClickOnListView(MouseEvent mouseEvent) {
@@ -138,12 +145,28 @@ public class Controller {
         String[] w = W.get(index);
         int length = w.length;
         CourseButton[] buttons = new CourseButton[length];
-        for (int i = 0; i < length; i ++) {
-            CourseButton button =  addCourse(C1.get(index), S.get(index), C2.get(index),
-                                        T.get(index), w[i], w, P.get(index),CR.get(index),  D.get(index), "#FF6666");
-            buttons[i] = button;
+        int[] startEnd = ReservedTime.getStartEnd(getStartTimeFromData(T.get(index)), getEndTimeFromData(T.get(index)));
+        for (String s : w) {
+            int day = getDayOfWeekFromData(s);
+            if (reservedTimes[day - 1].conflictCheck(startEnd)) {
+                Alert alert = new Alert(Alert.AlertType.ERROR, "There is Conflict", ButtonType.CLOSE);
+                alert.showAndWait();
+                return;
+            }
         }
-        scheduleMap.put(C1.get(index), buttons);
+        for (int i = 0; i < length; i ++) {
+            int day = getDayOfWeekFromData(w[i]);
+
+            CourseButton button =  addCourse(C1.get(index), S.get(index), C2.get(index),
+                                        T.get(index), w[i], w, P.get(index),CR.get(index), D.get(index), "#FF6666");
+            reservedTimes[day-1].reserve(startEnd);
+            if (button != null){
+               buttons[i] = button;
+            }
+        }
+        if (buttons[0] != null){
+            scheduleMap.put(C1.get(index), buttons);
+        }
     }
     @FXML
     void processScrollPaneClicked(MouseEvent event) {
@@ -221,10 +244,10 @@ public class Controller {
         }
     }
     // to add a course on the calendar
-    // addCourse(courseTitle, start, end, M/W/T/R/F,)
     public CourseButton addCourse(String CourseCode, String Section, String CourseTitle,
                           String Time, String oneDate, String[] Date,
                           String prof, int credit, String Description, String color) throws IOException{
+        if (Date[0].equals("")) {return null;}
         String startTime = getStartTimeFromData(Time);
         String endTime = getEndTimeFromData(Time);
         int interval = Integer.parseInt(endTime)-Integer.parseInt(startTime);
@@ -271,10 +294,36 @@ public class Controller {
     }
 
     public String getStartTimeFromData(String time){
-        return time.substring(0,5).replace(":","");
+        String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
+        time = timeArr[0];
+        String startTime;
+        if (timeArr[1].equals("PM")){
+            String[] hrAndM = time.substring(0,5).split(":");
+            int conversion = Integer.parseInt(hrAndM[0]);
+            conversion += 12;
+            hrAndM[0] = Integer.toString(conversion);
+            startTime = hrAndM[0] + hrAndM[1];
+        }
+        else{
+            startTime = time.substring(0,5).replace(":","") ;
+        }
+        return startTime;
     }
     public String getEndTimeFromData(String time){
-        return time.substring(6).replace(":","");
+        String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
+        time = timeArr[0];
+        String endTime;
+        if (timeArr[1].equals("PM")){
+            String[] hrAndM = time.substring(6).split(":");
+            int conversion = Integer.parseInt(hrAndM[0]);
+            conversion += 12;
+            hrAndM[0] = Integer.toString(conversion);
+            endTime = hrAndM[0] + hrAndM[1];
+        }
+        else{
+            endTime = time.substring(6).replace(":","") ;
+        }
+        return endTime;
     }
     public int getDayOfWeekFromData(String days){
         if (days.equals("M")){
@@ -303,40 +352,39 @@ public class Controller {
     }
 
     public void updateListView(ResultSet a){
-        ResultSet set = a;
         resetInfo();
         listView.getItems().clear();
         try{
-            while(set.next()){
-                String code = set.getString("CourseCode");
+            while(a.next()){
+                String code = a.getString("CourseCode");
                 C1.add(code);
-                S.add(set.getString("Section"));
-                C2.add(set.getString("CourseTitle"));
+                S.add(a.getString("Section"));
+                C2.add(a.getString("CourseTitle"));
 
-                String time = set.getString("_Time");
+                String time = a.getString("_Time");
                 if (time.length() > 4){
                     String[] t = time.split(" ");
                     String start = t[0];
                     String end = t[3];
+                    String ampm = t[4];
                     if (start.length() == 4){
                         start = "0" + t[0];
                     }
                     if(end.length() == 4){
                         end = "0" + t[3];
                     }
-                    T.add(start+t[2]+end);
+                    T.add(start + t[2] + end + " " + t[4]);
                 }
                 else{
-                    T.add("12:00-12:01");
+                    T.add("12:00-12:01 PM");
                 }
 
-
-                String date = set.getString("_Date");
+                String date = a.getString("_Date");
                 String[] d = date.split("");
                 W.add(d);
-                D.add(set.getString("_Description"));
-                P.add(set.getString("Instructor"));
-                CR.add(set.getInt("Credit"));
+                D.add(a.getString("_Description"));
+                P.add(a.getString("Instructor"));
+                CR.add(a.getInt("Credit"));
             }
         }
         catch(Exception e){
@@ -350,7 +398,7 @@ public class Controller {
     public void processButtonSearch(ActionEvent event) throws SQLException{
         String input = textFieldSearch.getText();
         //TODO TODO TODO
-        ResultSet set = JDBC_Connection.CodeSearch(input, searchOption, sortOption);
+        ResultSet set = JDBC_Connection.Search(input, searchOption, sortOption);
         updateListView(set);
     }
 
