@@ -56,20 +56,18 @@ public class Controller {
     private CheckMenuItem SortCheckCode;
     @FXML
     private CheckMenuItem SortCheckTitle;
-    @FXML
-    private CheckMenuItem SortCheckProfessor;
     //************** END *****************//
 
 
-    //******** OBJECTS OF SEMESTER CHOICE ******//
+    //******** OBJECTS OF SEARCH CHOICE ******//
     @FXML
-    private MenuButton menuButtonSemester;
+    private CheckMenuItem SearchByCourseCode;
     @FXML
-    private TextField textFieldSemesterDisplay;
+    private CheckMenuItem SearchByProfessor;
     @FXML
-    private CheckMenuItem SemesterFall;
+    private CheckMenuItem SearchByCourseTitle;
     @FXML
-    private CheckMenuItem SemesterSpring;
+    private TextField textFieldSearchByDisplay;
     //************** END *****************//
 
 
@@ -120,9 +118,10 @@ public class Controller {
 
     public void initialize(){
         setTimeLines();
-        SemesterFall.setSelected(false);
-        SemesterSpring.setSelected(true);
-        textFieldSemesterDisplay.setText("Spring 2023");
+        SearchByCourseCode.setSelected(true);
+        SearchByCourseTitle.setSelected(false);
+        SearchByProfessor.setSelected(false);
+        textFieldSearchByDisplay.setText("Search By Course Code");
 
         ResultSet a = JDBC_Connection.initialSearch();
 
@@ -396,7 +395,7 @@ public class Controller {
         }
     }
 
-    public void processButtonSearch(ActionEvent event) throws SQLException {
+    public void processButtonSearch(ActionEvent event) throws SQLException{
         String input = textFieldSearch.getText();
         //TODO TODO TODO
         ResultSet set = JDBC_Connection.Search(input, searchOption, sortOption);
@@ -425,18 +424,28 @@ public class Controller {
 
     // This Two Function Control the Users Choice of Semester and Sort Options //
     @FXML
-    public void checkSemesterOption(ActionEvent event){
+    public void checkSearchOption(ActionEvent event){
         CheckMenuItem selected = (CheckMenuItem) event.getSource();
-        if(selected.equals(SemesterSpring)){
-            SemesterFall.setSelected(false);
-            SemesterSpring.setSelected(true);
-            textFieldSemesterDisplay.setText("Spring 2023");
+        if (selected.equals(SearchByCourseCode)){
+            SearchByCourseCode.setSelected(true);
+            SearchByCourseTitle.setSelected(false);
+            SearchByProfessor.setSelected(false);
+            textFieldSearchByDisplay.setText("Search By Course Code");
         }
-        if(selected.equals(SemesterFall)){
-            SemesterFall.setSelected(true);
-            SemesterSpring.setSelected(false);
-            textFieldSemesterDisplay.setText("Fall 2022");
+        if (selected.equals(SearchByCourseTitle)){
+            SearchByCourseCode.setSelected(false);
+            SearchByCourseTitle.setSelected(true);
+            SearchByProfessor.setSelected(false);
+            textFieldSearchByDisplay.setText("Search By Course Title");
         }
+        if (selected.equals(SearchByProfessor)){
+            SearchByCourseCode.setSelected(false);
+            SearchByCourseTitle.setSelected(false);
+            SearchByProfessor.setSelected(true);
+            textFieldSearchByDisplay.setText("Search By Professor");
+            textFieldSearchByDisplay.setText("Search By Professor");
+        }
+
     }
     @FXML
     public void checkSortOption(ActionEvent event){
@@ -444,20 +453,12 @@ public class Controller {
         if (selected.equals(SortCheckCode)){
             SortCheckCode.setSelected(true);
             SortCheckTitle.setSelected(false);
-            SortCheckProfessor.setSelected(false);
             sortOption = "CourseCode";
-        }
-        else if(selected.equals(SortCheckTitle)){
-            SortCheckCode.setSelected(false);
-            SortCheckTitle.setSelected(true);
-            SortCheckProfessor.setSelected(false);
-            sortOption = "CourseTitle";
         }
         else{
             SortCheckCode.setSelected(false);
-            SortCheckTitle.setSelected(false);
-            SortCheckProfessor.setSelected(true);
-            sortOption = "CourseProfessor";
+            SortCheckTitle.setSelected(true);
+            sortOption = "CourseTitle";
         }
     }
     // ********************* End *********************//
