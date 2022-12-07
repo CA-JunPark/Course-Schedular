@@ -32,13 +32,14 @@
             </menus>
         </MenuBar>
         <TextArea fx:id="textAreaDetailsMain" editable="false" layoutX="119.0" layoutY="514.0" prefHeight="185.0" prefWidth="551.0" style="-fx-background-radius: 10;" wrapText="true" />
-        <MenuButton fx:id="menuButtonSemester" layoutX="675.0" layoutY="50.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" style="-fx-background-radius: 10;" text="Semester" textFill="WHITE">
+        <MenuButton fx:id="menuButtonSemester" layoutX="675.0" layoutY="50.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" style="-fx-background-radius: 10;" text="Search By" textFill="WHITE">
             <items>
-            <CheckMenuItem fx:id="SemesterSpring" mnemonicParsing="false" onAction="#checkSemesterOption" selected="true" text="Spring 2023" />
-            <CheckMenuItem fx:id="SemesterFall" mnemonicParsing="false" onAction="#checkSemesterOption" text="Fall 2022" />
+            <CheckMenuItem fx:id="SearchByCourseCode" mnemonicParsing="false" onAction="#checkSearchOption" selected="true" text="Course Code" />
+            <CheckMenuItem fx:id="SearchByCourseTitle" mnemonicParsing="false" onAction="#checkSearchOption" text="Course Title" />
+            <CheckMenuItem fx:id="SearchByProfessor" mnemonicParsing="false" onAction="#checkSearchOption" text="Professor" />
             </items>
         </MenuButton>
-        <TextField fx:id="textFieldSemesterDisplay" alignment="CENTER" editable="false" layoutX="806.0" layoutY="50.0" prefHeight="26.0" prefWidth="253.0" />
+        <TextField fx:id="textFieldSearchByDisplay" alignment="CENTER" editable="false" layoutX="806.0" layoutY="50.0" prefHeight="26.0" prefWidth="253.0" />
         <ListView fx:id="listView" layoutX="676.0" layoutY="123.0" onMouseClicked="#processClickOnListView" prefHeight="576.0" prefWidth="384.0" />
         <TextField fx:id="textFieldSearch" layoutX="806.0" layoutY="88.0" prefHeight="26.0" prefWidth="160.0" />
         <Button fx:id="buttonSearch" layoutX="974.0" layoutY="88.0" mnemonicParsing="false" onAction="#processButtonSearch" prefHeight="26.0" prefWidth="85.0" style="-fx-background-radius: 20; -fx-background-color: #fc4364;" text="Search" textFill="WHITE" />
@@ -46,7 +47,6 @@
             <items>
                 <CheckMenuItem fx:id="SortCheckCode" mnemonicParsing="false" onAction="#checkSortOption" selected="true" text="Course Code" />
                 <CheckMenuItem fx:id="SortCheckTitle" mnemonicParsing="false" onAction="#checkSortOption" text="Course Title" />
-            <CheckMenuItem fx:id="SortCheckProfessor" mnemonicParsing="false" onAction="#checkSortOption" text="Professor" />
             </items>
         </MenuButton>
         <TextField alignment="CENTER" editable="false" layoutX="75.0" layoutY="50.0" prefHeight="38.0" prefWidth="115.0" text="MONDAY" />
