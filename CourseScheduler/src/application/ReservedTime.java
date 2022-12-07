@@ -54,6 +54,12 @@ public class ReservedTime {
         }
     }
 
+    public void drop(int[] startEnd){
+        for (int i = startEnd[0]; i < startEnd[1] + 1; i++){
+            fiveMinutes[i] = false;
+        }
+    }
+
     public int getDAY(){
         return DAY;
     }
