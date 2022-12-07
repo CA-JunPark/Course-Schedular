@@ -89,7 +89,7 @@ public class Controller {
     boolean isClicked = false;
     public static Stage stage;
     // last clicked index in the listView
-    static int index = 0;
+    static int index;
 
     // CourseCode
     static ArrayList<String> C1 = new ArrayList<>();
@@ -141,7 +141,7 @@ public class Controller {
         CourseButton[] buttons = new CourseButton[length];
         for (int i = 0; i < length; i ++) {
             CourseButton button =  addCourse(C1.get(index), S.get(index), C2.get(index),
-                                        T.get(index), w[i], w, P.get(index),CR.get(index),  D.get(index), "#FF6666");
+                                        T.get(index), w[i], w, P.get(index),CR.get(index), D.get(index), "#FF6666");
             if (button != null){
                buttons[i] = button;
             }
@@ -277,10 +277,36 @@ public class Controller {
     }
 
     public String getStartTimeFromData(String time){
-        return time.substring(0,5).replace(":","");
+        String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
+        time = timeArr[0];
+        String startTime;
+        if (timeArr[1].equals("PM")){
+            String[] hrAndM = time.substring(0,5).split(":");
+            int conversion = Integer.parseInt(hrAndM[0]);
+            conversion += 12;
+            hrAndM[0] = Integer.toString(conversion);
+            startTime = hrAndM[0] + hrAndM[1];
+        }
+        else{
+            startTime = time.substring(0,5).replace(":","") ;
+        }
+        return startTime;
     }
     public String getEndTimeFromData(String time){
-        return time.substring(6).replace(":","");
+        String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
+        time = timeArr[0];
+        String endTime;
+        if (timeArr[1].equals("PM")){
+            String[] hrAndM = time.substring(6).split(":");
+            int conversion = Integer.parseInt(hrAndM[0]);
+            conversion += 12;
+            hrAndM[0] = Integer.toString(conversion);
+            endTime = hrAndM[0] + hrAndM[1];
+        }
+        else{
+            endTime = time.substring(6).replace(":","") ;
+        }
+        return endTime;
     }
     public int getDayOfWeekFromData(String days){
         if (days.equals("M")){
@@ -309,39 +335,39 @@ public class Controller {
     }
 
     public void updateListView(ResultSet a){
-        ResultSet set = a;
         resetInfo();
         listView.getItems().clear();
         try{
-            while(set.next()){
-                String code = set.getString("CourseCode");
+            while(a.next()){
+                String code = a.getString("CourseCode");
                 C1.add(code);
-                S.add(set.getString("Section"));
-                C2.add(set.getString("CourseTitle"));
+                S.add(a.getString("Section"));
+                C2.add(a.getString("CourseTitle"));
 
-                String time = set.getString("_Time");
+                String time = a.getString("_Time");
                 if (time.length() > 4){
                     String[] t = time.split(" ");
                     String start = t[0];
                     String end = t[3];
+                    String ampm = t[4];
                     if (start.length() == 4){
                         start = "0" + t[0];
                     }
                     if(end.length() == 4){
                         end = "0" + t[3];
                     }
-                    T.add(start+t[2]+end);
+                    T.add(start + t[2] + end + " " + t[4]);
                 }
                 else{
-                    T.add("12:00-12:01");
+                    T.add("12:00-12:01 PM");
                 }
 
-                String date = set.getString("_Date");
+                String date = a.getString("_Date");
                 String[] d = date.split("");
                 W.add(d);
-                D.add(set.getString("_Description"));
-                P.add(set.getString("Instructor"));
-                CR.add(set.getInt("Credit"));
+                D.add(a.getString("_Description"));
+                P.add(a.getString("Instructor"));
+                CR.add(a.getInt("Credit"));
             }
         }
         catch(Exception e){

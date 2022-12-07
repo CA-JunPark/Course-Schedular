@@ -32,11 +32,10 @@
             </menus>
         </MenuBar>
         <TextArea fx:id="textAreaDetailsMain" editable="false" layoutX="119.0" layoutY="514.0" prefHeight="185.0" prefWidth="551.0" style="-fx-background-radius: 10;" wrapText="true" />
-        <MenuButton fx:id="menuButtonSearchOption" layoutX="675.0" layoutY="50.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" style="-fx-background-radius: 10;" text="Semester" textFill="WHITE">
+        <MenuButton fx:id="menuButtonSemester" layoutX="675.0" layoutY="50.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" style="-fx-background-radius: 10;" text="Semester" textFill="WHITE">
             <items>
-            <CheckMenuItem fx:id="SearchCheckCode" mnemonicParsing="false" onAction="#checkSearchOption" selected="true" text="Course Code" />
-            <CheckMenuItem fx:id="SearchCheckTitle" mnemonicParsing="false" onAction="#checkSearchOption" text="Course Title" />
-            <CheckMenuItem fx:id="SearchCheckProf" mnemonicParsing="false" onAction="#checkSearchOption" text="Professor" />
+            <CheckMenuItem fx:id="SemesterSpring" mnemonicParsing="false" onAction="#checkSemesterOption" selected="true" text="Spring 2023" />
+            <CheckMenuItem fx:id="SemesterFall" mnemonicParsing="false" onAction="#checkSemesterOption" text="Fall 2022" />
             </items>
         </MenuButton>
         <TextField fx:id="textFieldSemesterDisplay" alignment="CENTER" editable="false" layoutX="806.0" layoutY="50.0" prefHeight="26.0" prefWidth="253.0" />
@@ -47,6 +46,7 @@
             <items>
                 <CheckMenuItem fx:id="SortCheckCode" mnemonicParsing="false" onAction="#checkSortOption" selected="true" text="Course Code" />
                 <CheckMenuItem fx:id="SortCheckTitle" mnemonicParsing="false" onAction="#checkSortOption" text="Course Title" />
+            <CheckMenuItem fx:id="SortCheckProfessor" mnemonicParsing="false" onAction="#checkSortOption" text="Professor" />
             </items>
         </MenuButton>
         <TextField alignment="CENTER" editable="false" layoutX="75.0" layoutY="50.0" prefHeight="38.0" prefWidth="115.0" text="MONDAY" />
