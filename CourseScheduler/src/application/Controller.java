@@ -3,7 +3,6 @@ package application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -20,7 +19,7 @@ import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-
+import javafx.stage.StageStyle;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -34,65 +33,61 @@ public class Controller {
 
     @FXML
     private AnchorPane anchorPane;
-
     @FXML
     private Menu menuFile;
-
     @FXML
     private Menu menuHelp;
-
     @FXML
     private AnchorPane anchorPaneCalendar;
-
     @FXML
     private Button buttonAdd;
-
-    @FXML
-    private Button buttonSearch;
-
     @FXML
     private ListView<String> listView;
-
-    @FXML
-    private MenuButton menuButtonSearchOption;
-
-    @FXML
-    private MenuButton menuButtonSort;
-
     @FXML
     private ScrollPane scrollPane;
-
     @FXML
     private TextArea textAreaDetailsMain;
 
+
+    //******** OBJECTS OF SORT OPTIONS ******//
+    @FXML
+    private MenuButton menuButtonSort;
+    @FXML
+    private CheckMenuItem SortCheckCode;
+    @FXML
+    private CheckMenuItem SortCheckTitle;
+    //************** END *****************//
+
+
+    //******** OBJECTS OF SEARCH CHOICE ******//
+    @FXML
+    private CheckMenuItem SearchByCourseCode;
+    @FXML
+    private CheckMenuItem SearchByProfessor;
+    @FXML
+    private CheckMenuItem SearchByCourseTitle;
+    @FXML
+    private TextField textFieldSearchByDisplay;
+    //************** END *****************//
+
+
+    //******** OBJECTS OF SEARCH FEATURE ******//
     @FXML
     private TextField textFieldSearch;
     @FXML
-    private CheckMenuItem SearchCheckCode;
+    private Button buttonSearch;
+    //************** END *****************//
 
-    @FXML
-    private CheckMenuItem SearchCheckProf;
 
-    @FXML
-    private CheckMenuItem SearchCheckTitle;
-    @FXML
-    private CheckMenuItem SortCheckCode;
-
-    @FXML
-    private CheckMenuItem SortCheckTitle;
 
     public String searchOption = "CourseCode";
     public String sortOption = "CourseCode";
 
-    @FXML
-    private TextField textFieldSemesterDisplay;
 
     boolean isClicked = false;
-
     public static Stage stage;
-    
     // last clicked index in the listView
-    static int index = 0;
+    static int index;
 
     // CourseCode
     static ArrayList<String> C1 = new ArrayList<>();
@@ -111,18 +106,27 @@ public class Controller {
     // credit
     static ArrayList<Integer> CR = new ArrayList<>();
 
-    static HashMap<String,CourseButton[]> scheduleMap = new HashMap<String, CourseButton[]>();
+    static HashMap<String,CourseButton[]> scheduleMap = new HashMap<>();
 
+    // Calender Time
+    private static ReservedTime mon = new ReservedTime(1);
+    private static ReservedTime tue = new ReservedTime(2);
+    private static ReservedTime wed = new ReservedTime(3);
+    private static ReservedTime thr = new ReservedTime(4);
+    private static ReservedTime fri = new ReservedTime(5);
+    public  static ReservedTime[] reservedTimes = {mon, tue, wed, thr, fri};
 
     public void initialize(){
         setTimeLines();
-        SearchCheckCode.setSelected(true);
-        SortCheckCode.setSelected(true);
+        SearchByCourseCode.setSelected(true);
+        SearchByCourseTitle.setSelected(false);
+        SearchByProfessor.setSelected(false);
+        textFieldSearchByDisplay.setText("Search By Course Code");
 
         ResultSet a = JDBC_Connection.initialSearch();
 
         updateListView(a);
-        
+
     }
     @FXML
     public void processClickOnListView(MouseEvent mouseEvent) {
@@ -141,12 +145,28 @@ public class Controller {
         String[] w = W.get(index);
         int length = w.length;
         CourseButton[] buttons = new CourseButton[length];
-        for (int i = 0; i < length; i ++) {
-            CourseButton button =  addCourse(C1.get(index), S.get(index), C2.get(index),
-                                        T.get(index), w[i], w, P.get(index),CR.get(index),  D.get(index), "#FF6666");
-            buttons[i] = button;
+        int[] startEnd = ReservedTime.getStartEnd(getStartTimeFromData(T.get(index)), getEndTimeFromData(T.get(index)));
+        for (String s : w) {
+            int day = getDayOfWeekFromData(s);
+            if (reservedTimes[day - 1].conflictCheck(startEnd)) {
+                Alert alert = new Alert(Alert.AlertType.ERROR, "There is Conflict", ButtonType.CLOSE);
+                alert.showAndWait();
+                return;
+            }
         }
-        scheduleMap.put(C1.get(index), buttons);
+        for (int i = 0; i < length; i ++) {
+            int day = getDayOfWeekFromData(w[i]);
+
+            CourseButton button =  addCourse(C1.get(index), S.get(index), C2.get(index),
+                                        T.get(index), w[i], w, P.get(index),CR.get(index), D.get(index), "#FF6666");
+            reservedTimes[day-1].reserve(startEnd);
+            if (button != null){
+               buttons[i] = button;
+            }
+        }
+        if (buttons[0] != null){
+            scheduleMap.put(C1.get(index), buttons);
+        }
     }
     @FXML
     void processScrollPaneClicked(MouseEvent event) {
@@ -184,7 +204,6 @@ public class Controller {
         });
 
     }
-
     @FXML
     void processMenuHelp(ActionEvent event) {
         System.out.println("HELP");
@@ -225,10 +244,10 @@ public class Controller {
         }
     }
     // to add a course on the calendar
-    // addCourse(courseTitle, start, end, M/W/T/R/F,)
     public CourseButton addCourse(String CourseCode, String Section, String CourseTitle,
                           String Time, String oneDate, String[] Date,
                           String prof, int credit, String Description, String color) throws IOException{
+        if (Date[0].equals("")) {return null;}
         String startTime = getStartTimeFromData(Time);
         String endTime = getEndTimeFromData(Time);
         int interval = Integer.parseInt(endTime)-Integer.parseInt(startTime);
@@ -254,14 +273,19 @@ public class Controller {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("details.fxml"));
         Scene scene = null;
         try {
-            scene = new Scene(fxmlLoader.load());
+            AnchorPane pane = fxmlLoader.load();
+            scene = new Scene(pane);
+            scene.setFill(Color.TRANSPARENT);
+            scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("application.css")).toExternalForm());
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         DetailController detailController = fxmlLoader.getController();
         detailController.setTextAreaDetails(clickedButton);
         detailController.setTextField(clickedButton);
         Stage stage = new Stage();
+        stage.initStyle(StageStyle.TRANSPARENT);
         stage.setTitle("Details");
         stage.setScene(scene);
         stage.setResizable(false);
@@ -269,13 +293,39 @@ public class Controller {
         stage.show();
     }
 
-    public String getStartTimeFromData(String time){
-        return time.substring(0,5).replace(":","");
+    public static String getStartTimeFromData(String time){
+        String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
+        time = timeArr[0];
+        String startTime;
+        if (timeArr[1].equals("PM")){
+            String[] hrAndM = time.substring(0,5).split(":");
+            int conversion = Integer.parseInt(hrAndM[0]);
+            conversion += 12;
+            hrAndM[0] = Integer.toString(conversion);
+            startTime = hrAndM[0] + hrAndM[1];
+        }
+        else{
+            startTime = time.substring(0,5).replace(":","") ;
+        }
+        return startTime;
     }
-    public String getEndTimeFromData(String time){
-        return time.substring(6).replace(":","");
+    public static String getEndTimeFromData(String time){
+        String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
+        time = timeArr[0];
+        String endTime;
+        if (timeArr[1].equals("PM")){
+            String[] hrAndM = time.substring(6).split(":");
+            int conversion = Integer.parseInt(hrAndM[0]);
+            conversion += 12;
+            hrAndM[0] = Integer.toString(conversion);
+            endTime = hrAndM[0] + hrAndM[1];
+        }
+        else{
+            endTime = time.substring(6).replace(":","") ;
+        }
+        return endTime;
     }
-    public int getDayOfWeekFromData(String days){
+    public static int getDayOfWeekFromData(String days){
         if (days.equals("M")){
             return 1;
         }
@@ -302,40 +352,39 @@ public class Controller {
     }
 
     public void updateListView(ResultSet a){
-        ResultSet set = a;
         resetInfo();
         listView.getItems().clear();
         try{
-            while(set.next()){
-                String code = set.getString("CourseCode");
+            while(a.next()){
+                String code = a.getString("CourseCode");
                 C1.add(code);
-                S.add(set.getString("Section"));
-                C2.add(set.getString("CourseTitle"));
+                S.add(a.getString("Section"));
+                C2.add(a.getString("CourseTitle"));
 
-                String time = set.getString("_Time");
+                String time = a.getString("_Time");
                 if (time.length() > 4){
                     String[] t = time.split(" ");
                     String start = t[0];
                     String end = t[3];
+                    String ampm = t[4];
                     if (start.length() == 4){
                         start = "0" + t[0];
                     }
                     if(end.length() == 4){
                         end = "0" + t[3];
                     }
-                    T.add(start+t[2]+end);
+                    T.add(start + t[2] + end + " " + t[4]);
                 }
                 else{
-                    T.add("12:00-12:01");
+                    T.add("12:00-12:01 PM");
                 }
 
-
-                String date = set.getString("_Date");
+                String date = a.getString("_Date");
                 String[] d = date.split("");
                 W.add(d);
-                D.add(set.getString("_Description"));
-                P.add(set.getString("Instructor"));
-                CR.add(set.getInt("Credit"));
+                D.add(a.getString("_Description"));
+                P.add(a.getString("Instructor"));
+                CR.add(a.getInt("Credit"));
             }
         }
         catch(Exception e){
@@ -346,10 +395,9 @@ public class Controller {
         }
     }
 
-    public void processButtonSearch(ActionEvent event) throws SQLException {
+    public void processButtonSearch(ActionEvent event) throws SQLException{
         String input = textFieldSearch.getText();
-        //TODO TODO TODO
-        ResultSet set = JDBC_Connection.CodeSearch(input, searchOption, sortOption);
+        ResultSet set = JDBC_Connection.Search(input, searchOption, sortOption);
         updateListView(set);
     }
 
@@ -371,28 +419,34 @@ public class Controller {
         CR = new ArrayList<>();
     }
 
-    // select only one is possible
+
+
+    // This Two Function Control the Users Choice of Semester and Sort Options //
+    @FXML
     public void checkSearchOption(ActionEvent event){
         CheckMenuItem selected = (CheckMenuItem) event.getSource();
-        if (selected.equals(SearchCheckCode)){
-            SearchCheckCode.setSelected(true);
-            SearchCheckTitle.setSelected(false);
-            SearchCheckProf.setSelected(false);
-            searchOption = "CourseCode";
+        if (selected.equals(SearchByCourseCode)){
+            SearchByCourseCode.setSelected(true);
+            SearchByCourseTitle.setSelected(false);
+            SearchByProfessor.setSelected(false);
+            textFieldSearchByDisplay.setText("Search By Course Code");
         }
-        else if (selected.equals(SearchCheckTitle)){
-            SearchCheckCode.setSelected(false);
-            SearchCheckProf.setSelected(true);
-            SearchCheckProf.setSelected(false);
-            searchOption = "CourseTitle";
+        if (selected.equals(SearchByCourseTitle)){
+            SearchByCourseCode.setSelected(false);
+            SearchByCourseTitle.setSelected(true);
+            SearchByProfessor.setSelected(false);
+            textFieldSearchByDisplay.setText("Search By Course Title");
         }
-        else{
-            SearchCheckCode.setSelected(false);
-            SearchCheckTitle.setSelected(false);
-            SearchCheckProf.setSelected(true);
-            searchOption = "Instructor";
+        if (selected.equals(SearchByProfessor)){
+            SearchByCourseCode.setSelected(false);
+            SearchByCourseTitle.setSelected(false);
+            SearchByProfessor.setSelected(true);
+            textFieldSearchByDisplay.setText("Search By Professor");
+            textFieldSearchByDisplay.setText("Search By Professor");
         }
+
     }
+    @FXML
     public void checkSortOption(ActionEvent event){
         CheckMenuItem selected = (CheckMenuItem) event.getSource();
         if (selected.equals(SortCheckCode)){
@@ -406,4 +460,5 @@ public class Controller {
             sortOption = "CourseTitle";
         }
     }
+    // ********************* End *********************//
 }
