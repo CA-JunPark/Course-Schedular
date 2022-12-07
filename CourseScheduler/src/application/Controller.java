@@ -109,12 +109,12 @@ public class Controller {
     static HashMap<String,CourseButton[]> scheduleMap = new HashMap<>();
 
     // Calender Time
-    private ReservedTime mon = new ReservedTime(1);
-    private ReservedTime tue = new ReservedTime(2);
-    private ReservedTime wed = new ReservedTime(3);
-    private ReservedTime thr = new ReservedTime(4);
-    private ReservedTime fri = new ReservedTime(5);
-    private ReservedTime[] reservedTimes = {mon, tue, wed, thr, fri};
+    private static ReservedTime mon = new ReservedTime(1);
+    private static ReservedTime tue = new ReservedTime(2);
+    private static ReservedTime wed = new ReservedTime(3);
+    private static ReservedTime thr = new ReservedTime(4);
+    private static ReservedTime fri = new ReservedTime(5);
+    public  static ReservedTime[] reservedTimes = {mon, tue, wed, thr, fri};
 
     public void initialize(){
         setTimeLines();
@@ -293,7 +293,7 @@ public class Controller {
         stage.show();
     }
 
-    public String getStartTimeFromData(String time){
+    public static String getStartTimeFromData(String time){
         String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
         time = timeArr[0];
         String startTime;
@@ -309,7 +309,7 @@ public class Controller {
         }
         return startTime;
     }
-    public String getEndTimeFromData(String time){
+    public static String getEndTimeFromData(String time){
         String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
         time = timeArr[0];
         String endTime;
@@ -325,7 +325,7 @@ public class Controller {
         }
         return endTime;
     }
-    public int getDayOfWeekFromData(String days){
+    public static int getDayOfWeekFromData(String days){
         if (days.equals("M")){
             return 1;
         }

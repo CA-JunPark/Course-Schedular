@@ -58,6 +58,12 @@ public class DetailController {
             for (CourseButton button : buttons){
                 Pane pane = (Pane) button.getParent();
                 pane.getChildren().remove(button);
+                String time = button.getTime();
+                int[] startEnd = ReservedTime.getStartEnd(Controller.getStartTimeFromData(time), Controller.getEndTimeFromData(time));
+                for (String day : button.getDate()){
+                    int dayIndex = Controller.getDayOfWeekFromData(day);
+                    Controller.reservedTimes[dayIndex-1].drop(startEnd);
+                }
             }
             Stage stage = (Stage) textAreaDetails.getScene().getWindow();
             stage.close();
