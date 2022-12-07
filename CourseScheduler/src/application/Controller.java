@@ -396,7 +396,7 @@ public class Controller {
         }
     }
 
-    public void processButtonSearch() throws SQLException {
+    public void processButtonSearch(ActionEvent event) throws SQLException {
         String input = textFieldSearch.getText();
         //TODO TODO TODO
         ResultSet set = JDBC_Connection.Search(input, searchOption, sortOption);
