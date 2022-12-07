@@ -122,7 +122,7 @@ public class Controller {
         ResultSet a = JDBC_Connection.initialSearch();
 
         updateListView(a);
-        
+
     }
     @FXML
     public void processClickOnListView(MouseEvent mouseEvent) {
@@ -144,9 +144,13 @@ public class Controller {
         for (int i = 0; i < length; i ++) {
             CourseButton button =  addCourse(C1.get(index), S.get(index), C2.get(index),
                                         T.get(index), w[i], w, P.get(index),CR.get(index),  D.get(index), "#FF6666");
-            buttons[i] = button;
+            if (button != null){
+               buttons[i] = button;
+            }
         }
-        scheduleMap.put(C1.get(index), buttons);
+        if (buttons[0] != null){
+            scheduleMap.put(C1.get(index), buttons);
+        }
     }
     @FXML
     void processScrollPaneClicked(MouseEvent event) {
@@ -229,6 +233,7 @@ public class Controller {
     public CourseButton addCourse(String CourseCode, String Section, String CourseTitle,
                           String Time, String oneDate, String[] Date,
                           String prof, int credit, String Description, String color) throws IOException{
+        if (Date[0].equals("")) {return null;}
         String startTime = getStartTimeFromData(Time);
         String endTime = getEndTimeFromData(Time);
         int interval = Integer.parseInt(endTime)-Integer.parseInt(startTime);
@@ -329,7 +334,6 @@ public class Controller {
                     T.add("12:00-12:01");
                 }
 
-
                 String date = set.getString("_Date");
                 String[] d = date.split("");
                 W.add(d);
@@ -346,10 +350,10 @@ public class Controller {
         }
     }
 
-    public void processButtonSearch(ActionEvent event) throws SQLException {
+    public void processButtonSearch() throws SQLException {
         String input = textFieldSearch.getText();
         //TODO TODO TODO
-        ResultSet set = JDBC_Connection.CodeSearch(input, searchOption, sortOption);
+        ResultSet set = JDBC_Connection.Search(input, searchOption, sortOption);
         updateListView(set);
     }
 
