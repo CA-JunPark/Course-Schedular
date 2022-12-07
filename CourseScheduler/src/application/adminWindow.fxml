@@ -18,7 +18,7 @@
             </items>
         </MenuButton>
         <TextField fx:id="textFieldSearchByDisplay" alignment="CENTER" editable="false" layoutX="806.0" layoutY="35.0" prefHeight="26.0" prefWidth="253.0" />
-        <ListView fx:id="listView" layoutX="676.0" layoutY="108.0" onMouseClicked="#processClickOnListView" prefHeight="576.0" prefWidth="384.0" />
+        <ListView fx:id="listView" editable="true" layoutX="676.0" layoutY="108.0" onMouseClicked="#processClickOnListView" prefHeight="576.0" prefWidth="384.0" />
         <TextField fx:id="textFieldSearch" layoutX="806.0" layoutY="73.0" prefHeight="26.0" prefWidth="160.0" />
         <Button fx:id="buttonSearch" layoutX="974.0" layoutY="73.0" mnemonicParsing="false" onAction="#processButtonSearch" prefHeight="26.0" prefWidth="85.0" style="-fx-background-radius: 20; -fx-background-color: #fc4364;" text="Search" textFill="WHITE" />
         <MenuButton fx:id="menuButtonSort" layoutX="675.0" layoutY="73.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" style="-fx-background-radius: 10;" text="Sort By" textFill="WHITE">
