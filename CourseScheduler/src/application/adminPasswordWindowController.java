@@ -45,7 +45,7 @@ public class adminPasswordWindowController {
     public void loadAdminPage(Stage stage) throws IOException {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("adminWindow.fxml")));
         stage.setTitle("Administrator");
-        Scene scene = new Scene(root, 1080, 720);
+        Scene scene = new Scene(root, 900, 650);
         scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("application.css")).toExternalForm());
         stage.setScene(scene);
         stage.setResizable(false);
