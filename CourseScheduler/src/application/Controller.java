@@ -3,7 +3,6 @@ package application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -20,7 +19,7 @@ import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-
+import javafx.stage.StageStyle;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -34,63 +33,61 @@ public class Controller {
 
     @FXML
     private AnchorPane anchorPane;
-
     @FXML
     private Menu menuFile;
-
     @FXML
     private Menu menuHelp;
-
     @FXML
     private AnchorPane anchorPaneCalendar;
-
     @FXML
     private Button buttonAdd;
-
-    @FXML
-    private Button buttonSearch;
-
     @FXML
     private ListView<String> listView;
-
-    @FXML
-    private MenuButton menuButtonSearchOption;
-
-    @FXML
-    private MenuButton menuButtonSort;
-
     @FXML
     private ScrollPane scrollPane;
-
     @FXML
     private TextArea textAreaDetailsMain;
 
+
+    //******** OBJECTS OF SORT OPTIONS ******//
+    @FXML
+    private MenuButton menuButtonSort;
+    @FXML
+    private CheckMenuItem SortCheckCode;
+    @FXML
+    private CheckMenuItem SortCheckTitle;
+    @FXML
+    private CheckMenuItem SortCheckProfessor;
+    //************** END *****************//
+
+
+    //******** OBJECTS OF SEMESTER CHOICE ******//
+    @FXML
+    private MenuButton menuButtonSemester;
+    @FXML
+    private TextField textFieldSemesterDisplay;
+    @FXML
+    private CheckMenuItem SemesterFall;
+    @FXML
+    private CheckMenuItem SemesterSpring;
+    //************** END *****************//
+
+
+    //******** OBJECTS OF SEARCH FEATURE ******//
     @FXML
     private TextField textFieldSearch;
     @FXML
-    private CheckMenuItem SearchCheckCode;
+    private Button buttonSearch;
+    //************** END *****************//
 
-    @FXML
-    private CheckMenuItem SearchCheckProf;
 
-    @FXML
-    private CheckMenuItem SearchCheckTitle;
-    @FXML
-    private CheckMenuItem SortCheckCode;
-
-    @FXML
-    private CheckMenuItem SortCheckTitle;
 
     public String searchOption = "CourseCode";
     public String sortOption = "CourseCode";
 
-    @FXML
-    private TextField textFieldSemesterDisplay;
 
     boolean isClicked = false;
-
     public static Stage stage;
-    
     // last clicked index in the listView
     static int index = 0;
 
@@ -111,13 +108,14 @@ public class Controller {
     // credit
     static ArrayList<Integer> CR = new ArrayList<>();
 
-    static HashMap<String,CourseButton[]> scheduleMap = new HashMap<String, CourseButton[]>();
+    static HashMap<String,CourseButton[]> scheduleMap = new HashMap<>();
 
 
     public void initialize(){
         setTimeLines();
-        SearchCheckCode.setSelected(true);
-        SortCheckCode.setSelected(true);
+        SemesterFall.setSelected(false);
+        SemesterSpring.setSelected(true);
+        textFieldSemesterDisplay.setText("Spring 2023");
 
         ResultSet a = JDBC_Connection.initialSearch();
 
@@ -188,7 +186,6 @@ public class Controller {
         });
 
     }
-
     @FXML
     void processMenuHelp(ActionEvent event) {
         System.out.println("HELP");
@@ -259,14 +256,19 @@ public class Controller {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("details.fxml"));
         Scene scene = null;
         try {
-            scene = new Scene(fxmlLoader.load());
+            AnchorPane pane = fxmlLoader.load();
+            scene = new Scene(pane);
+            scene.setFill(Color.TRANSPARENT);
+            scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("application.css")).toExternalForm());
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         DetailController detailController = fxmlLoader.getController();
         detailController.setTextAreaDetails(clickedButton);
         detailController.setTextField(clickedButton);
         Stage stage = new Stage();
+        stage.initStyle(StageStyle.TRANSPARENT);
         stage.setTitle("Details");
         stage.setScene(scene);
         stage.setResizable(false);
@@ -375,39 +377,44 @@ public class Controller {
         CR = new ArrayList<>();
     }
 
-    // select only one is possible
-    public void checkSearchOption(ActionEvent event){
+
+
+    // This Two Function Control the Users Choice of Semester and Sort Options //
+    @FXML
+    public void checkSemesterOption(ActionEvent event){
         CheckMenuItem selected = (CheckMenuItem) event.getSource();
-        if (selected.equals(SearchCheckCode)){
-            SearchCheckCode.setSelected(true);
-            SearchCheckTitle.setSelected(false);
-            SearchCheckProf.setSelected(false);
-            searchOption = "CourseCode";
+        if(selected.equals(SemesterSpring)){
+            SemesterFall.setSelected(false);
+            SemesterSpring.setSelected(true);
+            textFieldSemesterDisplay.setText("Spring 2023");
         }
-        else if (selected.equals(SearchCheckTitle)){
-            SearchCheckCode.setSelected(false);
-            SearchCheckProf.setSelected(true);
-            SearchCheckProf.setSelected(false);
-            searchOption = "CourseTitle";
-        }
-        else{
-            SearchCheckCode.setSelected(false);
-            SearchCheckTitle.setSelected(false);
-            SearchCheckProf.setSelected(true);
-            searchOption = "Instructor";
+        if(selected.equals(SemesterFall)){
+            SemesterFall.setSelected(true);
+            SemesterSpring.setSelected(false);
+            textFieldSemesterDisplay.setText("Fall 2022");
         }
     }
+    @FXML
     public void checkSortOption(ActionEvent event){
         CheckMenuItem selected = (CheckMenuItem) event.getSource();
         if (selected.equals(SortCheckCode)){
             SortCheckCode.setSelected(true);
             SortCheckTitle.setSelected(false);
+            SortCheckProfessor.setSelected(false);
             sortOption = "CourseCode";
+        }
+        else if(selected.equals(SortCheckTitle)){
+            SortCheckCode.setSelected(false);
+            SortCheckTitle.setSelected(true);
+            SortCheckProfessor.setSelected(false);
+            sortOption = "CourseTitle";
         }
         else{
             SortCheckCode.setSelected(false);
-            SortCheckTitle.setSelected(true);
-            sortOption = "CourseTitle";
+            SortCheckTitle.setSelected(false);
+            SortCheckProfessor.setSelected(true);
+            sortOption = "CourseProfessor";
         }
     }
+    // ********************* End *********************//
 }
