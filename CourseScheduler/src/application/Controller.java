@@ -297,7 +297,7 @@ public class Controller {
         String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
         time = timeArr[0];
         String startTime;
-        if (timeArr[1].equals("PM")){
+        if (timeArr[1].equals("PM") & !time.substring(0,2).equals("12")){
             String[] hrAndM = time.substring(0,5).split(":");
             int conversion = Integer.parseInt(hrAndM[0]);
             conversion += 12;
@@ -313,7 +313,7 @@ public class Controller {
         String[] timeArr = time.split(" "); // timeArr[1] = AM or PM
         time = timeArr[0];
         String endTime;
-        if (timeArr[1].equals("PM")){
+        if (timeArr[1].equals("PM") & !time.substring(0,2).equals("12")){
             String[] hrAndM = time.substring(6).split(":");
             int conversion = Integer.parseInt(hrAndM[0]);
             conversion += 12;
