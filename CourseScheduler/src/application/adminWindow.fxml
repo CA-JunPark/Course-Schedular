@@ -44,7 +44,7 @@
                         <Font name="Comic Sans MS" size="14.0" />
                      </font>
                   </Label>
-                  <TextField prefHeight="26.0" prefWidth="359.0" />
+                  <TextField fx:id="courseCode" prefHeight="26.0" prefWidth="359.0" />
                </children>
             </HBox>
             <HBox layoutX="10.0" layoutY="10.0" prefHeight="28.0" prefWidth="436.0" spacing="10.0">
@@ -54,7 +54,7 @@
                         <Font name="Comic Sans MS" size="14.0" />
                      </font>
                   </Label>
-                  <TextField prefHeight="26.0" prefWidth="359.0" />
+                  <TextField fx:id="courseTitle" prefHeight="26.0" prefWidth="359.0" />
                </children>
             </HBox>
             <HBox layoutX="10.0" layoutY="38.0" prefHeight="28.0" prefWidth="436.0" spacing="10.0">
@@ -64,7 +64,7 @@
                         <Font name="Comic Sans MS" size="14.0" />
                      </font>
                   </Label>
-                  <TextField prefHeight="26.0" prefWidth="358.0" />
+                  <TextField fx:id="section" prefHeight="26.0" prefWidth="358.0" />
                </children>
             </HBox>
             <HBox layoutX="10.0" layoutY="66.0" prefHeight="28.0" prefWidth="436.0" spacing="10.0">
@@ -74,7 +74,7 @@
                         <Font name="Comic Sans MS" size="14.0" />
                      </font>
                   </Label>
-                  <TextField prefHeight="26.0" prefWidth="360.0" />
+                  <TextField fx:id="_time" prefHeight="26.0" prefWidth="360.0" />
                </children>
             </HBox>
             <HBox layoutX="10.0" layoutY="94.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="28.0" prefWidth="436.0" spacing="10.0">
@@ -84,7 +84,7 @@
                         <Font name="Comic Sans MS" size="14.0" />
                      </font>
                   </Label>
-                  <TextField prefHeight="26.0" prefWidth="359.0" />
+                  <TextField fx:id="_date" prefHeight="26.0" prefWidth="359.0" />
                </children>
             </HBox>
             <HBox layoutX="10.0" layoutY="122.0" prefHeight="28.0" prefWidth="436.0" spacing="10.0">
@@ -94,7 +94,7 @@
                         <Font name="Comic Sans MS" size="14.0" />
                      </font>
                   </Label>
-                  <TextField prefHeight="26.0" prefWidth="359.0" />
+                  <TextField fx:id="prof" prefHeight="26.0" prefWidth="359.0" />
                </children>
             </HBox>
             <HBox layoutX="10.0" layoutY="150.0" prefHeight="28.0" prefWidth="436.0" spacing="10.0">
@@ -104,7 +104,7 @@
                         <Font name="Comic Sans MS" size="14.0" />
                      </font>
                   </Label>
-                  <TextField prefHeight="26.0" prefWidth="359.0" />
+                  <TextField fx:id="credit" prefHeight="26.0" prefWidth="359.0" />
                </children>
             </HBox>
          </children>
@@ -114,16 +114,17 @@
             <Font name="Comic Sans MS" size="14.0" />
          </font>
       </Label>
-      <TextArea layoutX="115.0" layoutY="350.0" prefHeight="226.0" prefWidth="349.0" wrapText="true" />
-      <Button layoutX="176.0" layoutY="591.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="99.0" style="-fx-background-color: #fc4364;" text="Delete" textFill="WHITE" />
-      <Button layoutX="282.0" layoutY="591.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="184.0" style="-fx-background-color: #fc4364;" text="Save" textFill="WHITE" />
+      <TextArea fx:id="description" layoutX="115.0" layoutY="350.0" prefHeight="226.0" prefWidth="349.0" wrapText="true" />
+      <Button fx:id="deleteButton" layoutX="289.0" layoutY="591.0" mnemonicParsing="false" onAction="#processButtonDelete" prefHeight="40.0" prefWidth="85.0" style="-fx-background-color: #fc4364;" text="Delete" textFill="WHITE" />
+      <Button fx:id="addButton" layoutX="202.0" layoutY="591.0" mnemonicParsing="false" onAction="#processButtonAdd" prefHeight="40.0" prefWidth="85.0" style="-fx-background-color: #fc4364;" text="Add" textFill="WHITE" />
+      <Button fx:id="saveButton" layoutX="376.0" layoutY="591.0" mnemonicParsing="false" onAction="#processButtonSave" prefHeight="40.0" prefWidth="85.0" style="-fx-background-color: #fc4364;" text="Save" textFill="WHITE" />
       <Text fill="#fffafa" layoutX="115.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selected Course: ">
          <font>
             <Font name="Comic Sans MS" size="18.0" />
          </font>
       </Text>
-      <Button layoutX="114.0" layoutY="591.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="56.0" style="-fx-background-color: #fc4364;" text="Reset" textFill="WHITE" />
-      <Text fill="#fffafa" layoutX="275.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Default">
+      <Button fx:id="resetButton" layoutX="115.0" layoutY="591.0" mnemonicParsing="false" onAction="#processButtonReset" prefHeight="40.0" prefWidth="85.0" style="-fx-background-color: #fc4364;" text="Reset" textFill="WHITE" />
+      <Text fx:id="selectedCourse" fill="#fffafa" layoutX="275.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="None">
          <font>
             <Font name="Comic Sans MS" size="18.0" />
          </font>

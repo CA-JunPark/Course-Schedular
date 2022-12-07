@@ -2,13 +2,10 @@ package application;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckMenuItem;
-import javafx.scene.control.ListView;
-import javafx.scene.control.MenuButton;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Text;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -26,31 +23,46 @@ public class adminWindowController {
     private CheckMenuItem SearchByProfessor;
 
     @FXML
+    private  TextField textFieldSearchByDisplay;
+
+    @FXML
     private CheckMenuItem SortCheckCode;
 
     @FXML
     private CheckMenuItem SortCheckTitle;
 
     @FXML
-    private AnchorPane anchorPane;
+    private TextField _date;
 
     @FXML
-    private Button buttonSearch;
+    private TextField _time;
+
+    @FXML
+    private TextField courseCode;
+
+    @FXML
+    private TextField courseTitle;
+
+    @FXML
+    private TextField credit;
+
+    @FXML
+    private TextArea description;
 
     @FXML
     private ListView<String> listView;
 
     @FXML
-    private MenuButton menuButtonSemester;
+    private TextField prof;
 
     @FXML
-    private MenuButton menuButtonSort;
+    private TextField section;
+
+    @FXML
+    private Text selectedCourse;
 
     @FXML
     private TextField textFieldSearch;
-
-    @FXML
-    private TextField textFieldSearchByDisplay;
 
     public String searchOption = "CourseCode";
     public String sortOption = "CourseCode";
@@ -166,6 +178,7 @@ public class adminWindowController {
     }
 
     void resetInfo(){
+        // CourseCode
         C1 = new ArrayList<>();
         // Section
         S = new ArrayList<>();
@@ -188,9 +201,139 @@ public class adminWindowController {
     void processClickOnListView(MouseEvent event) {
         if (!listView.getSelectionModel().isEmpty()) {
             index = listView.getSelectionModel().getSelectedIndex();
-
-            //TODO put data into edit area's text area
+            putValues();
         }
     }
 
+    void putValues(){
+        if (C1.size() == 0){return;};
+
+        selectedCourse.setText(C1.get(index) + " " + S.get(index));
+        courseCode.setText(C1.get(index));
+        courseTitle.setText(C2.get(index));
+        section.setText(S.get(index));
+        _time.setText(T.get(index));
+        String date = "";
+        for (String day : W.get(index)){
+            date += day;
+        }
+        _date.setText(date);
+        prof.setText(P.get(index));
+        credit.setText(Integer.toString(CR.get(index)));
+        description.setWrapText(true);
+        description.setText(D.get(index));
+    }
+
+    @FXML
+    void processButtonDelete(ActionEvent event) {
+        if (selectedCheck()){
+            return;
+        }
+        Alert dialog = new Alert(Alert.AlertType.CONFIRMATION, "Delete?");
+        ButtonType okButton = new ButtonType("Yes", ButtonBar.ButtonData.YES);
+        ButtonType noButton = new ButtonType("No", ButtonBar.ButtonData.NO);
+        dialog.getButtonTypes().setAll(okButton, noButton);
+        dialog.showAndWait().ifPresent(type -> {
+            if (type == okButton){
+                JDBC_Connection.DeleteCoursesRecord(C1.get(index), S.get(index));
+                Alert done = new Alert(Alert.AlertType.INFORMATION, "Deleted");
+                done.showAndWait();
+            }
+            else{
+                dialog.close();
+            }
+        });
+    }
+
+    @FXML
+    void processButtonReset(ActionEvent event) {
+        if (selectedCheck()){
+            return;
+        }
+        Alert dialog = new Alert(Alert.AlertType.CONFIRMATION, "Reset?");
+        ButtonType okButton = new ButtonType("Yes", ButtonBar.ButtonData.YES);
+        ButtonType noButton = new ButtonType("No", ButtonBar.ButtonData.NO);
+        dialog.getButtonTypes().setAll(okButton, noButton);
+        dialog.showAndWait().ifPresent(type -> {
+            if (type == okButton){
+                putValues();
+            }
+            else{
+                dialog.close();
+            }
+        });
+
+    }
+
+    @FXML
+    void processButtonSave(ActionEvent event) {
+        if (selectedCheck()){
+            return;
+        }
+        Alert dialog = new Alert(Alert.AlertType.CONFIRMATION, "SAVE?");
+        ButtonType okButton = new ButtonType("Yes", ButtonBar.ButtonData.YES);
+        ButtonType noButton = new ButtonType("No", ButtonBar.ButtonData.NO);
+        dialog.getButtonTypes().setAll(okButton, noButton);
+        dialog.showAndWait().ifPresent(type -> {
+            if (type == okButton){
+                String currentCode = C1.get(index);
+                String currentSection = S.get(index);
+                String newCode = courseCode.getText();
+                String newTitle = courseTitle.getText();
+                String newSection = section.getText();
+                String newTime = _time.getText();
+                newTime = newTime.substring(0,5) + newTime.substring(11) + " - " + newTime.substring(6,11) + newTime.substring(11);
+                String newDate = _date.getText();
+                String newProf = prof.getText();
+                int newCredit = Integer.parseInt(credit.getText());
+                JDBC_Connection.updateCoursesRecord(currentCode,currentSection,newCode,newTitle,newSection,newTime,newDate,newProf,newCredit);
+                Alert done = new Alert(Alert.AlertType.INFORMATION, "Saved");
+                done.showAndWait();
+            }
+            else{
+                dialog.close();
+            }
+        });
+    }
+    private boolean selectedCheck(){
+        if (selectedCourse.getText().equals("None")){
+            System.out.println(selectedCourse.getText());
+            Alert error = new Alert(Alert.AlertType.ERROR, "No course is selected");
+            error.showAndWait();
+            return true;
+        }
+        return false;
+    }
+
+    @FXML
+    void processButtonAdd(ActionEvent event){
+        Alert dialog = new Alert(Alert.AlertType.CONFIRMATION, "Add this new course into table?");
+        ButtonType okButton = new ButtonType("Yes", ButtonBar.ButtonData.YES);
+        ButtonType noButton = new ButtonType("No", ButtonBar.ButtonData.NO);
+        dialog.getButtonTypes().setAll(okButton, noButton);
+        dialog.showAndWait().ifPresent(type -> {
+            if (type == okButton){
+                String currentCode = C1.get(index);
+                String currentSection = S.get(index);
+                String newCode = courseCode.getText();
+                String newTitle = courseTitle.getText();
+                String newSection = section.getText();
+                String newTime = _time.getText();
+                newTime = newTime.substring(0,5) + newTime.substring(11) + " - " + newTime.substring(6,11) + newTime.substring(11);
+                String newDate = _date.getText();
+                String newProf = prof.getText();
+                int newCredit = Integer.parseInt(credit.getText());
+                try {
+                    JDBC_Connection.addCoursesRecord(newCode,newTitle,newSection,newTime,newDate,newProf,newCredit);
+                    Alert done = new Alert(Alert.AlertType.INFORMATION, "ADDED");
+                    done.showAndWait();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            else{
+                dialog.close();
+            }
+        });
+    }
 }
